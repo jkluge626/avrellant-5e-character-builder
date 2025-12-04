@@ -1,0 +1,67 @@
+[
+  {
+    "id": 1,
+    "name": "The Everyman",
+    "values": [3, 3, 3, 3, 3, 3]
+  },
+  {
+    "id": 2,
+    "name": "The Specialist",
+    "values": [4, 4, 3, 3, 2, 2]
+  },
+  {
+    "id": 3,
+    "name": "The Capable",
+    "values": [4, 4, 4, 2, 2, 2]
+  },
+  {
+    "id": 4,
+    "name": "The Focused",
+    "values": [4, 3, 3, 3, 3, 2]
+  },
+  {
+    "id": 5,
+    "name": "The Expert",
+    "values": [5, 4, 3, 2, 2, 2]
+  },
+  {
+    "id": 6,
+    "name": "The Competent",
+    "values": [5, 3, 3, 3, 2, 2]
+  },
+  {
+    "id": 7,
+    "name": "The Professional",
+    "values": [5, 4, 2, 2, 2, 2]
+  },
+  {
+    "id": 8,
+    "name": "The Versatile",
+    "values": [4, 4, 3, 3, 3, 1]
+  },
+  {
+    "id": 9,
+    "name": "The Dedicated",
+    "values": [5, 3, 3, 2, 2, 2]
+  },
+  {
+    "id": 10,
+    "name": "The Unbalanced",
+    "values": [4, 4, 4, 3, 1, 1]
+  },
+  {
+    "id": 11,
+    "name": "The Prodigy",
+    "values": [5, 4, 3, 3, 1, 1]
+  },
+  {
+    "id": 12,
+    "name": "The Master",
+    "values": [5, 5, 2, 2, 2, 1]
+  },
+  {
+    "id": 13,
+    "name": "The Savant",
+    "values": [5, 5, 5, 1, 1, 1]
+  }
+]

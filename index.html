@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avrellant 5E Character Builder</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/sheet.css">
+  <link rel="stylesheet" href="css/print.css" media="print">
+</head>
+<body>
+  <div id="app">
+    <header>
+      <h1>Avrellant 5E Character Builder</h1>
+      <div class="header-actions">
+        <button id="btn-print-blank" class="no-print">Print Blank Sheet</button>
+        <button id="btn-new-character" class="no-print">New Character</button>
+      </div>
+    </header>
+
+    <main>
+      <!-- Content Upload Section -->
+      <section id="content-upload-section" class="no-print">
+        <h2>Upload Game Content</h2>
+        <p class="help-text">Upload TXT files for races, classes, backgrounds, talents, spells, and equipment.</p>
+
+        <!-- Content Summary Panel -->
+        <div id="content-summary" class="content-summary">
+          <h3>Loaded Content Summary</h3>
+          <div class="summary-grid">
+            <div class="summary-item">
+              <strong>Races:</strong> <span id="summary-races">0</span>
+              <div id="summary-races-list" class="summary-details"></div>
+            </div>
+            <div class="summary-item">
+              <strong>Classes:</strong> <span id="summary-classes">0</span>
+              <div id="summary-classes-list" class="summary-details"></div>
+            </div>
+            <div class="summary-item">
+              <strong>Backgrounds:</strong> <span id="summary-backgrounds">0</span>
+              <div id="summary-backgrounds-list" class="summary-details"></div>
+            </div>
+            <div class="summary-item">
+              <strong>Talents:</strong> <span id="summary-talents">0</span>
+            </div>
+            <div class="summary-item">
+              <strong>Spells:</strong> <span id="summary-spells">0</span>
+            </div>
+            <div class="summary-item">
+              <strong>Equipment:</strong> <span id="summary-equipment">0</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="upload-grid">
+          <div class="upload-category">
+            <h3>Races</h3>
+            <input type="file" id="upload-races" accept=".txt" multiple>
+            <div id="races-list" class="content-list"></div>
+          </div>
+
+          <div class="upload-category">
+            <h3>Classes</h3>
+            <input type="file" id="upload-classes" accept=".txt" multiple>
+            <div id="classes-list" class="content-list"></div>
+          </div>
+
+          <div class="upload-category">
+            <h3>Backgrounds</h3>
+            <input type="file" id="upload-backgrounds" accept=".txt" multiple>
+            <div id="backgrounds-list" class="content-list"></div>
+          </div>
+
+          <div class="upload-category">
+            <h3>Talents</h3>
+            <input type="file" id="upload-talents" accept=".txt" multiple>
+            <div id="talents-list" class="content-list"></div>
+          </div>
+
+          <div class="upload-category">
+            <h3>Spells</h3>
+            <input type="file" id="upload-spells" accept=".txt" multiple>
+            <div id="spells-list" class="content-list"></div>
+          </div>
+
+          <div class="upload-category">
+            <h3>Equipment</h3>
+            <input type="file" id="upload-equipment" accept=".txt" multiple>
+            <div id="equipment-list" class="content-list"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab Navigation -->
+      <div id="tab-bar" class="no-print"></div>
+
+      <!-- Tab Contents -->
+      <div id="tab-container">
+        <!-- BASICS TAB -->
+        <div id="tab-basics" class="tab-content">
+          <h2>Character Basics</h2>
+
+          <div class="form-group">
+            <label for="char-name">Character Name:</label>
+            <input type="text" id="char-name" placeholder="Enter character name">
+          </div>
+
+          <div class="form-group">
+            <label for="char-level">Level:</label>
+            <input type="number" id="char-level" min="1" max="20" value="1">
+          </div>
+
+          <div class="form-group">
+            <label for="attribute-array">Attribute Array:</label>
+            <select id="attribute-array">
+              <option value="">-- Select Array --</option>
+            </select>
+            <div id="array-preview" class="array-preview"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="char-race">Race:</label>
+            <select id="char-race">
+              <option value="">-- Select Race --</option>
+            </select>
+            <div id="race-info" class="info-box"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="char-background">Background:</label>
+            <select id="char-background">
+              <option value="">-- Select Background --</option>
+            </select>
+            <div id="background-info" class="info-box"></div>
+          </div>
+
+          <div class="form-group">
+            <label for="char-class">Class:</label>
+            <select id="char-class">
+              <option value="">-- Select Class --</option>
+            </select>
+            <div id="class-info" class="info-box"></div>
+          </div>
+
+          <div id="attributes-display" class="attributes-grid">
+            <h3>Final Attributes</h3>
+            <div class="attribute-box">
+              <label>AGI</label>
+              <span id="attr-agi">0</span>
+            </div>
+            <div class="attribute-box">
+              <label>GUI</label>
+              <span id="attr-gui">0</span>
+            </div>
+            <div class="attribute-box">
+              <label>INT</label>
+              <span id="attr-int">0</span>
+            </div>
+            <div class="attribute-box">
+              <label>PER</label>
+              <span id="attr-per">0</span>
+            </div>
+            <div class="attribute-box">
+              <label>STR</label>
+              <span id="attr-str">0</span>
+            </div>
+            <div class="attribute-box">
+              <label>WIL</label>
+              <span id="attr-wil">0</span>
+            </div>
+          </div>
+
+          <div id="derived-stats-display" class="derived-stats">
+            <h3>Derived Stats</h3>
+            <div><strong>Evasion:</strong> <span id="stat-evasion">0</span></div>
+            <div><strong>Grit:</strong> <span id="stat-grit">0</span></div>
+            <div><strong>Intuition:</strong> <span id="stat-intuition">0</span></div>
+            <div><strong>Speed:</strong> <span id="stat-speed">0</span>m</div>
+            <div><strong>Encumbrance:</strong> <span id="stat-encumbrance">0</span></div>
+            <h4>Thresholds</h4>
+            <div><strong>Fatigue:</strong> <span id="threshold-fatigue">0</span></div>
+            <div><strong>Friction:</strong> <span id="threshold-friction">0</span></div>
+            <div><strong>Stress:</strong> <span id="threshold-stress">0</span></div>
+            <div><strong>Strain:</strong> <span id="threshold-strain">0</span></div>
+            <div><strong>Wounds:</strong> <span id="threshold-wounds">0</span></div>
+            <div><strong>Corruption:</strong> <span id="threshold-corruption">0</span></div>
+          </div>
+        </div>
+
+        <!-- SKILLS TAB -->
+        <div id="tab-skills" class="tab-content">
+          <h2>Skills</h2>
+          <p>Available Skill Points: <span id="skill-points-available">0</span> | Spent: <span id="skill-points-spent">0</span></p>
+          <div id="skills-list" class="skills-grid"></div>
+        </div>
+
+        <!-- EQUIPMENT TAB -->
+        <div id="tab-equipment" class="tab-content">
+          <h2>Equipment</h2>
+          <p>Money: $<span id="money-display">0</span></p>
+          <div id="equipment-browser"></div>
+          <div id="equipped-items">
+            <h3>Equipped Items</h3>
+            <div id="equipped-list"></div>
+          </div>
+        </div>
+
+        <!-- TALENTS TAB -->
+        <div id="tab-talents" class="tab-content">
+          <h2>Talents</h2>
+          <div id="talents-browser"></div>
+          <div id="selected-talents">
+            <h3>Selected Talents</h3>
+            <div id="selected-talents-list"></div>
+          </div>
+        </div>
+
+        <!-- SPELLS TAB -->
+        <div id="tab-spells" class="tab-content">
+          <h2>Spells</h2>
+          <div id="spells-browser"></div>
+          <div id="selected-spells">
+            <h3>Selected Spells</h3>
+            <div id="selected-spells-list"></div>
+          </div>
+        </div>
+
+        <!-- SHEET TAB -->
+        <div id="tab-sheet" class="tab-content">
+          <div class="sheet-actions no-print">
+            <button id="btn-print-character">Print Character Sheet</button>
+            <button id="btn-export-json">Export Character (JSON)</button>
+            <button id="btn-import-json">Import Character (JSON)</button>
+          </div>
+          <div id="character-sheet"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer class="no-print">
+      <p>Avrellant 5E Character Builder | Built for the Avrellant TTRPG System</p>
+    </footer>
+  </div>
+
+  <!-- Import all JavaScript modules -->
+  <script src="js/storage/LocalStorageManager.js"></script>
+  <script src="js/parsers/TxtParser.js"></script>
+  <script src="js/parsers/RaceParser.js"></script>
+  <script src="js/parsers/ClassParser.js"></script>
+  <script src="js/parsers/BackgroundParser.js"></script>
+  <script src="js/parsers/TalentParser.js"></script>
+  <script src="js/calculators/AttributeCalculator.js"></script>
+  <script src="js/calculators/DerivedStatsCalculator.js"></script>
+  <script src="js/calculators/SkillPointValidator.js"></script>
+  <script src="js/ui/TabManager.js"></script>
+  <script src="js/ui/CharacterSheetRenderer.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

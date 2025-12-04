@@ -1,0 +1,533 @@
+/* sheet.css - Character sheet specific styles */
+
+.character-sheet {
+  background-color: white;
+  padding: 1.5rem;
+  border: 2px solid #333;
+  font-family: 'Courier New', monospace;
+  max-width: 100%;
+  width: 100%;
+  overflow: visible;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+/* Sheet Header */
+.sheet-header {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr 1.5fr 1.5fr 1fr;
+  gap: 1rem;
+  padding: 0.75rem;
+  background-color: #f0f0f0;
+  border: 2px solid #333;
+  margin-bottom: 1rem;
+  font-size: 0.75rem;
+  min-width: 0;
+}
+
+.sheet-header > div {
+  white-space: nowrap;
+  min-width: 0;
+}
+
+.sheet-header .char-name {
+  font-size: 0.85rem;
+  font-weight: bold;
+  grid-column: 1 / 3;
+}
+
+/* Compact Layout */
+.sheet-main-layout {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  min-width: 0;
+  width: 100%;
+}
+
+.sheet-left-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+.sheet-right-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+}
+
+/* Attributes with Skills Grouped */
+.attributes-with-skills {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+  margin-bottom: 0.5rem;
+  min-width: 0;
+}
+
+.attribute-group {
+  border: 1px solid #333;
+  padding: 0.5rem;
+  background-color: #f9f9f9;
+  min-width: 0;
+}
+
+.attribute-circle {
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.attr-name {
+  font-size: 0.65rem;
+  font-weight: bold;
+}
+
+.attr-value {
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+
+.attribute-skills {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  font-size: 0.7rem;
+}
+
+.compact-skill {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.2rem 0.3rem;
+  border: 1px solid #ddd;
+  background-color: white;
+  min-width: 0;
+  font-size: 0.7rem;
+}
+
+.skill-name {
+  flex: 1;
+  font-weight: 500;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skill-mod {
+  margin-right: 0.3rem;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.skill-points {
+  font-size: 0.65rem;
+  color: #666;
+  white-space: nowrap;
+}
+
+/* Thresholds Compact */
+.thresholds-compact {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  min-width: 0;
+}
+
+.threshold-compact {
+  border: 1px solid #333;
+  padding: 0.4rem;
+  background-color: #f9f9f9;
+  font-size: 0.7rem;
+  min-width: 0;
+}
+
+.threshold-label {
+  font-weight: bold;
+  margin-bottom: 0.2rem;
+}
+
+.threshold-box {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.threshold-tokens {
+  font-size: 0.7rem;
+  color: #666;
+}
+
+/* Conditions Compact */
+.conditions-compact {
+  border: 1px solid #333;
+  padding: 0.5rem;
+  background-color: #f9f9f9;
+  margin-bottom: 0.5rem;
+  min-width: 0;
+}
+
+.conditions-compact h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.8rem;
+}
+
+.conditions-row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.25rem;
+  font-size: 0.65rem;
+  min-width: 0;
+}
+
+.condition-item {
+  white-space: nowrap;
+  min-width: 0;
+}
+
+/* Traits Expanded */
+.traits-expanded {
+  border: 2px solid #333;
+  padding: 1rem;
+  background-color: #f9f9f9;
+  min-height: 300px;
+}
+
+.traits-expanded h3 {
+  margin: 0 0 0.75rem 0;
+  font-size: 1rem;
+  text-align: center;
+  border-bottom: 1px solid #333;
+  padding-bottom: 0.5rem;
+}
+
+.traits-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.trait-section {
+  margin-bottom: 0.5rem;
+}
+
+.trait-line {
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+  font-size: 0.85rem;
+}
+
+.trait-placeholder {
+  line-height: 1.8;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* Sheet Attributes */
+.sheet-attributes {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sheet-attribute {
+  text-align: center;
+  border: 2px solid #333;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+}
+
+.sheet-attribute label {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.sheet-attribute .value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Sheet Skills */
+.sheet-skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.sheet-skill {
+  display: flex;
+  align-items: center;
+  padding: 0.4rem;
+  border: 1px solid #333;
+  background-color: #f9f9f9;
+  font-size: 0.85rem;
+  min-width: 0;
+}
+
+.sheet-skill label {
+  flex: 1;
+  font-weight: bold;
+  min-width: 80px;
+  max-width: 120px;
+}
+
+.sheet-skill .modifier {
+  margin-right: 0.5rem;
+  font-weight: bold;
+  min-width: 25px;
+}
+
+.sheet-skill .checkboxes {
+  display: flex;
+  gap: 0.25rem;
+}
+
+.sheet-skill input[type="checkbox"] {
+  width: 15px;
+  height: 15px;
+}
+
+/* Sheet Defences */
+.sheet-defences {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  min-width: 0;
+}
+
+.sheet-defence {
+  text-align: center;
+  border: 2px solid #333;
+  padding: 0.75rem;
+  background-color: #f0f0f0;
+  min-width: 0;
+}
+
+.sheet-defence label {
+  display: block;
+  
+  font-size: 0.45rem;
+  font-weight: bold;
+  word-wrap: none;
+  line-height: 1.2;
+}
+
+.sheet-defence .value {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Sheet Thresholds */
+.sheet-thresholds {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sheet-threshold {
+  border: 1px solid #333;
+  padding: 0.75rem;
+  background-color: #f9f9f9;
+}
+
+.sheet-threshold label {
+  font-weight: bold;
+  display: block;
+  margin-bottom: 0.25rem;
+}
+
+.sheet-threshold .threshold-value {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.sheet-threshold .track {
+  display: flex;
+  gap: 0.25rem;
+  flex-wrap: wrap;
+}
+
+.sheet-threshold .track-box {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #333;
+  display: inline-block;
+}
+
+/* Sheet Conditions */
+.sheet-conditions {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1rem;
+  border: 1px solid #333;
+}
+
+.sheet-condition {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.sheet-condition label {
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.sheet-condition input {
+  flex: 1;
+  border: none;
+  border-bottom: 1px solid #333;
+  background: transparent;
+}
+
+/* Sheet Weapons */
+.sheet-weapons {
+  margin-bottom: 1.5rem;
+  min-width: 0;
+}
+
+.sheet-weapon {
+  border: 1px solid #333;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+  background-color: #f9f9f9;
+  min-width: 0;
+}
+
+.sheet-weapon .weapon-name {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 0.25rem;
+}
+
+.sheet-weapon .weapon-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  margin-bottom: 0.25rem;
+  min-width: 0;
+}
+
+.sheet-weapon .weapon-stats-grid > div {
+  min-width: 0;
+  padding: 0.15rem 0.25rem;
+  background-color: white;
+  border: 1px solid #ddd;
+}
+
+.sheet-weapon .weapon-properties {
+  font-size: 0.75rem;
+  margin-top: 0.25rem;
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* Sheet Equipment */
+.sheet-equipment {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.equipment-section {
+  border: 1px solid #333;
+  padding: 1rem;
+  background-color: #f9f9f9;
+}
+
+.equipment-section h4 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+/* Sheet Traits */
+.sheet-traits {
+  border: 1px solid #333;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.sheet-traits h3 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px solid #333;
+}
+
+.trait-item {
+  margin-bottom: 0.75rem;
+}
+
+.trait-item .trait-name {
+  font-weight: bold;
+}
+
+.trait-item .trait-description {
+  font-size: 0.9rem;
+  color: #333;
+}
+
+/* Spell Page */
+.spell-page {
+  background-color: white;
+  padding: 2rem;
+  border: 2px solid #333;
+  border-radius: 8px;
+  margin-top: 2rem;
+}
+
+.spell-entry {
+  border: 1px solid #333;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: #f9f9f9;
+}
+
+.spell-entry h4 {
+  font-size: 1.1rem;
+  margin-bottom: 0.5rem;
+}
+
+.spell-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.spell-effect {
+  font-size: 0.95rem;
+  line-height: 1.4;
+}

@@ -1,0 +1,26 @@
+# Armsman
+Defences: +6 Evasion, +8 Grit, +4 Intuition
+Spellcaster: No
+Skill Points: 8
+Trait: Adrenaline | You gain Adrenaline tokens equal to your level. Spend tokens to reroll attacks, add damage, or gain temporary benefits. Regain all tokens when you rest.
+Trait: Fighting Style | Choose a combat specialization (Archery, Dueling, Great Weapon, Protection, or Two-Weapon) that grants tactical bonuses.
+Trait: Multi-attack | Starting at 5th level, you can make two attacks when you take the Attack action.
+Trait: Martial Tradition | At 2nd level, choose a tradition (Champion, Dragoon, Exemplar, Sellsword, Sharpshooter, Tactician, Vanguard, or Veteran) that defines your combat approach.
+
+# Rogue
+Defences: +8 Evasion, +4 Grit, +6 Intuition
+Spellcaster: No
+Skill Points: 8
+Trait: Deft Action | You can use a [D] on each of your turns to Dash, Disengage, or Hide.
+Trait: Sneak Attack | Once per turn, deal extra damage when you have advantage or when an ally is adjacent to your target. Damage increases with level.
+Trait: Cunning Action | You upgrade tests to resist being Frightened or Charmed, and tests to escape being Grappled or Restrained.
+Trait: Roguish Specialty | At 2nd level, choose a specialty (Gangster, Sniper, Swashbuckler, or Thief) that shapes your roguish techniques.
+
+# Sorcerer
+Defences: +4 Evasion, +7 Grit, +7 Intuition
+Spellcaster: Yes
+Skill Points: 8
+Trait: Chaos | You have a pool of Chaos tokens. Spend tokens to modify spell effects, increase power, or trigger Wild Magic effects.
+Trait: Wild Magic | When you cast a spell, you may trigger unpredictable magical effects. Roll on the Wild Magic table for random outcomes.
+Trait: Cantrip | You know cantrips that you can cast at will without expending spell slots.
+Trait: Inclination | At 1st level, choose an Inclination (Augmentation, Devastation, or Preservation) that determines your spell list and magical focus.

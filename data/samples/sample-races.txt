@@ -1,0 +1,15 @@
+# Human
+Attributes: +1 INT, +1 PER
+Size: 3
+Languages: 3
+Trait: Mettle of Man | You upgrade all Composure tests you attempt to resist Terror and remove stacks of Fear from yourself. When you start combat against a Demon, Monstrosity, or Spirit, you gain Inspiration.
+Trait: Might of Mankind | You upgrade all Skill Tests you attempt using one of your Expertise Skills. This is in addition to the upgrade already provided by Expertise.
+Trait: Practical Experience | At 1st level, you gain an additional Core Talent. You must meet its prerequisites.
+
+# Goblin
+Attributes: +1 STR, +1 WIL
+Size: 2
+Languages: 2
+Trait: Dwellers in Darkness | You can see in dim light or darkness out to 100m. You upgrade any test you attempt to navigate while underground.
+Trait: Goblin Offensive | You upgrade non-area attack tests you attempt that target enemies within 1m of your clone or one of your allies.
+Trait: Vile Bile | As an [A], you may cough up toxic bile to taint food/drink. As an [A], you may take 1 Corruption to create a clone of yourself with same Attributes and Thresholds but no Class abilities. Control clone as [M] once per turn.

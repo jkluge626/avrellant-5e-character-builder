@@ -1,0 +1,228 @@
+/* print.css - Print media query styles */
+
+@media print {
+  /* Hide non-printable elements */
+  .no-print,
+  header,
+  footer,
+  #tab-bar,
+  #content-upload-section,
+  .tab-button,
+  button,
+  input[type="file"],
+  .upload-category,
+  .sheet-actions {
+    display: none !important;
+  }
+
+  /* Reset body for printing */
+  body {
+    background-color: white;
+    color: black;
+  }
+
+  #app {
+    box-shadow: none;
+    max-width: none;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  /* Page breaks */
+  .character-sheet {
+    page-break-after: always;
+  }
+
+  .spell-page {
+    page-break-before: always;
+  }
+
+  /* Page margins */
+  @page {
+    margin: 0.5in;
+    size: letter;
+  }
+
+  /* Ensure tab content is visible */
+  .tab-content {
+    display: block !important;
+  }
+
+  /* Hide all tabs except sheet */
+  #tab-basics,
+  #tab-skills,
+  #tab-equipment,
+  #tab-talents,
+  #tab-spells {
+    display: none !important;
+  }
+
+  #tab-sheet {
+    display: block !important;
+  }
+
+  /* Print-specific typography - optimized hierarchy */
+  * {
+    font-size: 8.5pt !important;
+    line-height: 1.15 !important;
+  }
+
+  .sheet-header {
+    font-size: 8pt !important;
+    padding: 0.5rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .sheet-skill {
+    font-size: 7.5pt !important;
+    padding: 0.25rem !important;
+  }
+
+  .sheet-skill label {
+    max-width: 90px !important;
+  }
+
+  /* Compact layout print adjustments */
+  .attribute-circle {
+    width: 48px !important;
+    height: 48px !important;
+  }
+
+  .attr-name {
+    font-size: 6pt !important;
+  }
+
+  .attr-value {
+    font-size: 1rem !important;
+  }
+
+  .compact-skill {
+    font-size: 6.5pt !important;
+    padding: 0.12rem 0.15rem !important;
+    line-height: 1.1 !important;
+  }
+
+  .threshold-compact {
+    font-size: 6.5pt !important;
+    padding: 0.25rem !important;
+  }
+
+  .threshold-label {
+    font-size: 7pt !important;
+    margin-bottom: 0.15rem !important;
+  }
+
+  .conditions-compact {
+    font-size: 6.5pt !important;
+    padding: 0.4rem !important;
+  }
+
+  .conditions-compact h4 {
+    font-size: 7.5pt !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  .trait-line {
+    font-size: 7.5pt !important;
+    line-height: 1.2 !important;
+    margin-bottom: 0.3rem !important;
+  }
+
+  .traits-expanded {
+    min-height: auto !important;
+    padding: 0.75rem !important;
+  }
+
+  .traits-expanded h3 {
+    font-size: 9pt !important;
+    margin-bottom: 0.5rem !important;
+    padding-bottom: 0.3rem !important;
+  }
+
+  .weapon-stats-grid {
+    font-size: 6.5pt !important;
+    gap: 0.15rem 0.3rem !important;
+  }
+
+  .weapon-properties {
+    font-size: 6.5pt !important;
+  }
+
+  .sheet-weapon {
+    padding: 0.4rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .weapon-name {
+    font-size: 8pt !important;
+  }
+
+  .sheet-defence label {
+    font-size: 7pt !important;
+  }
+
+  h1, h2, h3 {
+    page-break-after: avoid;
+  }
+
+  /* Improved page break controls */
+  .sheet-main-layout {
+    page-break-inside: avoid;
+  }
+
+  .attribute-group {
+    page-break-inside: avoid;
+  }
+
+  .sheet-weapon {
+    page-break-inside: avoid;
+  }
+
+  .trait-section {
+    page-break-inside: avoid;
+  }
+
+  /* Ensure borders print */
+  .sheet-box,
+  table,
+  td,
+  th {
+    border: 1px solid black !important;
+  }
+
+  /* Black and white optimization */
+  * {
+    color: black !important;
+    background-color: white !important;
+  }
+
+  /* Keep important borders and boxes */
+  .attribute-box,
+  .skill-item,
+  .info-box {
+    border: 1px solid black !important;
+  }
+
+  /* Reduce spacing for better fit */
+  .sheet-main-layout {
+    gap: 1rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+
+  .attributes-with-skills {
+    gap: 0.5rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .thresholds-compact {
+    gap: 0.4rem !important;
+    margin-bottom: 0.4rem !important;
+  }
+
+  .sheet-defences {
+    gap: 0.4rem !important;
+    margin-bottom: 0.75rem !important;
+  }
+}
