@@ -1,0 +1,63 @@
+# Soldier
+Attributes: +1 PER, +1 STR
+Lifestyle: Poor
+Possessions: $60, military uniform, insignia, melee weapon, ranged weapon
+Trait: War Stories | When you make a Charisma test to influence someone who respects martial prowess, you upgrade the test.
+Trait: Unit Cohesion | When you grant an ally Inspiration, you may grant it to a second ally within 10m.
+Trait: Combat Ready | You upgrade Initiative tests. When you roll Initiative, you may immediately Interact with an object.
+
+# Criminal
+Attributes: +1 AGI, +1 PER
+Lifestyle: Humble
+Possessions: $75, crowbar, dark common clothes, lockpicks
+Trait: Criminal Contact | You know a network of criminals. You can find fences, safe houses, and illicit goods in any settlement.
+Trait: Heist | When you grant yourself Inspiration while attempting to steal, deceive, or infiltrate, you may grant Inspiration to one ally within 10m.
+Trait: Malinger | You upgrade Deception tests to convince others you are sick, injured, or harmless.
+
+# Doctor
+Attributes: +1 INT, +1 PER
+Lifestyle: Modest
+Possessions: $60, medical bag, fine clothes, surgical tools
+Trait: Bedside Manner | When you make a Charisma test to calm or comfort someone who is wounded or sick, you upgrade the test.
+Trait: Medical Practice | When you grant yourself Inspiration while treating wounds or illness, you may grant Inspiration to the patient.
+Trait: Surgeon | You upgrade Medicine tests to stabilize dying creatures or treat wounds. Medicine tests you attempt take half the normal time.
+
+# Scholar
+Attributes: +1 INT, +1 WIL
+Lifestyle: Modest
+Possessions: $60, books, fine clothes, writing supplies
+Trait: Researcher | When you spend at least 1 hour studying in a library or archive, you upgrade the next Intelligence test you attempt related to your research.
+Trait: Academic Network | You can contact scholars and institutions to gain information or access to restricted knowledge.
+Trait: Deep Expertise | Choose one Intelligence skill. You upgrade all tests using that skill.
+
+# Noble
+Attributes: +1 PER, +1 WIL
+Lifestyle: Comfortable
+Possessions: $150, signet ring, fine clothes, retainers
+Trait: Position of Privilege | People assume you have the right to be wherever you are. You can secure audiences with local authorities and gain access to high society.
+Trait: Noblesse Oblige | When you grant yourself Inspiration while attempting to lead, inspire, or command, you may grant Inspiration to one ally within 10m.
+Trait: Compelling Presence | You upgrade Persuasion tests when dealing with commoners or those of lower social standing.
+
+# Frontiersman
+Attributes: +1 PER, +1 STR
+Lifestyle: Poor
+Possessions: $45, hunting rifle, knife, fur cloak, survival gear
+Trait: Wanderer | You have excellent geographic memory. You can always recall the general layout of settlements, terrain, and landmarks you've visited.
+Trait: Wilderness Survival | When you grant yourself Inspiration while tracking, hunting, or surviving in the wild, you may grant Inspiration to one ally within 10m.
+Trait: Trailblazer | You upgrade Survival tests to navigate, track, or forage. Your travel pace is not slowed by difficult terrain.
+
+# Engineer
+Attributes: +1 INT, +1 GUI
+Lifestyle: Modest
+Possessions: $60, tools, blueprint case, fine clothes, mechanical parts
+Trait: Technical Expertise | You upgrade tests to understand, repair, or sabotage mechanical devices and structures.
+Trait: Structural Analysis | When you spend 1 minute studying a structure or mechanism, you can identify weak points, functions, and potential failures.
+Trait: Innovative Mind | When you grant yourself Inspiration while building, repairing, or analyzing technology, you may grant Inspiration to one ally within 10m.
+
+# Cleric
+Attributes: +1 GUI, +1 STR
+Lifestyle: Humble
+Possessions: $90, holy symbol, prayer book, vestments
+Trait: Shelter of the Faithful | You can gain shelter and support from temples and followers of your faith. They will provide modest food and lodging.
+Trait: Divine Service | When you grant yourself Inspiration while performing religious duties or defending your faith, you may grant Inspiration to one ally within 10m.
+Trait: Spiritual Counsel | You upgrade Persuasion tests when counseling others on matters of faith, morality, or spirituality.

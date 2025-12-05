@@ -118,6 +118,48 @@
             <div id="array-preview" class="array-preview"></div>
           </div>
 
+          <div id="attribute-assignment" class="form-group" style="display: none;">
+            <label>Assign Attribute Values:</label>
+            <div class="attribute-assignment-grid">
+              <div class="assignment-item">
+                <label for="assign-agi">AGI:</label>
+                <select id="assign-agi" onchange="handleAttributeAssignment()">
+                  <option value="">--</option>
+                </select>
+              </div>
+              <div class="assignment-item">
+                <label for="assign-gui">GUI:</label>
+                <select id="assign-gui" onchange="handleAttributeAssignment()">
+                  <option value="">--</option>
+                </select>
+              </div>
+              <div class="assignment-item">
+                <label for="assign-int">INT:</label>
+                <select id="assign-int" onchange="handleAttributeAssignment()">
+                  <option value="">--</option>
+                </select>
+              </div>
+              <div class="assignment-item">
+                <label for="assign-per">PER:</label>
+                <select id="assign-per" onchange="handleAttributeAssignment()">
+                  <option value="">--</option>
+                </select>
+              </div>
+              <div class="assignment-item">
+                <label for="assign-str">STR:</label>
+                <select id="assign-str" onchange="handleAttributeAssignment()">
+                  <option value="">--</option>
+                </select>
+              </div>
+              <div class="assignment-item">
+                <label for="assign-wil">WIL:</label>
+                <select id="assign-wil" onchange="handleAttributeAssignment()">
+                  <option value="">--</option>
+                </select>
+              </div>
+            </div>
+          </div>
+
           <div class="form-group">
             <label for="char-race">Race:</label>
             <select id="char-race">

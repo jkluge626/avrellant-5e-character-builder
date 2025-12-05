@@ -114,7 +114,7 @@ function useHardcodedAttributeArrays() {
   populateAttributeArraySelect();
 }
 
-// Auto-load files from data folders using index files
+// Auto-load files from data folders
 async function autoLoadSampleFiles() {
   const dataCategories = [
     { folder: 'races', type: 'races', parser: RaceParser },
@@ -135,52 +135,28 @@ async function autoLoadSampleFiles() {
         continue;
       }
 
-      // Try to load index file for this category
-      const indexPath = `data/${category.folder}/index.json`;
-      const indexResponse = await fetch(indexPath);
+      // Skip if no parser available
+      if (!category.parser) {
+        console.log(`No parser available for ${category.type}, skipping`);
+        continue;
+      }
 
-      if (!indexResponse.ok) {
-        console.log(`No index found at ${indexPath}, skipping auto-load for ${category.type}`);
+      // Try to load the data file for this category (e.g., data/races/races.txt)
+      const filePath = `data/${category.folder}/${category.folder}.txt`;
+      const fileResponse = await fetch(filePath);
+
+      if (!fileResponse.ok) {
+        console.log(`No data file found at ${filePath}, skipping auto-load for ${category.type}`);
         fetchFailed = true;
         continue;
       }
 
-      const fileList = await indexResponse.json();
-      const allParsedItems = [];
+      const text = await fileResponse.text();
+      const parsed = category.parser.parse(text);
 
-      // Load each file listed in the index
-      for (const filename of fileList) {
-        try {
-          const filePath = `data/${category.folder}/${filename}`;
-          const fileResponse = await fetch(filePath);
-
-          if (!fileResponse.ok) {
-            console.log(`File not found: ${filePath}`);
-            continue;
-          }
-
-          const text = await fileResponse.text();
-
-          // Skip if no parser available
-          if (!category.parser) {
-            console.log(`No parser available for ${category.type}, skipping`);
-            continue;
-          }
-
-          const parsed = category.parser.parse(text);
-          if (parsed && parsed.length > 0) {
-            allParsedItems.push(...parsed);
-            console.log(`Loaded ${parsed.length} ${category.type} from ${filename}`);
-          }
-        } catch (fileError) {
-          console.log(`Error loading file ${filename}:`, fileError.message);
-        }
-      }
-
-      // Save all items to localStorage
-      if (allParsedItems.length > 0) {
-        LocalStorageManager.saveContent(category.type, allParsedItems);
-        console.log(`Auto-loaded total of ${allParsedItems.length} ${category.type}`);
+      if (parsed && parsed.length > 0) {
+        LocalStorageManager.saveContent(category.type, parsed);
+        console.log(`Auto-loaded ${parsed.length} ${category.type} from ${category.folder}.txt`);
       }
 
     } catch (error) {
@@ -193,7 +169,7 @@ async function autoLoadSampleFiles() {
   if (fetchFailed) {
     console.log('Some data folders failed to load. To enable auto-loading:');
     console.log('1. Run a local web server (e.g., python -m http.server)');
-    console.log('2. Create index.json files in each data folder listing the .txt files');
+    console.log('2. Place .txt files in data folders (e.g., backgrounds/races/classes.txt)');
     console.log('3. Or manually upload TXT files using the upload buttons');
   }
 }
@@ -370,7 +346,7 @@ function populateAttributeArraySelect() {
   AppState.attributeArrays.forEach(array => {
     const option = document.createElement('option');
     option.value = array.id;
-    option.textContent = `${array.id}. ${array.name}`;
+    option.textContent = `${array.id}. ${array.name} [${array.values.join(', ')}]`;
     select.appendChild(option);
   });
 }
@@ -381,23 +357,100 @@ function handleArraySelection(e) {
   const selectedArray = AppState.attributeArrays.find(a => a.id === arrayId);
 
   if (selectedArray) {
-    // Assign values to attributes (user needs to assign them manually in advanced version)
-    // For MVP, just assign in order: AGI, GUI, INT, PER, STR, WIL
+    // Store the selected array
+    AppState.selectedArray = selectedArray;
+
+    // Show assignment UI and populate dropdowns
+    const assignmentSection = document.getElementById('attribute-assignment');
+    if (assignmentSection) {
+      assignmentSection.style.display = 'block';
+    }
+
+    // Populate assignment dropdowns
     const attrs = ['agi', 'gui', 'int', 'per', 'str', 'wil'];
-    attrs.forEach((attr, i) => {
-      AppState.character.baseAttributes[attr] = selectedArray.values[i] || 0;
+    attrs.forEach(attr => {
+      const select = document.getElementById(`assign-${attr}`);
+      if (select) {
+        // Keep the placeholder
+        select.innerHTML = '<option value="">--</option>';
+        // Add array values as options
+        selectedArray.values.forEach((value, index) => {
+          const option = document.createElement('option');
+          option.value = index;
+          option.textContent = value;
+          select.appendChild(option);
+        });
+      }
     });
 
     // Show preview
     const preview = document.getElementById('array-preview');
     if (preview) {
       preview.innerHTML = `<strong>Values:</strong> ${selectedArray.values.join(', ')}
-        <span style="font-size: 0.8rem; color: #666;">(Assigned to AGI, GUI, INT, PER, STR, WIL)</span>`;
+        <span style="font-size: 0.8rem; color: #666;">(Assign values to attributes below)</span>`;
     }
 
+    // Reset base attributes until user assigns them
+    const resetAttrs = ['agi', 'gui', 'int', 'per', 'str', 'wil'];
+    resetAttrs.forEach(attr => {
+      AppState.character.baseAttributes[attr] = 0;
+    });
+
     recalculateAll();
+  } else {
+    // Hide assignment section if no array selected
+    const assignmentSection = document.getElementById('attribute-assignment');
+    if (assignmentSection) {
+      assignmentSection.style.display = 'none';
+    }
   }
 }
+
+// Handle attribute assignment
+window.handleAttributeAssignment = function() {
+  if (!AppState.selectedArray) return;
+
+  const attrs = ['agi', 'gui', 'int', 'per', 'str', 'wil'];
+  const usedIndices = new Set();
+  let allAssigned = true;
+
+  // First pass: collect used indices and check if all assigned
+  attrs.forEach(attr => {
+    const select = document.getElementById(`assign-${attr}`);
+    if (select && select.value !== '') {
+      usedIndices.add(parseInt(select.value));
+    } else {
+      allAssigned = false;
+    }
+  });
+
+  // Second pass: update attribute values and disable used options
+  attrs.forEach(attr => {
+    const select = document.getElementById(`assign-${attr}`);
+    if (!select) return;
+
+    const currentValue = select.value;
+
+    // Update options to disable already-used values
+    Array.from(select.options).forEach(option => {
+      if (option.value === '') return; // Skip placeholder
+
+      const optionIndex = parseInt(option.value);
+      // Disable if used by another attribute
+      option.disabled = usedIndices.has(optionIndex) && currentValue !== option.value;
+    });
+
+    // Update base attribute value
+    if (currentValue !== '') {
+      const arrayIndex = parseInt(currentValue);
+      AppState.character.baseAttributes[attr] = AppState.selectedArray.values[arrayIndex];
+    } else {
+      AppState.character.baseAttributes[attr] = 0;
+    }
+  });
+
+  recalculateAll();
+};
 
 function handleRaceSelection(e) {
   const raceName = e.target.value;

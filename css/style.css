@@ -202,6 +202,44 @@ main {
   font-size: 1.1rem;
 }
 
+/* Attribute Assignment Grid */
+.attribute-assignment-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.assignment-item {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.assignment-item label {
+  font-weight: 600;
+  min-width: 40px;
+  margin-bottom: 0 !important;
+}
+
+.assignment-item select {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 0.95rem;
+}
+
+.assignment-item select:focus {
+  outline: none;
+  border-color: #667eea;
+  box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.assignment-item select:disabled option:disabled {
+  color: #ccc;
+}
+
 /* Attributes Display */
 .attributes-grid {
   display: grid;
