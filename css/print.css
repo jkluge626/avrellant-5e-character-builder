@@ -86,8 +86,9 @@
 
   /* Compact layout print adjustments */
   .attribute-circle {
-    width: 48px !important;
+    width: 70px !important;
     height: 48px !important;
+    border-radius: 50% !important;
   }
 
   .attr-name {
@@ -131,14 +132,26 @@
   }
 
   .traits-expanded {
-    min-height: auto !important;
+    height: 380px !important;
+    min-height: 320px !important;
     padding: 0.75rem !important;
+    display: block !important;
+    page-break-inside: avoid !important;
   }
 
   .traits-expanded h3 {
     font-size: 9pt !important;
     margin-bottom: 0.5rem !important;
     padding-bottom: 0.3rem !important;
+  }
+
+  .traits-content {
+    display: block !important;
+  }
+
+  /* Ensure right column stays on one page */
+  .sheet-right-column {
+    page-break-inside: avoid !important;
   }
 
   .weapon-stats-grid {
@@ -192,17 +205,59 @@
     border: 1px solid black !important;
   }
 
-  /* Black and white optimization */
+  /* Black and white optimization - override brown theme for printing */
   * {
     color: black !important;
     background-color: white !important;
+    border-color: black !important;
   }
 
-  /* Keep important borders and boxes */
+  /* Subtle gray backgrounds for hierarchy */
+  .sheet-header,
+  .attribute-group,
+  .threshold-compact,
+  .conditions-compact,
+  .sheet-defence,
+  .sheet-threshold,
+  .traits-expanded,
+  .sheet-weapon,
+  .sheet-trait,
   .attribute-box,
-  .skill-item,
-  .info-box {
-    border: 1px solid black !important;
+  .skill-item {
+    background-color: #f5f5f5 !important;
+  }
+
+  /* Keep borders visible */
+  .sheet-header,
+  .attribute-circle,
+  .attribute-group,
+  .compact-skill,
+  .threshold-compact,
+  .conditions-compact,
+  .traits-expanded,
+  .sheet-attribute,
+  .sheet-skill,
+  .sheet-defence,
+  .sheet-threshold,
+  .sheet-weapon,
+  .track-box {
+    border-color: black !important;
+  }
+
+  /* Override bronze/brown accent colors */
+  .attr-value,
+  .skill-mod,
+  .skill-modifier,
+  .sheet-defence .value,
+  .threshold-value,
+  .attribute-box span {
+    color: black !important;
+  }
+
+  /* Ensure text shadow is removed for print */
+  * {
+    text-shadow: none !important;
+    box-shadow: none !important;
   }
 
   /* Reduce spacing for better fit */
@@ -218,11 +273,31 @@
 
   .thresholds-compact {
     gap: 0.4rem !important;
-    margin-bottom: 0.4rem !important;
+    margin-bottom: 0.1rem !important;
   }
 
   .sheet-defences {
     gap: 0.4rem !important;
-    margin-bottom: 0.75rem !important;
+    margin-bottom: 0.2rem !important;
+  }
+
+  /* Reduce spacing on right column sections */
+  .sheet-right-column > * {
+    margin-bottom: 0rem !important;
+  }
+
+  .sheet-weapons {
+    margin-bottom: 0.2rem !important;
+    padding-bottom: 1rem !important;
+  }
+
+  /* Further reduce spacing for specific weapon boxes */
+  .sheet-weapon {
+    margin-bottom: -0.1rem !important;
+  }
+
+  /* Hide divider - using padding instead */
+  .weapons-divider {
+    display: none !important;
   }
 }

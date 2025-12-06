@@ -212,7 +212,6 @@ class CharacterSheetRenderer {
 
     return `
       <div class="sheet-weapons">
-        <h3>Weapons</h3>
         ${weaponSlots.map(weapon => `
           <div class="sheet-weapon">
             <div class="weapon-name">${weapon?.name || '_______________'}</div>
@@ -226,6 +225,7 @@ class CharacterSheetRenderer {
             <div class="weapon-properties"><strong>Properties:</strong> ${weapon?.properties ? weapon.properties.join(', ') : '_______________'}</div>
           </div>
         `).join('')}
+        <div class="weapons-divider"></div>
       </div>
     `;
   }
