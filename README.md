@@ -26,4 +26,4 @@ Visit the live version at: https://jkluge626.github.io/avrellant-5e-character-bu
 
 ## Content Loading
 
-The app will auto-load game data (backgrounds, classes, races, talents, spells, and equipment) and the user can also manually upload custom data. See the examples in the "data/samples/" folder for proper file structure.
+The app will auto-load game data (backgrounds, classes, races, talents, spells, and equipment) and the user can also manually upload custom data .txt files. See the examples in the "data/samples/" folder for proper file structure.
