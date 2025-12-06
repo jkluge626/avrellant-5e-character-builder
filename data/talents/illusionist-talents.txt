@@ -1,0 +1,479 @@
+# Arcane Development
+Type: Class
+Class: Illusionist
+Requirements: Level 9
+Effect: You gain an arcane (A) talent. You must meet the prerequisites for the talent.
+
+# Autodidact
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You gain 2 Skill Points. You may take this talent multiple times.
+
+# Avoidance
+Type: Class
+Class: Illusionist
+Requirements: Level 6
+Effect: While you are wearing padded, light, or no armour at all, you increase your Evasion by 2.
+
+# Awestruck
+Type: Class
+Class: Illusionist
+Requirements: Level 6
+Effect: After you use your Captive Audience ability, you degrade all attack tests attempted against you by the enemies which provided modifiers to you. This effect lasts until the start of your next turn. This ability is an arcane ability.
+
+# Balanced Landing
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You halve any Wounds and Cripple stacks you take from falling. Wounds you take from falling cannot Incapacitate you.
+
+# Be Prepared
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You ignore the negative effects of rolling doubles or triples (but not miscasts) when resolving an unfettered Spellcasting test for your prepared spells.
+
+# Boil Over
+Type: Class
+Class: Illusionist
+Requirements: Level 6
+Effect: Once during a round of combat, you may spend Inspiration to regain your [R].
+
+# Careful
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Catfall
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase the distance you can safely fall by 4m.
+
+# Charlatan
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Deception tests you attempt.
+
+# Charming
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: People generally have a good first impression of you, unless you are doing something obviously hostile or suspicious.
+
+# Constitution
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Fitness tests you attempt.
+
+# Craft
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase your Friction threshold by 2.
+
+# Dead Hard
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you push yourself, you may immediately move up to Xm, where X is your Agility. This movement counts as Disengaging.
+
+# Decisive Strike
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When an enemy Grapples you, you may take 1 Friction to immediately attempt to Escape the Grapple.
+
+# Devour Hope
+Type: Class
+Class: Illusionist
+Requirements: Level 11
+Effect: When one of your Illusionist spells or abilities (except your Smoke and Mirrors movement) causes an enemy to become unaware of you, you inflict stacks of Fear equal to half your Guile on that enemy.
+
+# Dreadlord
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you use your [A] to make an attack, you may take 1 Stress to cast Terrify or its Eye of Fear morph as an Illusionist spell. You must do so either immediately before or immediately after the attack resolves.
+
+# Dodge
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: [R] when you are hit by an attack. You may negate that hit.
+
+# Driven
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You may keep two instances of Inspiration, rather than just one.
+
+# Educated
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Clerics, scholars, researchers, and industrialists are positively inclined towards you and don't consider your presence a threat unless you really look out of place.
+
+# Eleventh Hour
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you would suffer a miscast, you may spend Inspiration to negate the miscast.
+
+# Elusive
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Stealth tests you attempt.
+
+# Escape Artist
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase the distance Smoke and Mirrors lets you move by 1m. You may take this talent multiple times.
+
+# Escape and Evade
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You degrade all Opportunity Attack tests attempted against you.
+
+# Escapist
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: At the start of your turn, you may spend Inspiration to escape from a set of manacles, a Grapple, or any trap or device that is restraining you (within reason).
+
+# Evasive
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Your Evasion increases by 1.
+
+# Everyman
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Craftsmen, farmers, labourers, and woodsmen are positively inclined towards you and don't consider your presence a threat unless you really look out of place or are somewhere you're very obviously not supposed to be.
+
+# Expert
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You choose an additional Skill to benefit from your Expertise ability. At 6th level, you may take this talent twice (in total), increasing to thrice at 10th level. You must pick a different Skill each time you take this talent.
+
+# Game Recognise Game
+Type: Class
+Class: Illusionist
+Requirements: Level 14
+Effect: You recognise disguising illusions (such as those with the Disguise spell) you can see within 5m and can tell when a shapeshifting Actor you can see within 5m is disguised as something they are not. You do not learn the true nature of the observed Actor, only that they are not what they appear to be.
+
+# Give the Floor
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you cast Silence as an Illusionist spell, you can exempt any Actor from being affected by it while the spell is in effect. You may exempt or un-exempt an Actor as an [I].
+
+# Horseshoe Effect
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Guards, mercenaries, militiamen, police, and soldiers are positively inclined towards you and don't consider your presence a threat unless you really look out of place or are somewhere you're very obviously not supposed to be.
+
+# Impractical Effects
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you cast Illusion as an Illusionist spell, you may take 1 Stress to move the illusion's area as an [I], rather than using your [M]. You can only do so on your turn.
+
+# Inconspicuous
+Type: Class
+Class: Illusionist
+Requirements: Level 6
+Effect: You degrade attack tests attempted against you, unless you are the closest target to the attacker.
+
+# Infobroker
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Inquisitive
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Investigation tests you attempt.
+
+# Intense Training
+Type: Class
+Class: Illusionist
+Requirements: Level 9
+Effect: You increase the value of one of your attributes by 1. You may not improve your highest-value Attribute (or any Attribute tied as your highest).
+
+# Intuitive
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Your Intuition increases by 1.
+
+# Kick
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to kick a Size-4 or smaller Actor within reach. The target takes Force damage equal to your Strength. Regardless of if the target is Wounded or not by the kick, it must attempt Composure tests to maintain concentration on any spells it is concentrating on, as if the kick had Wounded it.
+
+# Lightfoot
+Type: Class
+Class: Illusionist
+Requirements: Level 11
+Effect: While you are wearing padded, light, or no armour, your movement cannot set off traps.
+
+# Make Your Choice
+Type: Class
+Class: Illusionist
+Requirements: Level 14
+Effect: When a living enemy you are aware of attempts an opposed test against you, it must choose one: 1) You immediately prepare 1 Illusionist spell 2) The attack test is attempted with Bane.
+
+# Mass Hysteria
+Type: Class
+Class: Illusionist
+Requirements: Level 17
+Effect: When you attempt an attack test, you upgrade that test once for each unaware enemy within 5m of you that is not a target of the test.
+
+# Master of Disguise
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You can cast Disguise or its Mimic or its Fox Skin morph as an Illusionist spell using an [I]. You must take 1 Fatigue to do so.
+
+# Mean Streets
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Gangsters, proles, urchins, and other assorted "undesirables" never regard you as seeming out of place in the streets, regardless of your appearance or apparent background.
+
+# Meticulous
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase the number of spell preparations you can have by 1. You may take this talent multiple times.
+
+# Mindcage
+Type: Class
+Class: Illusionist
+Requirements: Level 10
+Effect: When you cast Mind Crush as an Illusionist spell, you degrade any Composure tests forced by the spell. If the spell was cast with an unfettered test, this ability instead forces those tests to be attempted with Bane.
+
+# Minesweeper
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You cannot set off traps and explosives as a consequence of failing a test to disarm them.
+
+# Misdirection
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you are hit by an attack, you may take 1 Friction to instead allocate that hit to a willing ally within 1m of you. If the attack was a ranged attack, you may instead allocate it to a willing ally within 2m of you.
+
+# Morale Support
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you cast Calm as an Illusionist spell, you may grant its target Inspiration. This ability does not work on yourself. An Actor may only benefit from this ability once, until it takes a rest.
+
+# Nimble
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Reflex tests you attempt.
+
+# Nothing to See
+Type: Class
+Class: Illusionist
+Requirements: Level 10
+Effect: You may cast Distract as an Illusionist spell using your [R] when one or more Actors would become aware of you. You may only target the triggering Actor(s). You must take 1 Fatigue to use this ability and cannot use it on your own turn.
+
+# One Last Hurdle
+Type: Class
+Class: Illusionist
+Requirements: Level 17
+Effect: You increase the value of one of your Attributes by 1.
+
+# One with Shadows
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: While in an area of dim light or darkness, you may use your [A] to become invisible until you move, act, or activate an ability. This ability is an arcane ability.
+
+# Peer
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Businesspeople, politicians, socialites, and other "high class" people are positively inclined towards you and don't regard you as out of place in their normal venues, unless you really don't look the part.
+
+# Phantom
+Type: Class
+Class: Illusionist
+Requirements: Level 10
+Effect: When you cast Shadow Walk as an Illusionist spell, the spell's effect also allows you to attempt all Stealth tests with Boon.
+
+# Physician
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Medicine tests you attempt.
+
+# Prop Master
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you cast Swerve as an Illusionist spell, you may redirect the triggering spell to an Object within range, rather than an Actor. You may only do so if the triggering spell could normally target an Object. Alternatively, you may redirect the triggering spell to one of your Mirror Image doubles as if it were an Actor. If you do so, the double is immediately destroyed when resolving the triggering spell, regardless of its effect.
+
+# Purpose
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You gain Inspiration at the start of each day.
+
+# Rancour
+Type: Class
+Class: Illusionist
+Requirements: Level 9
+Effect: When a living enemy you can see within Xm of you removes Wounds or condition stacks from another enemy, you may take 1 Friction to inflict Fear stacks on it equal to your Guile. This ability is an arcane ability and counts as using your Cantrip.
+
+# Resourceful
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase your Stress Threshold by 2.
+
+# Scholastic
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Lore tests you attempt.
+
+# Seeing Doubles
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You degrade all Investigation tests forced by your Mirror Image spell.
+
+# Self-improvement
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase your lowest Attribute's value by 1.
+
+# Serene
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Composure tests you attempt.
+
+# Shock and Awe
+Type: Class
+Class: Illusionist
+Requirements: Level 10
+Effect: Once on your turn, you may take 1 Stress to cast Torment or its or its Psychic Scream morph as an Illusionist spell using an [I]. You may only do so any time which you could ordinarily take an [A].
+
+# Sidestep
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you would take damage from an attack or an area effect, you may take 1 Fatigue to reduce the damage by your Agility value.
+
+# Spirited
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase your Corruption threshold by 2.
+
+# Stage Magic
+Type: Class
+Class: Illusionist
+Requirements: Level 6
+Effect: After you resolve your Smoke and Mirrors movement, you count as lightly concealed until the end of your next turn. This ability is an arcane ability.
+
+# Subversion
+Type: Class
+Class: Illusionist
+Requirements: Level 6
+Effect: When you are hit by a non-area attack, you may expend 1 of your Illusionist spell preparations to instead turn that hit into a miss. This ability is an arcane ability and counts as using your cantrip.
+
+# Swift
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Your Speed increases by 2m.
+
+# Talent Acquisition
+Type: Class
+Class: Illusionist
+Requirements: Level 9
+Effect: You gain a talent from the Core Talents list. The talent may not be an arcane (A) or weapon (W) talent. You must meet the prerequisites for the talent.
+
+# Tireless
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase your Fatigue threshold by 2.
+
+# Troubleshooter
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You upgrade all Tech tests you attempt.
+
+# True Grit
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: Your Grit increases by 1.
+
+# Turncoat
+Type: Class
+Class: Illusionist
+Requirements: Level 10
+Effect: You may cast Brainjack (a Charm morph) as a [R] to an Actor ending their turn. The spell must target that Actor and they must be an eligible target for the spell.
+
+# Under Duress
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: When you cast Duress or one of its morphs as an Illusionist spell, it inflicts 1 stack of Fear on its target(s) for each spell preparation it forces them to lose.
+
+# Unremarkable
+Type: Class
+Class: Illusionist
+Requirements: Level 6
+Effect: Actors don't regard you as out of place or threatening if you are calmly sitting down, reading a newspaper—unless they witnessed you begin the ruse, then they won't fall for it.
+
+# Urban Evasion
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You can move through the spaces of Size-3 or smaller Actors as if you were Disengaging.
+
+# Veil of Secrets
+Type: Class
+Class: Illusionist
+Requirements: Level 17
+Effect: People cannot recall information about your real identity unless you want them to. This is an arcane ability.
+
+# Veteran
+Type: Class
+Class: Illusionist
+Requirements: Level 11
+Effect: You gain an additional fighting style from your Fighting Style ability.
+
+# Vigour
+Type: Class
+Class: Illusionist
+Requirements: None
+Effect: You increase your Wound Threshold by 2.

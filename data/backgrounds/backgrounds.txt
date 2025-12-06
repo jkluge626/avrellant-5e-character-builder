@@ -1,63 +1,103 @@
-# Soldier
-Attributes: +1 PER, +1 STR
-Lifestyle: Poor
-Possessions: $60, military uniform, insignia, melee weapon, ranged weapon
-Trait: War Stories | When you make a Charisma test to influence someone who respects martial prowess, you upgrade the test.
-Trait: Unit Cohesion | When you grant an ally Inspiration, you may grant it to a second ally within 10m.
-Trait: Combat Ready | You upgrade Initiative tests. When you roll Initiative, you may immediately Interact with an object.
+# Cleric
+Attributes: +1 GUI, +1 STR
+Lifestyle: Humble ($4)
+Possessions: $90, Knife with the Sanctified Materials attachment, Lighter
+Trait: Canticles of Conviction | When an ally within 10m that you can see or hear that follows the same religion as you succeeds a Skill test that they used Inspiration on, you gain Inspiration.
+Trait: Good Shepherd | When an ally who can see and hear you starts their turn in combat, you may take 1 Friction to grant that ally Inspiration. The ally must follow the same religion as you. An ally cannot benefit from this ability again until they take a breather.
+Trait: Spiritual Service | Your status as an ordained cleric affords you respect and consideration among communities that adhere to the same or similar religious traditions. While you are staying within areas that have a large community of fellow believers, the passive lifestyle provided by your background improves to Modest ($8). If you religion is the majority religion of the area, it instead improves to Comfortable ($15). Combatants belonging to your religion will recognise your special, untouchable status as a cleric and your duty to minister to all of the faithful, even their enemies. As long as you are not directly participating in combat (including aiding allies with spells) and have clearly marked yourself as a cleric, enemy followers of your religion will attempt to leave you unharmed and, if they capture you, are likely to promptly release you without confiscating much, if anything, at all. However, enemies in bitter opposition to your religion are likely to take a very poor view of you, putting you at risk of mistreatment or execution. Your religious training also provides you with 2 additional languages at character creation, at least one of which should be related to your religion (such as a liturgical language).
 
 # Criminal
 Attributes: +1 AGI, +1 PER
-Lifestyle: Humble
-Possessions: $75, crowbar, dark common clothes, lockpicks
-Trait: Criminal Contact | You know a network of criminals. You can find fences, safe houses, and illicit goods in any settlement.
-Trait: Heist | When you grant yourself Inspiration while attempting to steal, deceive, or infiltrate, you may grant Inspiration to one ally within 10m.
-Trait: Malinger | You upgrade Deception tests to convince others you are sick, injured, or harmless.
+Lifestyle: Humble ($4)
+Possessions: $75, Backpack, 2 Breaching Charges, Crowbar, Charge Pack, Flashlight, Firebomb, Lighter, Multitool, 15m of Rope, Smoke Grenade, Utility Belt
+Trait: Heist | The first time you trespass at a location and steal an item without getting caught, you gain Inspiration. If, by the next time you take a rest, you have still not been caught, you gain Inspiration again. There must be a risk of failure involved for this trait to activate.
+Trait: Life of Crime | You can call upon connections you've forged during your criminal past. You can generally find people willing to buy stolen goods from you, and you buy and sell from illegal channels without being overcharged or short-changed (unless circumstances in the area would also see legal businesses doing the same). You generally know how to hide from the authorities and can shelter you and your party members within an urban environment, though anyone actively avoiding notice this way can only live at a Humble ($4) or lower lifestyle level. While staying within an urban area, you can choose to live at a Comfortable ($15) level with your passive background lifestyle by engaging in a bit of crime during your downtime. However, if your adventuring activities bring you into public view or cause you to come into conflict with the authorities, they will readily recognise you as a criminal at large. People generally don't like criminals. Nobody is going to go to great lengths to avoid killing you during a shootout, people who take you alive are liable to turn you over to the authorities, and rival criminals might just murder you.
+Trait: Malinger | When you are the target of a non-area attack, you may spend Inspiration to have that attack automatically miss you. If you are the explicit target of a spell, you may spend Inspiration to remove yourself as a target of that spell. You may not use this ability again unless you take a breather or take 1 Fatigue.
 
 # Doctor
 Attributes: +1 INT, +1 PER
-Lifestyle: Modest
-Possessions: $60, medical bag, fine clothes, surgical tools
-Trait: Bedside Manner | When you make a Charisma test to calm or comfort someone who is wounded or sick, you upgrade the test.
-Trait: Medical Practice | When you grant yourself Inspiration while treating wounds or illness, you may grant Inspiration to the patient.
-Trait: Surgeon | You upgrade Medicine tests to stabilize dying creatures or treat wounds. Medicine tests you attempt take half the normal time.
-
-# Scholar
-Attributes: +1 INT, +1 WIL
-Lifestyle: Modest
-Possessions: $60, books, fine clothes, writing supplies
-Trait: Researcher | When you spend at least 1 hour studying in a library or archive, you upgrade the next Intelligence test you attempt related to your research.
-Trait: Academic Network | You can contact scholars and institutions to gain information or access to restricted knowledge.
-Trait: Deep Expertise | Choose one Intelligence skill. You upgrade all tests using that skill.
-
-# Noble
-Attributes: +1 PER, +1 WIL
-Lifestyle: Comfortable
-Possessions: $150, signet ring, fine clothes, retainers
-Trait: Position of Privilege | People assume you have the right to be wherever you are. You can secure audiences with local authorities and gain access to high society.
-Trait: Noblesse Oblige | When you grant yourself Inspiration while attempting to lead, inspire, or command, you may grant Inspiration to one ally within 10m.
-Trait: Compelling Presence | You upgrade Persuasion tests when dealing with commoners or those of lower social standing.
-
-# Frontiersman
-Attributes: +1 PER, +1 STR
-Lifestyle: Poor
-Possessions: $45, hunting rifle, knife, fur cloak, survival gear
-Trait: Wanderer | You have excellent geographic memory. You can always recall the general layout of settlements, terrain, and landmarks you've visited.
-Trait: Wilderness Survival | When you grant yourself Inspiration while tracking, hunting, or surviving in the wild, you may grant Inspiration to one ally within 10m.
-Trait: Trailblazer | You upgrade Survival tests to navigate, track, or forage. Your travel pace is not slowed by difficult terrain.
+Lifestyle: Modest ($8)
+Possessions: $60, 2 Aidkits, 2 Doses of Salve, Camera, Lighter, Typewriter
+Trait: Bedside Manner | When you remove Wounds or condition stacks from a living Actor, you may spend Inspiration to remove X additional Wounds or stacks. X is equal to your Perception.
+Trait: Do No Harm | At the end of combat, if you removed condition stacks or Wounds from an ally and did not inflict condition stacks or Wounds on an enemy, you gain Inspiration.
+Trait: Medical Practice | You have experience in the practice of medicine or mental care and are recognised as a legitimate practitioner with legitimate credentials. People from most societies generally regard you favourably and with respect, and you are generally able to access hospital and medical training facilities, meet with other doctors, and even use facilities in an emergency—though you are also expected to help others with their medical emergencies if you are around to do so. As long as you are clearly marked as a medical worker and are not actively fighting personally, you can generally expect professional combatants to not explicitly target you and you will not even be prevented from saving the lives of incapacitated or otherwise inactive combatants—if you are obviously propping up a fighter who is still fighting you will become a valid target, however. Generally, you are treated well when captured and allowed to see to your fellows' injuries, with the expectation that you will also treat your captors' injured, too, should you have the means. Equipment can be confiscated from you, but you can generally expect to survive captivity.
 
 # Engineer
-Attributes: +1 INT, +1 GUI
-Lifestyle: Modest
-Possessions: $60, tools, blueprint case, fine clothes, mechanical parts
-Trait: Technical Expertise | You upgrade tests to understand, repair, or sabotage mechanical devices and structures.
-Trait: Structural Analysis | When you spend 1 minute studying a structure or mechanism, you can identify weak points, functions, and potential failures.
-Trait: Innovative Mind | When you grant yourself Inspiration while building, repairing, or analyzing technology, you may grant Inspiration to one ally within 10m.
+Attributes: +1 INT, +1 STR
+Lifestyle: Humble ($4)
+Possessions: $65; 1 weapon worth up to $25 (including attachments); Extinguisher, Lighter, Repair Kit, Multitool, Utility Belt
+Trait: Eureka! | When you succeed a Skill test to activate, deactivate, repair, subvert, or wreck a mechanical Object or Construct during Structured Time, you gain Inspiration.
+Trait: Resourcing | Your connections with manufacturers, suppliers, and warehouses allows you easy access to basic resources that you can put towards adventuring. While you are living at a Humble ($4) or better lifestyle, you can recharge charge packs and refill repair kit uses for free (as long as there is a place to do so) and can freely stock up on basic ammunition up to 3 spare reloads or 10 pieces of ammunition, whichever is higher + whatever ammunition fits in your gun. Though your profession is considered productive and worthy, small-time engineers are dime-a-dozen and aren't afforded much in the way of special privileges or protections. Within society, you are expected to know your place and defer to your betters; in combat, you are a legitimate target unless your weapons are dropped and your hands are up. Though your surrender is likely to be accepted by professional soldiers without an accompanying execution, you may be held for years or even pressed into service for forced labour.
+Trait: Workshop | As an [E], you can build any item from the Armour and Shields, Attachments, or Weapon List. You must have a suitable space to build the item and you must pay for the materials and tools needed to build the item. Owing to the dramatic inefficiency of hand-construction versus mass manufacture, the material cost is equal to half the listed price of the item. The length of the [E] depends on the price of the item you are building. It takes 1 hour + 1 additional hour for every $5 of value the item has (based on listed price). This [E] can be broken up into multiple segments of work, with an inert 'partially built' item acting as a placeholder. The partial build has an Encumbrance value equal to the item you are building. If you spend more than 12 hours using this trait within a day, you take 1 stack of Exhaustion for every hour spent working past the 12th.
 
-# Cleric
-Attributes: +1 GUI, +1 STR
-Lifestyle: Humble
-Possessions: $90, holy symbol, prayer book, vestments
-Trait: Shelter of the Faithful | You can gain shelter and support from temples and followers of your faith. They will provide modest food and lodging.
-Trait: Divine Service | When you grant yourself Inspiration while performing religious duties or defending your faith, you may grant Inspiration to one ally within 10m.
-Trait: Spiritual Counsel | You upgrade Persuasion tests when counseling others on matters of faith, morality, or spirituality.
+# Entertainer
+Attributes: +1 AGI, +1 GUI
+Lifestyle: Humble ($4)
+Possessions: $80, 4 Fusees, 10m of Rope, Lighter
+Trait: Claim to Fame | You are well-known for one or more routines or talents. Within communities that know of you (typically populations in modern towns and cities whose members share a language with you), you can leverage your skills (or name) in your downtime to improve your passive lifestyle to Modest ($8) and stay free-of-charge at most inns or hotels, as long as you earn your keep with your routine. Plenty of people recognise you and are inclined to hear you out or help you. You can even work your way into exclusive events by signing on as the entertainment. An entertainer typically has no place on the battlefield, however, and if you can be construed to be participating in combat, you are a legitimate target. Professional combatants will generally accept your surrender, but there are no norms that protect you from being held in captivity or pressed into forced labour. If the enemy happens to have a few big fans, however, you might be afforded better treatment. Big in Ardainia: Recordings, photographs, radio broadcasts, or even moving-picture reels of your routines and exploits have made their way to a far-flung place and were met with massive success. Choose a country, region, or cultural community that you are not from. You have mainstream popularity among the people of the selected region / community and can live at an Extravagant ($40) lifestyle while staying among them.
+Trait: Levity | Whenever you would gain Inspiration, you may instead grant it to an ally who can see or hear you.
+Trait: Vicious Mockery | When an enemy fails an attack test against you or a spellcasting test for a spell that included you as an explicit target, you may taunt them with a witty remark. If you do so, the enemy's feelings are hurt, and you gain Inspiration. The enemy must be able to hear and understand you for this ability to function. If you use the same taunt again among enemies who have already heard you say it before, they instead heckle you for reusing material and gain Inspiration themselves.
+
+# Frontiersman
+Attributes: +1 AGI, +1 STR
+Lifestyle: Poor ($2)
+Possessions: $30; 2 weapon + attachment(s) sets, with the total value of each being of no greater value than $25; Aidkit, Backpack, 2 Bear Traps, Big Trap, 4 Fusees, Lighter, 10m of Rope, Ration Box
+Trait: Outlander | You can comfortably live off the land. If you have ready access to natural environments to range through, you can allow your party to live at a Humble ($4) lifestyle at no cost, even if there are otherwise no accommodations available - your camping skills are more than enough. You are never attacked by wild animals while camping this way, but people or worse things yet might still find you if they look hard enough.
+Trait: Survivalist | You gain Inspiration when an enemy attack you hindered fails to Wound you.
+Trait: Woodsman | Naturally occurring difficult terrain doesn't impede your movement. You ignore the negative effects of concealment provided by naturally occurring (or mostly natural) terrain features. If you are a Ranger with Keen Senses, you instead upgrade any tests you attempt which would make this ability redundant with Keen Senses.
+
+# Merchant
+Attributes: +1 GUI, +1 PER
+Lifestyle: Comfortable ($15)
+Possessions: $100, Backpack, Lighter, Ration Box, Typewriter
+Trait: Consortium | Using your business connections, you can arrange to have all the papers in order for you to travel a government's land and possess most types of controlled goods (such as potions or weaponry), though trading in them doesn't necessarily give you the right to use them. You are generally shown respect due to the relative wealth that your merchant activities affords you, though many people are often resentful of that wealth or otherwise see your profession as parasitic. While participating in combat you are afforded no special protections and are a valid target unless surrendering. Professional combatants aren't overly likely to execute you, but they will likely rob you, and you may be subject to lengthy captivity or forced labour. Your experience speaking and trading with people allows you to learn 2 additional languages at character creation.
+Trait: Entrepreneur | You can invest $100 in any notable local business. The owner becomes favourably inclined towards you (unless there's good reason otherwise) and open to suggestions on expanding their stock. They also become willing to deal in illegal goods for you. At the start of each month, you gain $10 + an additional $5 for each business you have invested in. You must have access to a financial institution or other entity that can handle the payments in order to collect.
+Trait: Profit Margins | Keep a tally of the money in dollars you acquire (separate from your actual money total). Whenever you tally $25, you clear the tally and gain Inspiration.
+
+# Noble
+Attributes: +1 to any two Attributes
+Lifestyle: Extravagant ($40)
+Possessions: $150
+Trait: Peerage | Your ancestral ties to a respected line give you a privileged position in most societies (especially the culture that you hail from), and you can leverage your status where persuasion alone does not suffice. As long as you conduct yourself cordially with all proper decorum, you are received peacefully and with some degree of respect by the citizens and, especially, administrators of settlements and similar establishments. By invoking your claim to nobility, you can arrange to meet local leaders or fellow nobles, though there is no guarantee that they will be favourably inclined towards you. In noncombat circumstances, you can expect hostile people to hear you out and allow you safe passage, even if they are disinclined to heed your words. As a noble, your life has value even in the eyes of your enemies. Enemies typically attempt to capture you alive in combat if it is safe to do so and treat you relatively well in captivity before ransoming you back to your family or allies. Your upbringing includes education in arts and cultures, allowing you to learn 1 additional language at character creation.
+Trait: Social Order | If you are present when one of your non-noble party members gains Inspiration, and you do not have Inspiration, you instead gain Inspiration, and they don't.
+Trait: Naturally Superior | While you have Inspiration, you gain a +1 modifier on all tests you attempt, and your non-noble party members incur a -1 modifier on all tests they attempt.
+
+# Occultist
+Attributes: +1 to any two Attributes
+Lifestyle: Poor ($2)
+Possessions: $50
+Trait: Beneficent Benefactor | At any moment, you may gain Inspiration. This ignores any limitations on gaining Inspiration incurred by your Lifestyle. You may not use this ability again until you take a rest.
+Trait: Pariah | Your status as a practitioner of dark magic is not necessarily well-known, but if your powers are known or found out, you may be subject to persecution. Normal people might shun you for fear of the powers you wield or associate with, and in places where consorting with empyric entities is tightly sanctioned or outright banned, you may be denied lodging or right of travel, if not outright arrested or killed for your association. Naturally, enemy combatants are liable to hold your life in similar disregard.
+Trait: Sworn and Beholden | You have a Warlock Pact which makes you a spellcaster and can cast Basic-level spells. At 1st level, you choose 3 Basic-level spells from any player spell list (including the Warlock spell list) and learn them. At 10th level, you can cast Advanced-level spells and learn 1 such spell chosen from any player spell list. When you attempt to cast a spell granted to you by your pact, you add a +X modifier to the test, where X is the number of Skill Points you have assigned to the Composure Skill.
+
+# Prole
+Attributes: +1 to any two Attributes
+Lifestyle: Destitute ($1)
+Possessions: $25; Backpack, Crowbar, Lighter, Ration Box
+Trait: Hardship | At 1st level, increase your lowest Attribute's value by 1. When you take a rest, you gain Proletarian Inspiration. You can spend Proletarian Inspiration in the place of Inspiration. You may only have one instance of Proletarian Inspiration.
+Trait: Huddled Masses | You gain a +1 modifier on attack tests you attempt for each prole in your party. Enemy attack tests attempted against you gain a +1 modifier for each prole in your party. If you are a goblin, your clone counts as a prole for the purposes of Huddled Masses.
+Trait: Nobody | The particulars of proletarian lifestyle and culture found throughout the world are often overlooked by the other classes, who just see a teeming, unruly mass. If you look innocuous and working class, you can blend in among the throngs of workers in a settlement, either appearing to be a local or just another migrant worker and non-prole observers cannot pick you out as an individual at a glance. Your life has very little perceived value and any flexing of power on your part, particularly the use of force, is seen by others as a direct and existential threat against their interests and way of life. Enemy combatants will coup de grace you in combat and typically execute you out of hand when you are captured.
+
+# Reporter
+Attributes: +1 AGI, +1 INT
+Lifestyle: Humble ($4)
+Possessions: $40; Auto-scribe or Camera, roll of Film, and Typewriter; Vistograph with 10 Slates or Voxograph with 2 Cylinders; Backpack, Charge Pack, Flashlight, Lighter
+Trait: Breaking News | You gain Inspiration when you uncover a substantial secret about a person, place, or organisation.
+Trait: Fact Checking | When you are speaking with someone and they make a statement as a matter of fact, you may spend Inspiration to verify the statement if its subject is something that can be verified through public (even if rare or esoteric) sources. You immediately learn if the statement is partially or wholly false, though not necessarily if the error is intentional.
+Trait: Press Access | Your status as a reporter allows you a degree of easier access to far-flung or insular places. States generally respect your right to travel their borders and converse with people no matter how foreign you might seem, as long as you heed any instructions to back off from a line of inquiry. If you look the part (i.e.: aren't a giant pile of weapons), you can use your press badge to claim noncombat status during combat and professional fighters will generally avoid attacking you so long as you do not interfere. When such powers capture you, you are typically returned to your home state or a nearby neutral power with an official statement from your captors, although they may confiscate your equipment. Your experience travelling and speaking with people allows you to learn 1 additional language at character creation.
+
+# Scholar
+Attributes: +1 GUI, +1 INT
+Lifestyle: Comfortable ($15)
+Possessions: $50; Backpack, Camera and Roll of Film, Charge Pack, Flashlight, Lighter, Typewriter
+Trait: Discovery | You gain Inspiration when you uncover a historical artefact or uncover a previously unknown fact about the world and its history.
+Trait: Practical Education | At 1st level, you gain 2 additional Skill Points to allocate to your Skills.
+Trait: Scholastic Sanctuary | Your education and scholarly work are respected and valued by the world at large, particularly during these dark times when advancement is so sorely needed. Most states (and the freikorps) understand the need to ask questions about otherwise forbidden subjects and recognise your right, by merit of your scholastic credentials, to pursue channels of inquiry otherwise forbidden to the common man. These powers will generally not question your possession of nonstandard magical items, your trespasses into most ruins, your possession of lore regarding demons or the Old Gods, or even your status as a warlock (if applicable). You are welcome to visit local libraries, record rooms, or education centres and freely inquire after their knowledge or research without fear of being censured for your request, even if that request is ultimately turned down. As long as you look the part (i.e., seem scholarly and are not overly armed) and have your credentials ready, you can claim noncombat status and professional enemy fighters will not harm you during combat, so long as you do not interfere. When captured by such powers, they are much more inclined to employ you than mistreat you. Your scholastic background and education allow you to learn 3 additional languages at character creation.
+
+# Soldier
+Attributes: +1 PER, +1 STR
+Lifestyle: Poor ($2)
+Possessions: $35 and Padded Armour or $15 and Light Armour; Bolt Rifle with the Aperture Sight and Bayonet Lug attachments and 20 Long (L) cartridges or Pump Shotgun with the Bayonet Lug and Slamfire Conversion attachments and 15 Shotgun (S) cartridges; Knife with the Diamondback Body and Folded Alloy attachments; Backpack, Flare Gun with 3 Flares, 2 Fragmentation Grenades, Gas Mask, Ration Box, 2 Doses of Salve
+Trait: Combat Ready | You gain Inspiration when combat starts. This ability ignores your Lifestyle limitations on gaining Inspiration.
+Trait: Rapid Response | When combat starts, you may use your [R] to draw a weapon (stowing any other items if necessary) and then immediately take the Aim action or Move up to your Speed.
+Trait: Serviceman | You served (or still serve) in an army, paramilitary, rebel group, or other fighting force. Communities that support the cause and powers you fought for generally look favourably on you, while those who oppose what you fought for view you with contempt, if not hatred. You are a soldier, here to fight and die. You are a legitimate target in any fight. If you surrender, you may be spared, or you may not be—either way, you have failed your cause and failed your friends.

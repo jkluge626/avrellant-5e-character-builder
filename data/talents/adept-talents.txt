@@ -1,0 +1,563 @@
+# Anchor
+Type: Class
+Class: Adept
+Requirements: None
+Effect: At the start of each of your turns, you remove 1 stack of Fear from all allies within 2m of you who can see and hear you.
+
+# Autodidact
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You gain 2 Skill Points. You may take this talent multiple times.
+
+# Avoidance
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: While you are wearing padded, light, or no armour at all, you increase your Evasion by 2.
+
+# Balanced Landing
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You halve any Wounds and Cripple stacks you take from falling. Wounds you take from falling cannot Incapacitate you.
+
+# Banishing Touch
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Once on your turn, you may spend 1 Meditation Token to deal X Arcane damage to a Demon or Spirit you can touch, where X is equal to twice your Willpower.
+
+# Blocking Touch
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: When you damage a non-Demon or Spirit spellcaster with an unarmed strike hit, you may spend 1 Meditation Token to attempt to block its connection to the veil. Attempt an opposed Melee vs. Grit test against the target. If successful, the target cannot cast spells. At the end of each of the target's turns, it may attempt an opposed Composure test against your Grit. If successful, this effect ends. This effect also ends if the target takes a breather.
+
+# Boil Over
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: Once during a round of combat, you may spend Inspiration to regain your [R].
+
+# Borrowed Time
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When you remove Wounds, or condition stacks from an ally, that ally resists all damage until the next round of combat, at their start of your turn or theirs—whichever comes first.
+
+# Brawler
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Skill tests you attempt to Grapple a target or to Escape a Grapple.
+
+# Breathing Technique
+Type: Class
+Class: Adept
+Requirements: None
+Effect: As an [E] over the course of 1 minute, you may engage in light, meditative exercise to gain Meditation Tokens equal to your Willpower. You may not do so again until after you have completed both a rest and a full Meditation.
+
+# Calm
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: The Fear condition does not degrade your Skill tests.
+
+# Careful
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Catfall
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase the distance you can safely fall by 4m.
+
+# Charlatan
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Deception tests you attempt.
+
+# Cold Flurry
+Type: Class
+Class: Adept
+Requirements: Level 9
+Effect: Your Flurry of Blows ability does not degrade your attack tests.
+
+# Combat Training
+Type: Class
+Class: Adept
+Requirements: Level 9
+Effect: You gain a weapon (W) talent from the Core Talents list. You must meet the prerequisites for the talent.
+
+# Constitution
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Fitness tests you attempt.
+
+# Counterstrike
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: When an enemy attempts a non-area attack test against you, you may use your [R] to immediately attempt an unarmed strike attack against that enemy. Resolve your attack before theirs.
+
+# Courage
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Fear stacks can only ever degrade your tests, or upgrade enemy tests attempted against you, once.
+
+# Craft
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase your Friction threshold by 2.
+
+# Cut Once
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: Your Unseen Aid ability increases the Crit value of attacks it affects by 2.
+
+# Dead Hard
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When you push yourself, you may immediately move Xm, where X is your Agility. This movement counts as Disengaging.
+
+# Decisive Strike
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When an enemy Grapples you, you may take 1 Friction to immediately attempt to Escape the Grapple.
+
+# Deliverance
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When you use a Skill test to remove Wounds, or condition stacks from an ally, you remove additional tallies or stacks from that ally equal to your Willpower.
+
+# Diamond Soul
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: When you are the target of a spell or caught in a spell's area of effect, you may spend 1 Meditation Token to prevent that spell from affecting you.
+
+# Dodge
+Type: Class
+Class: Adept
+Requirements: None
+Effect: [R] when you are hit by an attack. You may negate that hit.
+
+# Driven
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You may keep two instances of Inspiration, rather than just one.
+
+# Educated
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Clerics, scholars, researchers, and industrialists are positively inclined towards you and don't consider your presence a threat unless you really look out of place.
+
+# Elusive
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Stealth tests you attempt.
+
+# Empty Strike
+Type: Class
+Class: Adept
+Requirements: Level 14
+Effect: When you hit a target with an unarmed strike, you may spend 1 Meditation Token to change that hit's damage type to Arcane.
+
+# Escape and Evade
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You degrade all Opportunity Attack tests attempted against you.
+
+# Escapist
+Type: Class
+Class: Adept
+Requirements: None
+Effect: At the start of your turn, you may spend Inspiration to escape from a set of manacles, a Grapple, or any trap or device that is restraining you (within reason).
+
+# Evanescence
+Type: Class
+Class: Adept
+Requirements: Level 9
+Effect: At the start of your turn, you may spend 1 Meditation Token to remove up to X Wounds and/or non-Exhaustion condition stacks from yourself in any combination. X is equal to your Willpower.
+
+# Evasive
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Your Evasion increases by 1.
+
+# Expedient Means
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You may use your Lay on Hands ability twice in a turn. You may only do so on a turn in which you pushed yourself.
+
+# Expert
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You choose an additional Skill to benefit from your Expertise ability. At 6th level, you may take this talent twice (in total), increasing to thrice at 10th level. You must pick a different Skill each time you take this talent.
+
+# Guiding Hand
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When an ally within 1m of you attempts an attack test, you may take 1 Friction to upgrade that test.
+
+# Healing Hands
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Your Lay on Hands ability removes 4 additional Wounds from the target.
+
+# Immunised
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: You resist Poison damage.
+
+# Infobroker
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Inquisitive
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Investigation tests you attempt.
+
+# Inspirational
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Once on your turn, you may use an [I] to transfer one instance of Inspiration from yourself to an ally who can see or hear you.
+
+# Inspired Meditation
+Type: Class
+Class: Adept
+Requirements: None
+Effect: At the start of your turn, you may spend Inspiration to gain 1 Meditation Token.
+
+# Intense Training
+Type: Class
+Class: Adept
+Requirements: Level 9
+Effect: You increase the value of one of your attributes by 1. You may not improve your highest-value Attribute (or any Attribute tied as your highest).
+
+# Interdependence
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: When an ally you are aware of within 5m of you would take damage, you may spend 1 Meditation Token. Your ally only takes half of the damage and the other half is applied against you.
+
+# Intuitive
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Your Intuition increases by 1.
+
+# Kick
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to kick a Size-4 or smaller Actor within reach. The target takes Force damage equal to your Strength. Regardless of if the target is Wounded or not by the kick, it must attempt Composure tests to maintain concentration on any spells it is concentrating on, as if the kick had Wounded it.
+
+# Leader
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: You increase the Defences of allies within 2m of you who can see and hear you by 1. A given Actor may only benefit from one instance of this ability.
+
+# Lightfoot
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: While you are wearing padded, light, or no armour, your movement cannot set off traps.
+
+# Measure Twice
+Type: Class
+Class: Adept
+Requirements: Level 9
+Effect: Your Unseen Aid ability upgrades the test it affects.
+
+# Messiah
+Type: Class
+Class: Adept
+Requirements: Level 14
+Effect: Allies that can see and hear you attempt all Skill tests they make to resist the effects of condition stacks with Boon. When all stacks of a given condition are removed from an ally you can see, you gain Inspiration.
+
+# Mind Over Matter
+Type: Class
+Class: Adept
+Requirements: Level 17
+Effect: When you would take non-Arcane damage, you may spend Inspiration to prevent that damage.
+
+# Misdirection
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When you are hit by an attack, you may take 1 Friction to instead allocate that hit to a willing ally within 1m of you. If the attack was a ranged attack, you may instead allocate it to a willing ally within 2m of you.
+
+# Mithridatist
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You double the number of Poison stacks it takes to kill you.
+
+# Mixed Martial Arts
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: When you take the Attack action, you may make an additional unarmed strike attack as part of the action. Treat this attack as if it were a Multiattack.
+
+# Nimble
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Reflex tests you attempt.
+
+# No One Left Behind
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You may carry an Actor of your Size or smaller on your shoulders. An Actor being carried this way may not act.
+
+# One Last Hurdle
+Type: Class
+Class: Adept
+Requirements: Level 17
+Effect: You increase the value of one of your Attributes by 1.
+
+# Open Hand Technique
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When you hit a Size-4 or smaller Actor with an unarmed strike hit, you may take 1 Fatigue or Stress to do one of the following after resolving the attack: -Attempt an opposed Reflex vs. Evasion test against the target. If successful, you knock the target Prone. -Attempt an opposed Melee vs. Intuition test against the target. If successful, choose 1 item it is holding. It drops that item. -Attempt an opposed Fitness vs. Strength test against the target. If successful, you push the target up to 3m directly away from you.
+
+# Peer
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Businesspeople, politicians, socialites, and other "high class" people are positively inclined towards you and don't regard you as out of place in their normal venues, unless you really don't look the part.
+
+# Physician
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Medicine tests you attempt.
+
+# Piercing Touch
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Your unarmed strike gains the Pen-X property, where X is equal to your Willpower.
+
+# Poised
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Protecting Palm
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When an ally you can touch would take damage, you may spend 1 Meditation token to reduce that damage by your Willpower. If all the damage is prevented this way, you grant that ally Inspiration.
+
+# Prove Thyself
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: Allies within 2m of you who can see and hear you receive a +1 bonus to all Skill tests they attempt during combat. A given Actor may only benefit from one instance of this ability.
+
+# Pugilist
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all unarmed strike attack tests you attempt, and you increase the Crit value of your unarmed strike by 1.
+
+# Purpose
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You gain Inspiration at the start of each day.
+
+# Resourceful
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase your Stress Threshold by 2.
+
+# Scholastic
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Lore tests you attempt.
+
+# Self-improvement
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase your lowest Attribute's value by 1.
+
+# Serene
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Composure tests you attempt.
+
+# Sidestep
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When you would take damage from an attack or an area effect, you may take 1 Fatigue to reduce the damage by your Agility value.
+
+# Solidarity
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: When an ally within 1m and reach of you would take damage, you may mitigate the damage on their behalf. To do so, you take Strain as if you were mitigating damage to yourself, using your abilities which affect mitigation (and not your ally's). You ally may not themselves mitigate this damage (and may refuse your mitigation if they prefer to mitigate it themself).
+
+# Spirited
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase your Corruption threshold by 2.
+
+# Step of the Wind
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When you use your Sublime Step ability, you may immediately move up to Xm, where X is your Agility.
+
+# Stewardship
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Whenever you gain Inspiration, you may instead grant that Inspiration to an ally who can see and hear you.
+
+# Stunning Strike
+Type: Class
+Class: Adept
+Requirements: Level 14
+Effect: When you Wound a living Actor of Size-4 or smaller with a melee attack, you may spend 1 Meditation Token to attempt an opposed Melee vs. Grit test against that target. Degrade the test. If successful, the target is Incapacitated until the start of your next turn.
+
+# Swift
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Your Speed increases by 2m.
+
+# Talent Acquisition
+Type: Class
+Class: Adept
+Requirements: Level 9
+Effect: You gain a talent from the Core Talents list. The talent may not be an arcane (A) or weapon (W) talent. You must meet the prerequisites for the talent.
+
+# Teacher
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You may use your Unseen Aid ability to affect an ally's Skill test, instead of your own. You and the ally must be within Xm of each other and be able to see and hear each other. X is equal to your Willpower.
+
+# Tenacity
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Your Speed is reduced by 1 for every 2 Cripple stacks you have, rather than 1 per stack.
+
+# Terentarene Fingerhold
+Type: Class
+Class: Adept
+Requirements: Level 17
+Effect: When you hit a Person with an unarmed strike on your turn you may spend 1 Meditation Token to initiate the dreaded Terentarene Fingerhold. You must have a free hand to do so. When you start the Terentarene Fingerhold, you automatically Grapple the target. Your hit deals no damage and imposes no other effects on the target. Your turn then immediately ends. You cannot make attacks while maintaining the fingerhold. If, at the start of the next turn, you still maintain the fingerhold, the Grappled Actor is immediately obliterated, leaving behind nothing but a crater.
+
+# Tireless
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase your Fatigue threshold by 2.
+
+# Touch of Reality
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: When you use your Lay on Hands ability, you may have it remove one negative ongoing spell effect from the target instead of removing Wounds.
+
+# Troubleshooter
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You upgrade all Tech tests you attempt.
+
+# True Grit
+Type: Class
+Class: Adept
+Requirements: None
+Effect: Your Grit increases by 1.
+
+# Uplift
+Type: Class
+Class: Adept
+Requirements: None
+Effect: As an [A], you may spend 1 Meditation token to touch an ally. You grant them Inspiration and remove Strain from them equal to your Willpower.
+
+# Vanish
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: You can attempt a Blend or Stealth test to Hide during your turn, even if you did not start your turn with concealment or out of enemy sight.
+
+# Veteran
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: You gain an additional fighting style from your Fighting Style ability.
+
+# Vigour
+Type: Class
+Class: Adept
+Requirements: None
+Effect: You increase your Wound Threshold by 2.
+
+# Vigil
+Type: Class
+Class: Adept
+Requirements: Level 17
+Effect: If an ally within 2m of you takes Wounds in excess of their Wound Threshold, they do not immediately die. Instead, they are Incapacitated (and must remain so while their Wounds are above their threshold). If at any point their Wounds exceed twice their Wound Threshold, they die. You must not be Incapacitated yourself for this ability to activate. If, at the end of your next turn, the allies' Wounds still exceed their Wound Threshold and you are not within 2m of the affected ally or are yourself Incapacitated, the affected ally dies.
+
+# Vital Energies
+Type: Class
+Class: Adept
+Requirements: Level 6
+Effect: At the start of your turn, you may take X Fatigue to regain X Meditation tokens. You may not use this ability again until you take a rest.
+
+# Wayfinder
+Type: Class
+Class: Adept
+Requirements: None
+Effect: When you use your Middle Road ability you may spend an additional X Meditation Tokens to have it also affect X allies within reach of you.
+
+# Worldly
+Type: Class
+Class: Adept
+Requirements: Level 11
+Effect: You resist Arcane damage.

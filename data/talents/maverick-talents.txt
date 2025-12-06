@@ -1,0 +1,575 @@
+# Act of Heaven
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you would take damage, you may take X Friction to reduce that damage by X. You may do so even if you are otherwise unaware of the damage source.
+
+# Agenda
+Type: Class
+Class: Maverick
+Requirements: Level 11
+Effect: When an ally who can see and hear you kills or Incapacitates your Enmity target, you may take 1 Friction to grant that ally Inspiration.
+
+# Alert
+Type: Class
+Class: Maverick
+Requirements: Level 9
+Effect: You may take [R]s and use your activate abilities against enemies which you are otherwise unaware of.
+
+# Anchor
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: At the start of each of your turns, you remove 1 stack of Fear from all allies within 2m of you who can see and hear you.
+
+# Armourer
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase the DR of any armour you wear by 1.
+
+# Autodidact
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You gain 2 Skill Points. You may take this talent multiple times.
+
+# Bloodless
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You halve the number of Wounds that stacks of Bleed inflict on you.
+
+# Bodyguard
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: When an ally within 1m of you is hit by a ranged attack, you may use your [R] to instead apply the hit against yourself.
+
+# Borrowed Time
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you remove Wounds, or condition stacks from an ally, that ally resists all damage until the next round of combat, at their start of your turn or theirs—whichever comes first.
+
+# Brawler
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Skill tests you attempt to Grapple a target or to Escape from a Grapple.
+
+# By Example
+Type: Class
+Class: Maverick
+Requirements: Level 9
+Effect: You upgrade the attack rolls of all allies that can see and hear you as long as they target an enemy that is as close or closer to you than they are.
+
+# Careful
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Cautious
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you take Strain to mitigate damage, you reduce the damage by an additional 1 per Strain tally taken.
+
+# Charlatan
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Deception tests you attempt.
+
+# Charming
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: People generally have a good first impression of you, unless you are doing something obviously hostile or suspicious.
+
+# Combat Training
+Type: Class
+Class: Maverick
+Requirements: Level 9
+Effect: You gain a weapon (W) talent. You must meet the prerequisites for the talent.
+
+# Complex Problems
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you mark an enemy with your Enmity ability, you may take 1 Stress to mark a second enemy.
+
+# Constitution
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Fitness tests you attempt.
+
+# Courage
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Fear stacks can only ever degrade your tests, or upgrade enemy tests attempted against you, once.
+
+# Craft
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase your Friction threshold by 2.
+
+# Decisive Strike
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When an enemy Grapples you, you may take 1 Friction to immediately attempt to Escape the Grapple.
+
+# Deft Hands
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: On your turn, you may take 1 Stress to take the Reload action as an [I]. You may only do so any time you could take an [A].
+
+# Deliverance
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you use a Skill test to remove Wounds, or condition stacks from an ally, you remove additional tallies or stacks from that ally equal to your Willpower.
+
+# Demolition
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: You upgrade any test you attempt to break or damage an Object, and you attempted such tests with Boon.
+
+# Discombobulate
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When your Enmity target would successfully cast a spell, you may use your [R] to immediately attempt an attack against it. Your target must be within your weapon's reach or short range. If the attack Wounds the target, the spell immediately fails.
+
+# Diversion
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: When an enemy within 1m of you attempts an attack test that doesn't target you, you may take 1 Friction to degrade the enemy's test.
+
+# Driven
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You may keep two instances of Inspiration, rather than just one.
+
+# Duck and Cover
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You reduce the area damage you take by your Agility.
+
+# Elusive
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Stealth tests you attempt.
+
+# Evasive
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Your Evasion increases by 1.
+
+# Everyman
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Craftsmen, farmers, labourers, woodsmen are positively inclined towards you and don't consider your presence a threat unless you really look out of place or are somewhere you're very obviously not supposed to be.
+
+# Exemplar
+Type: Class
+Class: Maverick
+Requirements: Level 14
+Effect: Your Galvanise ability upgrades affected allies' attack tests twice, rather than just once.
+
+# Expert
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You choose an additional Skill to benefit from your Expertise ability. At 6th level, you may take this talent twice (in total), increasing to thrice at 10th level. You must pick a different Skill each time you take this talent.
+
+# Fighter
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You gain an additional style from your Fighting Style ability.
+
+# Fire and Fury
+Type: Class
+Class: Maverick
+Requirements: Level 9
+Effect: When you use your Furious Attack ability, you increase the damage of the affected hit by half your Willpower.
+
+# For the People
+Type: Class
+Class: Maverick
+Requirements: Level 17
+Effect: When you take condition stacks or Wounds, you may grant an ally who can see and hear you Inspiration.
+
+# Get Over Here!
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You may use your [A] to grab a willing ally within 1m of you and move up to your speed, pulling them along with you. This movement does not provoke attacks of opportunity. After the movement, you may place that ally in any space within 1m of you. This ability can only affect an ally of equal or lesser Size as yours.
+
+# Good Shepherd
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When an ally affected by your Warding Stance ability would be forcibly moved or knocked Prone, you may use your [R] to prevent them from moving or being knocked Prone.
+
+# Grenadier
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to throw a grenade without using your [A].
+
+# Guiding Hand
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When an ally within 1m of you attempts an attack test, you may take 1 Friction to upgrade that test.
+
+# Head On
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Once on your turn when you move within 1m and reach of your Enmity target, you may take 1 Stress to slam into it. It must attempt an opposed Fitness test vs. your Grit. If failed, it takes Force damage equal to your Strength; and it is of your Size or smaller, you may also push it up to 2m away from you.
+
+# Hell or High Water
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: At the start of your turn, you may spend Inspiration to resist all damage until the start of your next turn.
+
+# Hope
+Type: Class
+Class: Maverick
+Requirements: Level 14
+Effect: You degrade all non-area attack tests attempted against you if you made a successful attack test against an enemy during your previous turn.
+
+# Horseshoe Effect
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Guards, mercenaries, militiamen, police, and soldiers are positively inclined towards you and don't consider your presence a threat unless you really look out of place or are somewhere you're very obviously not supposed to be.
+
+# I Alone
+Type: Class
+Class: Maverick
+Requirements: Level 11
+Effect: You gain X Zeal Tokens at the start of your turn, where X is the number of Incapacitated or Wounded allies in the same combat as you.
+
+# Infobroker
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Inquisitive
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Investigation tests you attempt.
+
+# Inspirational
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Once on your turn, you may use an [I] to transfer one instance of Inspiration from yourself to an ally who can see or hear you.
+
+# Intuitive
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Your Intuition increases by 1.
+
+# Inspired Zeal
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You may spend Inspiration to grant yourself X Zeal Tokens, where X is half your Willpower.
+
+# Intense Training
+Type: Class
+Class: Maverick
+Requirements: Level 9
+Effect: You increase the value of one of your attributes by 1. You may not improve your highest-value Attribute (or any Attribute tied as your highest).
+
+# Iron Grasp
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You degrade any opposed test attempted to escape your Grapple.
+
+# Iron Maiden
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When an enemy attempts to Escape your Grapple, you may take 1 Friction to make a melee attack against that enemy.
+
+# Leader
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: You increase the Defences of allies within 2m of you who can see and hear you by 1. A given Actor may only benefit from one instance of this ability.
+
+# Mean Streets
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Gangsters, proles, urchins, and other assorted "undesirables" never regard you as seeming out of place in the streets, regardless of your appearance or apparent background.
+
+# Messiah
+Type: Class
+Class: Maverick
+Requirements: Level 14
+Effect: Allies that can see and hear you attempt all Skill tests they make to resist the effects of condition stacks with Boon. When all stacks of a given condition are removed from an ally you can see, you gain Inspiration.
+
+# Nimble
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Reflex tests you attempt.
+
+# No Mither
+Type: Class
+Class: Maverick
+Requirements: Level 11
+Effect: Being Wounded does not degrade tests you attempt.
+
+# No One Left Behind
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You may carry an Actor of your Size or smaller on your shoulders. An Actor being carried this way may not act.
+
+# One Last Hurdle
+Type: Class
+Class: Maverick
+Requirements: Level 17
+Effect: You increase the value of one of your Attributes by 1.
+
+# Peer
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Businesspeople, politicians, socialites, and other "high class" are positively inclined towards you and don't regard you as out of place in their normal venues, unless you really don't look the part.
+
+# Perseverance
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: When your Persevere ability would prevent you from taking any condition stacks, you gain Inspiration.
+
+# Physician
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Medicine tests you attempt.
+
+# Populist
+Type: Class
+Class: Maverick
+Requirements: Level 9
+Effect: When you grant an ally Inspiration during combat, you upgrade the next Skill test they attempt until the start of your next turn.
+
+# Precision
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase the Crit value of Aimed attacks you attempt by 1.
+
+# Project Director
+Type: Class
+Class: Maverick
+Requirements: Level 11
+Effect: When an ally assists you with a Skill test, you attempt that test with Boon.
+
+# Prove Thyself
+Type: Class
+Class: Maverick
+Requirements: Level 11
+Effect: Allies within 2m of you who can see and hear you receive a +1 bonus to all Skill tests they attempt during combat. A given Actor may only benefit from one instance of this ability.
+
+# Purpose
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You gain Inspiration at the start of each day.
+
+# Rallying Cry
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you remove all stacks of Fear from yourself with a Composure test, you remove X Fear from all allies who can see and hear you, where X is half your Guile.
+
+# Reactionary
+Type: Class
+Class: Maverick
+Requirements: Level 17
+Effect: You gain an additional [R] you can use during a round.
+
+# Resolute
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: When you use your Resolve ability, you may spend Inspiration to remove 1 Strain from yourself.
+
+# Resourceful
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase your Stress Threshold by 2.
+
+# Scholastic
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Lore tests you attempt.
+
+# Self-improvement
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase your lowest Attribute's value by 1.
+
+# Serene
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Composure tests you attempt.
+
+# Shoulder Bash
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When your Enmity target starts its turn within 1m and reach of you, you may use your [R] to attempt an opposed Melee vs. Grit test against it. If successful, the enemy takes Force damage equal to your Size + your Strength. An enemy Wounded by this damage takes 1 stack of Cripple and, if it is of your Size or smaller, is either knocked Prone or pushed 2m away from you (your choice).
+
+# Simple Solutions
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you Incapacitate or kill your Enmity target, you may take 1 Friction to immediately mark two additional Enmity targets.
+
+# Solidarity
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: When an ally within 1m and reach of you would take damage, you may mitigate the damage on their behalf. To do so, you take Strain as if you were mitigating damage to yourself, using your abilities which affect mitigation (and not your ally's). You ally may not themselves mitigate this damage (and may refuse your mitigation if they prefer to mitigate it themself).
+
+# Spirited
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase your Corruption threshold by 2.
+
+# Steelman
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you are hit by an attack, you may use your [R] to double your worn armour's DR against that attack.
+
+# Stewardship
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Whenever you gain Inspiration, you may instead grant that Inspiration to an ally who can see and hear you.
+
+# Strawman
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When an ally you can see and hear within 5m that can also see and hear you makes an attack, you may use your [R] to grant a +X modifier to that attack. X is equal to your Guile, if the target is your Enmity target, or half your Guile against any other target.
+
+# Strongman
+Type: Class
+Class: Maverick
+Requirements: Level 11
+Effect: You can grant yourself Inspiration with your Encourage ability.
+
+# Swift
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Your Speed increases by 2m.
+
+# Terrorist
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: You increase the damage that your explosives and grenades inflict on unaware enemies by your Intellect value.
+
+# Third Alternative
+Type: Class
+Class: Maverick
+Requirements: Level 6
+Effect: When an ally within 5m of you who can see or hear you that you can also see and hear makes an attack, you may spend 1 Zeal Token to upgrade the attack test.
+
+# Tireless
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase your Fatigue threshold by 2.
+
+# Troubleshooter
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You upgrade all Tech tests you attempt.
+
+# True Grit
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: Your Grit increases by 1.
+
+# Thwart
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you take Friction to hinder an attack made by your Enmity target, you degrade the attack test an additional time (ordinarily twice, rather than once).
+
+# Unbreakable
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: When you would start your turn while you are Incapacitated, you may take 1 Fatigue to end the Incapacitation.
+
+# Undying
+Type: Class
+Class: Maverick
+Requirements: Level 17
+Effect: When your Wounds exceed your Wound Threshold, you do not die immediately. If, at the end of your next turn, your Wounds still exceed your Wound Threshold, you must take 1 Fatigue or die. If your Wounds exceed twice your Wound Threshold, you die immediately.
+
+# Veteran
+Type: Class
+Class: Maverick
+Requirements: Level 11
+Effect: You gain an additional fighting style from your Fighting Style ability.
+
+# Vigil
+Type: Class
+Class: Maverick
+Requirements: Level 17
+Effect: If an ally within 2m of you takes Wounds in excess of their Wound Threshold, they do not immediately die. Instead, they are Incapacitated (and must remain so while their Wounds are above their threshold). If at any point their Wounds exceed twice their Wound Threshold, they die. You must not be Incapacitated yourself for this ability to activate. If, at the end of your next turn, the allies' Wounds still exceed their Wound Threshold and you are not within 2m of the affected ally or are yourself Incapacitated, the affected ally dies.
+
+# Vigour
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase your Wound Threshold by 2.
+
+# Zealous
+Type: Class
+Class: Maverick
+Requirements: None
+Effect: You increase your Zeal Token maximum by 1. Starting at 9th level, you may take this talent twice, rather than once. This increases to three times at 14th level.

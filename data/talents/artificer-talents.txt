@@ -1,0 +1,323 @@
+# Ablation
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use your Gadget to grant a creature DR, you increase the DR granted by 1.
+
+# Aetherproofing
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use your Gadget to grant a creature Resistance to a damage type, they also gain Resistance to Aether damage.
+
+# Arcane Development
+Type: Class
+Class: Artificer
+Requirements: Level 9
+Effect: You gain an Arcane (A) talent. You must meet its prerequisites.
+
+# Armourer
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You increase the DR of any armour you wear by 1.
+
+# Autodidact
+Type: Class
+Class: Artificer
+Requirements: Level 6
+Effect: You gain a Core Talent. You must meet its prerequisites.
+
+# Battery Detonation
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use your Gadget to deal damage, you may take 1 Strain to increase the damage by 1d6.
+
+# Be Prepared
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Whenever you finish a Short Rest, you may change your prepared Gadget to a different one you know.
+
+# Blast Proof
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You have Resistance to damage dealt by your own Gadgets and by area effects.
+
+# Calculated
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you roll Initiative, if you roll lower than your Intellect, you may use your Intellect instead.
+
+# Cannibalize
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use your Maintenance ability to repair your Gadget, you regain 2 Gadget charges rather than 1.
+
+# Capacitor
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Your Gadget charge maximum increases by 2.
+
+# Careful Preparation
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you prepare a Gadget during a Short Rest, you may prepare two Gadgets instead of one. You may only have one prepared at a time, but you may switch between your two prepared Gadgets as an Instant on your turn.
+
+# Combat Tinkerer
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may use your Maintenance ability as an Instant on your turn, rather than as an Action.
+
+# Contingency
+Type: Class
+Class: Artificer
+Requirements: Level 6
+Effect: When you are reduced to 0 Wounds, your Gadget may immediately activate as a Reaction, even if you are Incapacitated. This activation does not require a Gadget charge.
+
+# Controlled Detonation
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use a Gadget that deals damage in an area, you may choose a number of creatures equal to your Intellect Bonus. Those creatures automatically succeed on any test to avoid or reduce the damage.
+
+# Dual Wielder
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may have two Gadgets prepared at once. When you activate a Gadget, you choose which of your prepared Gadgets to activate.
+
+# Efficient Design
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you activate your Gadget, you may take 1 Stress to activate it without spending a Gadget charge.
+
+# Emergency Activation
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may use your Reaction to activate your Gadget when you or an ally within 10m of you takes damage.
+
+# Emergency Repairs
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use your Maintenance ability, you may take 1 Strain to regain 3 Gadget charges rather than 1.
+
+# Enhanced Gadget
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you activate your Gadget, you may take 1 Strain to enhance its effects. The specific enhancement depends on the Gadget type (increased range, duration, damage, healing, etc.).
+
+# Experimental Design
+Type: Class
+Class: Artificer
+Requirements: Level 6
+Effect: You learn an additional Gadget specialization. You may prepare Gadgets from this specialization.
+
+# Expert Tinkerer
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You upgrade all Tinker tests you attempt.
+
+# Fortified Position
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use your Gadget to create an object or structure, it has double the normal Wounds and DR.
+
+# Grenadier
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to throw a grenade without using your Action.
+
+# Hair Trigger
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you roll Initiative, your Gadget automatically activates. This activation does not require a Gadget charge or an Action.
+
+# Hardened Gadget
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Your Gadget cannot be damaged or destroyed by attacks or environmental effects.
+
+# Improved Efficiency
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Once per turn, when you activate your Gadget, you do not expend a charge.
+
+# Infusion
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you activate your Gadget on an ally, you may grant them one of the following benefits for 1 minute: +1 to attack rolls, +1 to damage rolls, +1 to DR, or +2m Movement.
+
+# Innovation
+Type: Class
+Class: Artificer
+Requirements: Level 9
+Effect: You invent a unique Gadget with effects you design. Work with your DM to create a balanced Gadget appropriate to your level.
+
+# Insulated
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You have Resistance to Lightning damage.
+
+# Jury Rig
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may use your Maintenance ability on any broken object or device, not just your Gadget. You restore the item to working condition.
+
+# Lasting Effect
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use your Gadget to apply a beneficial effect with a duration, that duration is doubled.
+
+# Miniaturization
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Your Gadgets are half their normal size and weight. They are easier to conceal and transport.
+
+# Modular Design
+Type: Class
+Class: Artificer
+Requirements: Level 6
+Effect: You may change your prepared Gadget as an Action, rather than only during a Short Rest.
+
+# Overcharge
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you activate your Gadget, you may spend 2 charges instead of 1 to double one numerical effect (damage, healing, range, duration, etc.).
+
+# Personal Shield
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you activate your Gadget on yourself, you gain 2 DR until the start of your next turn.
+
+# Power Surge
+Type: Class
+Class: Artificer
+Requirements: Level 6
+Effect: Once per Short Rest, when you activate your Gadget, you may activate it without spending a charge and with enhanced effects (as if you used Enhanced Gadget).
+
+# Precision Tools
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You upgrade all Tinker tests you attempt to repair, modify, or create mechanical devices.
+
+# Quick Deploy
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may activate your Gadget as an Instant on your turn, rather than as an Action.
+
+# Redundant Systems
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When your Gadget would be destroyed or broken, it instead becomes inert until you use your Maintenance ability to repair it.
+
+# Reinforced Construction
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Objects and structures created by your Gadget have +5 Wounds.
+
+# Remote Activation
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may activate your Gadget on a target within 20m of you, rather than within 10m.
+
+# Resourceful
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you finish a Short Rest, you regain all spent Gadget charges rather than half.
+
+# Retrofit
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may spend 10 minutes to modify a weapon or piece of armour. The item gains +1 to attack rolls, damage rolls, or DR (your choice) for 24 hours.
+
+# Rugged Construction
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Your Gadget has Wounds equal to 5 times your level and DR equal to your level.
+
+# Scavenger
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You upgrade all tests you attempt to find crafting materials or salvage components from broken devices.
+
+# Shielded
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: While your Gadget is active, you have Resistance to one damage type of your choice.
+
+# Spell Battery
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may use your Gadget charges to cast spells you know. Each spell costs a number of charges equal to its Instability.
+
+# Stabilize
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you use your Gadget to grant a beneficial effect, the target also removes one Condition affecting them.
+
+# Streamlined Design
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: Your Gadget weighs half as much and can be deployed or stowed as an Instant.
+
+# Surge Protector
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You and allies within 5m of you have Resistance to Lightning damage.
+
+# Timed Detonation
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: When you activate your Gadget, you may delay its activation by up to 1 minute. You choose the exact timing of the delayed activation.
+
+# Tinkerer's Eye
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You may spend 1 minute examining a mechanical device to learn its function, how to operate it, and any hidden features or traps.
+
+# Weapon Integration
+Type: Class
+Class: Artificer
+Requirements: None
+Effect: You integrate a one-handed weapon into your Gadget. You may make attacks with this weapon as part of activating your Gadget.

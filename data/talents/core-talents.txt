@@ -1,69 +1,479 @@
-# Toughness
+# Acrobat
+Type: Core
+Requirements: 3 AGI
+Effect: You upgrade all Reflex tests you attempt.
+
+# Actor
+Type: Core
+Requirements: 3 GUI
+Effect: You upgrade all Deception tests you attempt.
+
+# Advanced Study (A)
+Type: Core
+Requirements: Level 10, must be a spellcaster
+Effect: You learn 1 advanced spell chosen from your class' spell list. If you are an Ix or Medusa, have the Sorcerous talent, or have the Occultist background, you may take this talent to add a spell to your natural spellcasting ability or warlock pact. You may take this talent multiple times. You must choose a new spell if you do so.
+
+# Against the Empyrean
+Type: Core
+Requirements: You may not be a spellcaster
+Effect: You resist all damage dealt to you by spells. You upgrade any non-area attack tests you attempt which targets a Demon, Spirit or spellcaster.
+
+# All Out (W)
+Type: Core
+Requirements: 4 PER, 4 STR
+Effect: When you take the Attack [A], you may use your [R] to upgrade each attack test you attempt as part of the action once.
+
+# Angler (W)
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all attack tests you attempt using arc-whips, flails, lavacords, pneumatic flails, and whips. Increase the Reach value of these weapons by 1 while you use them.
+
+# Apothecary
+Type: Core
+Requirements: 3 INT
+Effect: Once on your turn, you may take 1 Stress to administer a potion to yourself or another Actor you can reach without using an action. You may only do so any time you could normally take an [A].
+
+# Arbalist (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade all attack tests you attempt using air cannons, airguns, air pistols, atlatl, ballistae, crossbows, handbows, and repeating crossbows. When you increase the damage on non-area attacks you make with such weapons by 1.
+
+# Arcane Duellist (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: When you would use your [R] to cast a spell, you may take 1 Friction to avoid using your [R]. You may not use this ability again until the start of your next turn.
+
+# Archivist
+Type: Core
+Requirements: 3 INT
+Effect: You upgrade all Lore tests you attempt.
+
+# Athlete
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all Fitness tests you attempt.
+
+# Authoritative Source
+Type: Core
+Requirements: 4 GUI, you must not be a peasant, prole, or general dirt-farmer type
+Effect: Peasants, proles, and general dirt-farmer types believe what you say unless evidence to the contrary is presented. Note that evidence might range from a more-trusted community leader (such as a priest or lord) or from definitive personal experience (you can't convince someone who sees colour that the sky isn't blue just by saying so).
+
+# Axeman (W)
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all attack tests you attempt using autocutters, axes, eviscerators, hand axes, heat cutters, heat saws, and polearms. Shields cannot be used against attacks you make with such weapons.
+
+# Basic Study (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: You learn 2 basic spells chosen from your class' spell list. If you are an Ix or Medusa, have the Sorcerous talent, or have the Occultist background, you may take this talent to add spells to your natural spellcasting ability or warlock pact. You may take this talent multiple times. You must choose new spells if you do so.
+
+# Beatdown (W)
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all attack tests you attempt using arc gloves, claws, knuckle dusters, power fists, and thermal claws. You treat all such weapons as if they had the Rapid property.
+
+# Biomechanism (A)
+Type: Core
+Requirements: 4 INT, must be a spellcaster
+Effect: You add a +1 modifier to all Spellcasting tests you attempt to cast spells from the Necromantist spell list.
+
+# Blunt Force Trauma (W)
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all attack tests you attempt using hammers, impact batons, maces, sledgers, and truncheons. When you score a hit with such a weapon, that weapon's Crit is automatically activated X times for that hit without spending Advantages. X's value depends on the type of armour the target is wearing: Light armour: 1, Heavy armour: 2, Powered armour: 3.
+
+# Book Smart
+Type: Core
+Requirements: 3 INT
+Effect: When you attempt a Skill test to recall, uncover, or synthesise information about a subject, you upgrade that test if you have access to public archives, libraries, bookstores, or similar repositories of records and literature.
+
+# Born for This
 Type: Core
 Requirements: None
-Effect: You increase your Wound Threshold by 2.
+Effect: You increase your Corruption, Fatigue, Friction, Strain, Stress, and Wound Thresholds by 1 each.
+
+# Bunker Down (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade all attack tests you attempt using autocannons, bladecasters, heavy machineguns, light machineguns, machine guns, and rotary guns. While you are wielding such a weapon that is mounted on a bipod, tripod, carriage, vehicle, or similar mount, you can use its Rapid property to make two additional attacks, rather than one.
+
+# Cannoneer (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade attack tests you attempt using arc cannons, brightcannons, cannons, handcannons, heat cannons, lanceguns, light cannons, magnetic cannons, rocket launchers, and teleforce cannons. Attack tests you attempt with such weapons are attempted with Boon if you have not attacked with another weapon nor moved from your current space since the start of your last turn.
+
+# Carabinier (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade attack tests you attempt using auto carbines, carbines, heat guns, lensors, lever carbines, and trench carbines. You may make Opportunity Attacks using such weapons, even though they are not melee weapons.
+
+# Careful Aim (W)
+Type: Core
+Requirements: None
+Effect: Your Aim action upgrades attack tests it affects twice, rather than just once.
+
+# Careful Handling (W)
+Type: Core
+Requirements: 4 INT
+Effect: Failed attack tests cannot cause your weapon to malfunction.
+
+# Careful Casting (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: When you cast a spell that applies an effect to an area, you may take 1 Stress to exclude up to X targets within the area from its initial effect. X is equal to your Perception.
+
+# Casually Brutal (W)
+Type: Core
+Requirements: None
+Effect: You increase the Damage of melee weapons you use by 1.
+
+# Cavalier
+Type: Core
+Requirements: 3 WIL
+Effect: Upgrade all Composure tests you attempt.
+
+# Class Development
+Type: Core
+Requirements: Level 12
+Effect: Choose a Class Talent from your class that has a level requirement of 11 or lower. You learn that talent.
+
+# Class Mastery
+Type: Core
+Requirements: Level 19
+Effect: Choose a Class Talent from your class that has a level requirement of 17 or lower. You learn that talent.
+
+# Class Training
+Type: Core
+Requirements: None
+Effect: Choose two Class Talents from your class that have no level requirement. You learn those talents.
+
+# Dauntless
+Type: Core
+Requirements: 4 AGI
+Effect: When a grenade lands within reach of you, you may use your [R] to immediately throw it elsewhere, as if you were using a grenade of your own. This ability does not work against grenades which go off instantly on impact.
+
+# Debate
+Type: Core
+Requirements: 4 INT
+Effect: You degrade all Deception tests attempted against you. When you attempt a Deception test, you upgrade that test if your Intellect is higher than that of all targets of that test.
+
+# Deep Cuts (W)
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all attack tests you attempt using heat knives, knives, rippers, and shock prods. You increase the Crit value of attacks you attempt with such weapons by 2.
+
+# Defensive
+Type: Core
+Requirements: None
+Effect: You increase all your Defences by 1.
 
 # Die Hard
 Type: Core
-Requirements: Level 3
-Effect: When you would be reduced to 0 hit points, you can choose to drop to 1 hit point instead. You cannot use this ability again until you finish a long rest.
+Requirements: None
+Effect: Your Wound Threshold increases by 3. You halve the DVs of all Fitness tests you attempt to resist Incapacitation due to taking Wounds.
 
-# Autodidact
+# Far Spell (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: When you cast a spell, you may take 1 Fatigue to double its range while resolving it. This occurs after you spend Advantages on boosts.
+
+# Fettered Force (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: You add a +1 modifier to all fettered spellcasting tests you attempt.
+
+# Fleet of Foot
 Type: Core
 Requirements: None
-Effect: You gain 2 Skill Points. You may take this talent multiple times.
+Effect: Your Speed increases by 3m.
 
-# Constitution
+# Flush Out (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade attack tests you attempt using flame cannons, flame pistols, and flamethrowers. Shields cannot be used against hits you score with such weapons.
+
+# Free Magic (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: You add a +1 modifier to all Spellcasting tests you attempt to free cast a spell.
+
+# Genius
+Type: Core
+Requirements: 6 INT
+Effect: You gain 2 additional Skill Points when you gain this talent. You may assign 1 more Skill Point than you would ordinarily be allowed to any given Skill, up to 5. At 13th level, you upgrade any Skill test you attempt using a Skill with 5 Skill Points allocated to it.
+
+# Grappler (W)
+Type: Core
+Requirements: 4 STR
+Effect: You upgrade all Melee tests you attempt to Grapple an enemy, and all Fitness or Reflex tests you attempt to escape a Grapple. When you successfully Grapple an Actor on your turn, you may take 1 Stress to immediately make a non-area attack against that Actor. When an enemy Grapples you, you may take 1 Friction to immediately attempt to Escape from the Grapple.
+
+# Gunslinger (W)
+Type: Core
+Requirements: 4 PER
+Effect: You may treat lever carbines and lever rifles you wield as having the Auto property. You may also do so with light revolvers and revolvers you wield, but only if you have a free hand. For any of these weapons, you do not need to use any action to swap the weapon between Auto and "normal" firing modes. Attacks that benefit from this ability can only be made at short range. When you drop an item, you may use your [I] to draw a one-handed ranged weapon. You can reload a one-handed ranged weapon even if you don't have a free hand.
+
+# Hedgehog (W)
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all attack tests you attempt using arc lances, chainglaives, heat lances, impact staves, polearms, shock staves, spears, and staves. When an enemy moves within your reach while you are using such a weapon, you may use your [R] to make an Opportunity Attack against that enemy using the weapon.
+
+# Heaven and Earth (W)
+Type: Core
+Requirements: 4 AGI, 4 GUI, 4 INT, 4 PER, 4 STR, 4 WIL
+Effect: You gain the Multiattack ability. If you would already have Multiattack, you instead increase the number of attacks it allows you to make by 1. Multiattack: When you take the Attack action, you make two attacks, rather than one. These attacks may be made with the same weapon or different ones (if you are wielding multiple weapons) and can target the same or different targets.
+
+# High Noon (W)
 Type: Core
 Requirements: None
-Effect: You upgrade all Fitness tests you attempt.
+Effect: You upgrade all attack tests you attempt during your first turn of combat.
 
-# Swift
+# Hip Fire (W)
 Type: Core
 Requirements: None
-Effect: Your Speed increases by 2m.
+Effect: You upgrade non-area ranged attack tests you attempt against any target within Xm, where X is your Perception. This ability only applies to attacks which do not benefit from the Aim action.
 
-# Evasive
+# Idol
+Type: Core
+Requirements: 6 GUI
+Effect: People generally find you likeable and magnetically compelling, unless you give them reason not to. When an ally who can see or hear you would take Stress or Friction, you may instead take those tallies on their behalf (you may not do so if you would exceed your threshold for them, however). When an ally who can see and hear you starts their turn or attempts a Skill or Spellcasting test, you may use your [R] to grant them Inspiration. You may not do so again for that ally until they take a rest.
+
+# Inspiring Leader
+Type: Core
+Requirements: 4 GUI
+Effect: When an ally who can see or hear you would attempt a Skill test, you may spend Inspiration to allow them to attempt that test with Boon.
+
+# Jaded
 Type: Core
 Requirements: None
-Effect: Your Evasion increases by 1.
+Effect: When you take Strain to mitigate damage, you reduce the damage by an additional 1 per Strain tally taken.
 
-# True Grit
+# Keen
 Type: Core
-Requirements: None
-Effect: Your Grit increases by 1.
+Requirements: 4 PER
+Effect: You degrade all Deception, Stealth, and Streetwise tests Actors attempt against you.
 
-# Intuitive
+# Linguist
 Type: Core
-Requirements: None
-Effect: Your Intuition increases by 1.
+Requirements: 3 INT
+Effect: You learn two languages which you do not already know. They must be languages which you have been exposed to and/or could access literature in. You may take this talent multiple times.
 
-# Nimble
+# Medic
 Type: Core
-Requirements: None
+Requirements: 3 INT
+Effect: You upgrade all Medicine tests you attempt.
+
+# Mental Fortitude (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: When you would lose concentration on a spell, you may take 1 Fatigue to prevent yourself from losing concentration.
+
+# Mooch
+Type: Core
+Requirements: 4 AGI
+Effect: You may use potions, grenades, and consumable tools that are in your other party members' possessions.
+
+# Moxie
+Type: Core
+Requirements: 6 PER
+Effect: When you would take damage, you may use an [I] to reduce that damage by 5. You may not do so again until the start of your next turn. You may use this ability even if you would be unaware of the source of damage.
+
+# Natural Philosophy (A)
+Type: Core
+Requirements: 4 INT, must be a spellcaster
+Effect: You add a +1 modifier to all Spellcasting tests you attempt to cast spells from the Artificer spell list.
+
+# Parkour
+Type: Core
+Requirements: 4 AGI
+Effect: You may freely move over/past any Object low enough for you to grab the top of.
+
+# Parry (W)
+Type: Core
+Requirements: 3 STR
+Effect: While you are wielding a melee weapon or shield, you increase the damage you mitigate from melee attacks by an additional 1 per Strain taken to mitigate damage.
+
+# Pistolero (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade all attack tests you attempt using arc pistols, AT pistols, derringers, duelling pistols, handguns, heat pistols, howdah pistols, lens pistols, light revolvers, magnetic pistols, obrezi, razor pistols, revolvers, and teleforce pistols. You increase the Crit value of hits scored with such weapons against targets within 5m by 2.
+
+# Poise
+Type: Core
+Requirements: 3 AGI
 Effect: You upgrade all Reflex tests you attempt.
 
-# Serene
+# Polyglot
 Type: Core
-Requirements: None
-Effect: You upgrade all Composure tests you attempt.
+Requirements: 4 INT
+Effect: You can communicate basic concepts to people who do not speak a language you do. You and the other parties must be able to see and hear each other for you to do so.
 
-# Vigour
+# Power Attack (W)
 Type: Core
-Requirements: None
-Effect: You increase your Wound Threshold by 2.
+Requirements: 4 STR
+Effect: When you make a melee attack, you may degrade the attack test X times. If the attack hits, it deals an additional X damage. X can be no greater than your Strength.
 
-# Careful
+# Prepared (A)
 Type: Core
-Requirements: None
-Effect: You increase your Strain threshold by 2.
+Requirements: Must be a spellcaster with a spellbook
+Effect: You increase the maximum number of spell preparations you can have by 2. You may take this talent multiple times.
 
-# Tireless
+# Pure (A)
 Type: Core
-Requirements: None
-Effect: You increase your Fatigue threshold by 2.
+Requirements: 3 WIL
+Effect: You increase your Corruption Threshold by 3.
 
-# Resourceful
+# Quickdraw
 Type: Core
 Requirements: None
-Effect: You increase your Stress Threshold by 2.
+Effect: During your turn, you can retrieve or stow items from/in your possession as an [I].
+
+# Quickened Spell (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: Once on your turn, you may take 2 Stress to cast a spell that takes an [A] to cast using your [M] instead.
+
+# Raining Arrows (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade attack tests you attempt using bows. You count bows that you wield as having the Rapid property.
+
+# Ranked Fire (W)
+Type: Core
+Requirements: 4 PER
+Effect: Your allies do not provide concealment against your ranged attacks unless they completely obscure your target(s).
+
+# Rapid Reload (W)
+Type: Core
+Requirements: 4 AGI
+Effect: You may use the Reload action as a [M] instead of an [A].
+
+# Reactive
+Type: Core
+Requirements: 4 GUI
+Effect: You gain an additional [R] you can use each round.
+
+# Rifleman First (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade attack tests you attempt using 20mm rifles, arc guns, AT rifles, automatic rifles, bolt-action rifles, brightguns, convection lances, drake rifles, lever rifles, magnetic guns, rifles, seeker rifles, self-loading rifles, and spike guns. You add a +2 modifier to ranged attack tests you attempt using such weapons.
+
+# Riposte (W)
+Type: Core
+Requirements: 4 STR
+Effect: When an enemy melee attack fails to damage you, you may use your [R] to make a single melee attack against that enemy immediately after the enemy's attack finishes resolving.
+
+# Scout
+Type: Core
+Requirements: 6 AGI
+Effect: Your Speed increases by 2m. All your movement is considered Disengaging and you may stand up from being Prone as an [I] on your turn. While you are not Prone, Grappled, Restrained, Incapacitated, or unaware of danger, you degrade attack tests attempted against you.
+
+# Shield Bash (W)
+Type: Core
+Requirements: 4 STR
+Effect: When you use your [A] to make an attack, you may take 1 Stress to also make an attack using a shield you are holding as part of the same action. The shield counts as a small improvised weapon.
+
+# Shield Expertise (W)
+Type: Core
+Requirements: None
+Effect: You increase the Coverage value of shields you use by 1.
+
+# Shift
+Type: Core
+Requirements: 4 AGI
+Effect: When you use your [M] to take the Move action, the first 1m you move counts as Disengaging.
+
+# Shotgun Surgeon (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade attack tests you attempt using auto shotguns, hand cannons, pump shotguns, shotguns, survival guns, and teleforce guns. When you score a hit with such a weapon at short range, you increase its damage and Crit values by 1 each.
+
+# Skilled
+Type: Core
+Requirements: None
+Effect: You gain 4 Skill Points. You may take this talent multiple times.
+
+# Skulker
+Type: Core
+Requirements: 3 AGI
+Effect: You upgrade all Stealth tests you attempt.
+
+# Sleuth
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade all Investigation tests you attempt.
+
+# Smackdown (W)
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all attack tests you attempt using (large) improvised weapons and your unarmed strike. You increase the Crit value of hits you score with such weapons by 1, and you may choose to ignore your unarmed strike's Brawl property.
+
+# Socialite
+Type: Core
+Requirements: 3 GUI
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Sorcerous
+Type: Core
+Requirements: 6 WIL
+Effect: You are a natural Spellcaster and learn 3 Basic-level spells from any player spell list when you gain this talent. At 10th level (or if you are already 10th or higher level), you learn 1 Advanced-level spell from any player spell list. If you are an Ix or Medusae, you instead learn 1 spell you are capable of casting from any player spell list and add it to your existing natural Spellcasting ability; and you add a +2 modifier to all natural Spellcasting tests. Arcane Birthright: When you attempt to cast a spell you know with the natural spellcasting provided by your Sorcerous talent, you may take 1 Corruption to double the modifier provided by your Willpower. You must choose to do so before you roll the dice for the test.
+
+# Sorry 'bout the Mess (W)
+Type: Core
+Requirements: 4 PER
+Effect: When an enemy would initiate combat with a ranged attack against you or an ally you can see, you may use your [R] to immediately draw a ranged weapon (if necessary) and make a non-area ranged attack against that enemy.
+
+# Spray and Pray (W)
+Type: Core
+Requirements: 3 PER
+Effect: You upgrade all attack tests you attempt using autopistols, shredders, and submachine guns. When resolving an Auto attack made with such weapons, you may have the weapon fire 5 additional shots. If you do so, you increase the Crit value of each hit scored during the attack by 3.
+
+# Stoicism (A)
+Type: Core
+Requirements: 4 GUI, must be a spellcaster
+Effect: You add a +1 modifier to all Spellcasting tests you attempt to cast spells from the Exorcist spell list.
+
+# Subjectivity (A)
+Type: Core
+Requirements: 4 GUI, must be a spellcaster
+Effect: You add a +1 modifier to all Spellcasting tests you attempt to cast spells from the Illusionist spell list.
+
+# Subtle Spell (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: When you cast a spell, you may cast that spell without using any sort of gestures, implements, or other spellcasting "tells." You must take 1 Stress if the spell is cast on your turn, or 1 Friction if the spell is cast on another Actor's turn, to use this ability.
+
+# Supernaturalism (A)
+Type: Core
+Requirements: 4 WIL, must be a spellcaster
+Effect: You add a +1 modifier to all Spellcasting tests you attempt to cast spells from the Warlock spell list.
+
+# Sword Saint (W)
+Type: Core
+Requirements: 3 STR
+Effect: You upgrade all attack tests you attempt using arc swords, autoblades, longswords, swords, and thermal blades. While you are wielding such weapons, you degrade melee attack tests attempted against you.
+
+# Technician
+Type: Core
+Requirements: 3 INT
+Effect: You upgrade all Tech tests you attempt.
+
+# Titan's Grip
+Type: Core
+Requirements: 6 STR
+Effect: You ignore the Two-handed property of melee weapons and treat them as one-handed weapons with the Balanced property.
+
+# Tomahawk (W)
+Type: Core
+Requirements: 3 PER, 3 STR
+Effect: You upgrade all attack tests you attempt when throwing a Thrown weapon or using an atlatl. During such attacks, you increase the weapon's damage by 1 and the short and long ranges of the weapon by 3m each.
+
+# Toughness
+Type: Core
+Requirements: 4 STR
+Effect: Your base DR increases by 1.
+
+# Twinned Spell (A)
+Type: Core
+Requirements: Must be a spellcaster
+Effect: When you succeed a spellcasting test, you may take 1 Fatigue to copy that spell before you activate any boosts. You choose a new target(s) for the copy, be it an Actor, Object, or area. Both spells are resolved at the same time and they cannot affect the same targets, even after activating boosts which allow them to affect additional targets. If the spells affect an area, the copy's area cannot overlap with the original's. You activate boosts separately for both the original and copy spell, and they both draw from the same pool of Advantages.

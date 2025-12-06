@@ -1,0 +1,461 @@
+# Adaptive Physiology
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you cast Enhancement or its Modify morph as a Necomantist spell, you may take 1 Fatigue. If you do so, the target resists Force and Rend damage for the spell's duration.
+
+# Anchor
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: At the start of each of your turns, you remove 1 stack of Fear from all allies within 2m of you who can see and hear you.
+
+# Arcane Development
+Type: Class
+Class: Necromantist
+Requirements: Level 9
+Effect: You gain an arcane (A) talent. You must meet the prerequisites for the talent.
+
+# Augmentation
+Type: Class
+Class: Necromantist
+Requirements: Level 9
+Effect: When one of your Necromantist spells or abilities removes Wounds, or condition stacks from a living ally, you may take 1 Stress to upgrade the next Skill test that ally attempts, until the end of their next turn.
+
+# Autodidact
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You gain 2 Skill Points. You may take this talent multiple times.
+
+# Be Prepared
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You ignore the negative effects of rolling doubles or triples (but not miscasts) when resolving an unfettered Spellcasting test for your prepared spells.
+
+# Bioengineer
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you cast Reanimate or its Legion or Intelligent Designing morphs, you may take X Stress to increase the Wound threshold of its created Minion(s) by your Intellect. X is equal to the number of Minions the spell creates.
+
+# Biohazard
+Type: Class
+Class: Necromantist
+Requirements: Level 6
+Effect: A when one of your Minions Wounds an Actor with a melee attack, it inflicts 1 stack of Poison on that Actor.
+
+# Bioweapon
+Type: Class
+Class: Necromantist
+Requirements: Level 10
+Effect: When you cast Contagion as a Necromantist spell, you degrade all Fitness tests forced by the spell for its duration. If you cast the spell with an unfettered test, those tests are attempted with Bane.
+
+# Bloodless
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You halve the number of Wounds that stacks of Bleed inflict on you.
+
+# Bloodletter
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you cast Exsanguinate as a Necromantist spell, you may take 1 Stress to increase the Bleed stacks it inflicts on its target(s) by your Class Rank.
+
+# Boil Over
+Type: Class
+Class: Necromantist
+Requirements: Level 6
+Effect: Once during a round of combat, you may spend Inspiration to regain your [R].
+
+# Borrowed Time
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you remove Strain, Wounds, or condition stacks from an ally, that ally resists all damage until the next round of combat, at their start of your turn or theirs—whichever comes first.
+
+# Careful
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Charlatan
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Deception tests you attempt.
+
+# Cinderbones
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: It takes 2 stacks of Sear to prevent the removal of 1 Wound from you, rather than 1 stack.
+
+# Constitution
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Fitness tests you attempt.
+
+# Craft
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You increase your Friction threshold by 2.
+
+# Decomposer
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You gain Inspiration when one of your Necromantist spells or abilities completely consumes or destroys a corpse.
+
+# Deliverance
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you use a Skill test to remove Wounds, or condition stacks from an ally, you remove additional tallies or stacks from that ally equal to your Willpower.
+
+# Do Harm
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you take the Attack action, you may take 1 Stress to cast Poison Touch as a Necromantist spell without using your [A]. You must do so immediately before or after resolving an attack.
+
+# Drastic Measures
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to cast Leech as a Necromantist spell without using your [A]. You may only do so if you are Wounded.
+
+# Driven
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You may keep two instances of Inspiration, rather than just one.
+
+# Educated
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: Clerics, scholars, researchers, and industrialists are positively inclined towards you and don't consider your presence a threat unless you really look out of place.
+
+# Eleventh Hour
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you would suffer a miscast, you may spend Inspiration to negate the miscast.
+
+# Elusive
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Stealth tests you attempt.
+
+# Evasive
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: Your Evasion increases by 1.
+
+# Expert
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You choose an additional Skill to benefit from your Expertise ability. At 6th level, you may take this talent twice (in total), increasing to thrice at 10th level. You must pick a different Skill each time you take this talent.
+
+# Extensive Care
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you cast Cure as a Necromantist spell, you may give it a range of 10m, rather than touch. If you do so, you must be able to see the target. If the spell was cast with an unfettered test, you instead extend its range by 10m.
+
+# Feeding Frenzy
+Type: Class
+Class: Necromantist
+Requirements: Level 10
+Effect: When you cast Devouring Swarm or one of its morphs as a Necromantist spell, its damage inflicts Bleed stacks equal to your Intellect, rather than just half your Intellect.
+
+# Flesh of My Flesh
+Type: Class
+Class: Necromantist
+Requirements: Level 10
+Effect: When you cast Flesh Craft or one of its morphs as a Necromantist spell, you may take 1 Wound. If you do so, you increase the Wound threshold of the Minion it creates by your Strength, and its DR by half your Intellect.
+
+# Grounded
+Type: Class
+Class: Necromantist
+Requirements: Level 11
+Effect: You resist Shock damage.
+
+# Guiding Hand
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When an ally within 1m of you attempts an attack test, you may take 1 Friction to upgrade that test.
+
+# Hive Mind
+Type: Class
+Class: Necromantist
+Requirements: Level 10
+Effect: When you cast Necrosense as a Necromantist spell, all your Minions can see any Actor you can see using the spell. While you are using Death Watch (itself a Necrosense morph) to see what one of your Minions is seeing while you are under the effects of Necrosense, that Minion is also considered to be under the effects of your Necrosense spell.
+
+# Immunised
+Type: Class
+Class: Necromantist
+Requirements: Level 11
+Effect: You resist Toxic damage.
+
+# Infobroker
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Inquisitive
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Investigation tests you attempt.
+
+# Insulated
+Type: Class
+Class: Necromantist
+Requirements: Level 11
+Effect: You resist Heat damage.
+
+# Inspirational
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: Once on your turn, you may use an [I] to transfer one instance of Inspiration from yourself to an ally who can see or hear you.
+
+# Intense Training
+Type: Class
+Class: Necromantist
+Requirements: Level 9
+Effect: You increase the value of one of your attributes by 1. You may not improve your highest-value Attribute (or any Attribute tied as your highest).
+
+# Intuitive
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: Your Intuition increases by 1.
+
+# Leader
+Type: Class
+Class: Necromantist
+Requirements: Level 6
+Effect: You increase the Defences of allies within 2m of you who can see and hear you by 1. A given Actor may only benefit from one instance of this ability.
+
+# Messiah
+Type: Class
+Class: Necromantist
+Requirements: Level 14
+Effect: Allies that can see and hear you attempt all Skill tests they make to resist the effects of condition stacks with Boon. When all stacks of a given condition are removed from an ally you can see, you gain Inspiration.
+
+# Meticulous
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You increase the number of spell preparations you can have by 1. You may take this talent multiple times.
+
+# Mithridatist
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You double the number of Poison stacks it takes to kill you.
+
+# Morbidity
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When one of your Necromantist spells inflicts stacks of Bleed, Cripple, or Poison on an Actor, it inflicts 1 additional stack.
+
+# Naturalise
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you cast Overgrowth or its Plant Wall morph as a Necromantist spell, you may give the spell the ability to create and anchor plant clumps to inorganic surfaces (such as stone tiles or metal walls). If you do so, you halve the volume of plants the spell creates.
+
+# Nimble
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Reflex tests you attempt.
+
+# No Mither
+Type: Class
+Class: Necromantist
+Requirements: Level 11
+Effect: Being Wounded does not degrade tests you attempt.
+
+# No One Escapes Death
+Type: Class
+Class: Necromantist
+Requirements: Level 17
+Effect: When one of your Necromantist spells forces an Actor to attempt a Fitness test (either to resist a specific spell effect or Incapacitation due to Wounds), you may take 1 Stress to degrade that test.
+
+# No One Left Behind
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You may carry an Actor of your Size or smaller on your shoulders. An Actor being carried this way may not act.
+
+# One Last Hurdle
+Type: Class
+Class: Necromantist
+Requirements: Level 17
+Effect: You increase the value of one of your Attributes by 1.
+
+# Physician
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Medicine tests you attempt.
+
+# Predation
+Type: Class
+Class: Necromantist
+Requirements: Level 6
+Effect: Whenever one of your Necromantist spells or abilities kills a living Actor, you remove 1 Wound from yourself.
+
+# Project Director
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When an ally assists you with a Skill test, you attempt that test with Boon.
+
+# Prove Thyself
+Type: Class
+Class: Necromantist
+Requirements: Level 11
+Effect: Allies within 2m of you who can see and hear you receive a +1 bonus to all Skill tests they attempt during combat. A given Actor may only benefit from one instance of this ability
+
+# Purpose
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You gain Inspiration at the start of each day.
+
+# Resourceful
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You increase your Stress Threshold by 2.
+
+# Rubberskin
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You double the number of Spasm stacks it takes to Incapacitate you.
+
+# Save a Life
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You may cast Spare as a Necromantist spell without using your [R]. You must take 1 Fatigue or 2 Friction to do so.
+
+# Scholastic
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Lore tests you attempt.
+
+# Serene
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Composure tests you attempt.
+
+# Self-improvement
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You increase your lowest Attribute's value by 1.
+
+# Solidarity
+Type: Class
+Class: Necromantist
+Requirements: Level 6
+Effect: When an ally within 1m and reach of you would take damage, you may mitigate the damage on their behalf. To do so, you take Strain as if you were mitigating damage to yourself, using your abilities which affect mitigation (and not your ally's). You ally may not themselves mitigate this damage (and may refuse your mitigation if they prefer to mitigate it themself).
+
+# Spirited
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You increase your Corruption threshold by 2.
+
+# Straightjacket
+Type: Class
+Class: Necromantist
+Requirements: Level 10
+Effect: When you cast Hold or its morph as a Necromantist spell, all Fitness tests forced by the spell are attempted with Bane.
+
+# Syndrome
+Type: Class
+Class: Necromantist
+Requirements: Level 11
+Effect: When one of your Necromantist spells or abilities Wounds or inflicts conditions on an Actor, you may take 1 Stress to inflict 1 stack of Spasm on that Actor. Syndrome cannot trigger itself.
+
+# Stewardship
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: Whenever you gain Inspiration, you may instead grant that Inspiration to an ally who can see and hear you.
+
+# Tenacity
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: Your Speed is reduced by 1 for every 2 Cripple stacks you have, rather than 1 per stack.
+
+# Thanatophobia
+Type: Class
+Class: Necromantist
+Requirements: Level 17
+Effect: When you target a living Actor with a Necromantist spell, you inflict 1 stack of Fear on it.
+
+# Tireless
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You increase your Fatigue threshold by 2.
+
+# Troubleshooter
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You upgrade all Tech tests you attempt.
+
+# True Grit
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: Your Grit increases by 1.
+
+# Understudy
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: When you assist an ally with a Skill test, you upgrade that test twice, rather than once.
+
+# Veteran
+Type: Class
+Class: Necromantist
+Requirements: Level 11
+Effect: You gain an additional fighting style from your Fighting Style ability.
+
+# Vigour
+Type: Class
+Class: Necromantist
+Requirements: None
+Effect: You increase your Wound Threshold by 2.
+
+# Vigil
+Type: Class
+Class: Necromantist
+Requirements: Level 17
+Effect: If an ally within 2m of you takes Wounds in excess of their Wound Threshold, they do not immediately die. Instead, they are Incapacitated (and must remain so while their Wounds are above their threshold). If at any point their Wounds exceed twice their Wound Threshold, they die. You must not be Incapacitated yourself for this ability to activate. If, at the end of your next turn, the allies' Wounds still exceed their Wound Threshold and you are not within 2m of the affected ally or are yourself Incapacitated, the affected ally dies.

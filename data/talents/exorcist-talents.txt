@@ -1,0 +1,521 @@
+# Admonition
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: After hitting an enemy with an attack that benefits from your Smite ability, you upgrade all melee attack tests you attempt against that enemy until the end of your next turn. This ability may only upgrade a test once.
+
+# Alert
+Type: Class
+Class: Exorcist
+Requirements: Level 9
+Effect: You may take [R]s and use your activate abilities against enemies which you are otherwise unaware of.
+
+# Arcane Development
+Type: Class
+Class: Exorcist
+Requirements: Level 9
+Effect: You gain an arcane (A) talent. You must meet the prerequisites for the talent.
+
+# Armourer
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase the DR of any armour you wear by 1.
+
+# Autodidact
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You gain 2 Skill Points. You may take this talent multiple times.
+
+# Be Prepared
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You ignore the negative effects of rolling doubles or triples (but not miscasts) when resolving an unfettered Spellcasting test for your prepared spells.
+
+# Blessed Reversal
+Type: Class
+Class: Exorcist
+Requirements: Level 17
+Effect: When you attempt a Spellcasting test for an Exorcist spell, you add a +X modifier to that test, where X is the number of enemies within 1m of you.
+
+# Bloodless
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You halve the number of Wounds that stacks of Bleed inflict on you.
+
+# Bodyguard
+Type: Class
+Class: Exorcist
+Requirements: Level 6
+Effect: When an ally within 1m of you is hit by a ranged attack, you may use your [R] to instead apply the hit against yourself.
+
+# Boil Over
+Type: Class
+Class: Exorcist
+Requirements: Level 6
+Effect: Once during a round of combat, you may spend Inspiration to regain your [R].
+
+# Brawler
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Skill tests you attempt to Grapple a target or to Escape from a Grapple.
+
+# Careful
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Cautious
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you take Strain to mitigate damage, you reduce the damage by an additional 1 per Strain tally taken.
+
+# Charlatan
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Deception tests you attempt.
+
+# Cinderbones
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: It takes 2 stacks of Sear to prevent the removal of 1 Wound from you, rather than 1 stack.
+
+# Combat Training
+Type: Class
+Class: Exorcist
+Requirements: Level 9
+Effect: You gain a weapon (W) talent. You must meet the prerequisites for the talent.
+
+# Constitution
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Fitness tests you attempt.
+
+# Courage
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Fear stacks can only ever degrade your tests, or upgrade enemy tests attempted against you, once.
+
+# Craft
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase your Friction threshold by 2.
+
+# Decisive Strike
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When an enemy Grapples you, you may take 1 Friction to immediately attempt to Escape the Grapple.
+
+# Deft Hands
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: On your turn, you may take 1 Stress to take the Reload action as an [I]. You may only do so any time you could take an [A].
+
+# Demolition
+Type: Class
+Class: Exorcist
+Requirements: Level 6
+Effect: You upgrade any test you attempt to break or damage an Object, and you attempted such tests with Boon.
+
+# Disenchanter
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you cast Dispel or one of its morphs as an Exorcist spell, you may cast it as a [M] instead of an [A].
+
+# Double Jeopardy
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you cast Negate or one of its morphs as an Exorcist spell without activating any morphs, the spell cannot itself be the target of another instance of Negate or its morphs.
+
+# Driven
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You may keep two instances of Inspiration, rather than just one.
+
+# Duck and Cover
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You reduce the area damage you take by your Agility.
+
+# Educated
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Clerics, scholars, researchers, and industrialists are positively inclined towards you and don't consider your presence a threat unless you really look out of place.
+
+# Eleventh Hour
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you would suffer a miscast, you may spend Inspiration to negate the miscast.
+
+# Elusive
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Stealth tests you attempt.
+
+# Escape and Evade
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You degrade all Opportunity Attack tests attempted against you.
+
+# Evasive
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Your Evasion increases by 1.
+
+# Fighter
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You gain an additional style from your Fighting Style ability.
+
+# Final Judgment
+Type: Class
+Class: Exorcist
+Requirements: Level 10
+Effect: When you cast Wrath of Heaven you may take 1 Fatigue. If you do so, the spell's damage ignores immunity and cannot be resisted nor prevented.
+
+# Fire and Brimstone
+Type: Class
+Class: Exorcist
+Requirements: Level 6
+Effect: When you attempt a melee attack, you may expend 1 of your Exorcist spell preparations to upgrade the attack test. If the attack hits, it benefits from your Smite ability without needing to expend a further spell preparation.
+
+# Grounded
+Type: Class
+Class: Exorcist
+Requirements: Level 11
+Effect: You resist Shock damage.
+
+# Get Over Here!
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You may use your [A] to grab a willing ally within 1m of you and move up to your speed, pulling them along with you. This movement does not provoke attacks of opportunity. After the movement, you may place that ally in any space within 1m of you. This ability can only affect an ally of equal or lesser Size as yours.
+
+# Grenadier
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to throw a grenade without using your [A].
+
+# Hell or High Water
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: At the start of your turn, you may spend Inspiration to resist all damage until the start of your next turn.
+
+# Holy Vows
+Type: Class
+Class: Exorcist
+Requirements: Level 10
+Effect: When you cast Blessing or its morph as an Exorcist spell and target another Actor with it, you may take 1 Fatigue to have its effect also apply to yourself for the duration. If the spell's effect is removed or otherwise ended on either affected Actor, it also ends for the other Actor.
+
+# Holy War
+Type: Class
+Class: Exorcist
+Requirements: Level 10
+Effect: When you cast Empower or its morph as an Exorcist spell, the spell's effect also upgrades attack tests attempted with the weapon.
+
+# Hope
+Type: Class
+Class: Exorcist
+Requirements: Level 14
+Effect: You degrade all non-area attack tests attempted against you if you made a successful attack test against an enemy during your previous turn.
+
+# Horseshoe Effect
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Guards, mercenaries, militiamen, police, and soldiers are positively inclined towards you and don't consider your presence a threat unless you really look out of place or are somewhere you're very obviously not supposed to be.
+
+# Immunised
+Type: Class
+Class: Exorcist
+Requirements: Level 11
+Effect: You resist Toxic damage.
+
+# Immutability
+Type: Class
+Class: Exorcist
+Requirements: Level 6
+Effect: When you attempt a magic resistance roll, you may take 1 Friction to add 1 to the value of the roll. You must do so before you roll the die.
+
+# Infobroker
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Inner Strength
+Type: Class
+Class: Exorcist
+Requirements: Level 14
+Effect: When you succeed a magic resistance roll, you may take 1 Friction to immediately prepare an Exorcist spell.
+
+# Inquisitive
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Investigation tests you attempt.
+
+# Insulated
+Type: Class
+Class: Exorcist
+Requirements: Level 11
+Effect: You resist Heat damage.
+
+# Intense Training
+Type: Class
+Class: Exorcist
+Requirements: Level 9
+Effect: You increase the value of one of your attributes by 1. You may not improve your highest-value Attribute (or any Attribute tied as your highest).
+
+# Intolerance
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you use your Smite ability, you increase your Evasion and Grit by 1 until the start of your next turn.
+
+# Intuitive
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Your Intuition increases by 1.
+
+# Iron Grasp
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You degrade any opposed test attempted to escape your Grapple.
+
+# Iron Maiden
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When an enemy attempts to Escape your Grapple, you may take 1 Friction to make a melee attack against that enemy.
+
+# Ironsides
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you cast Barrier or one of its morphs, you add your Strength to the base barrier points of the spell.
+
+# Jailor
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you cast Shackling Light or its Capture morph as an Exorcist spell, the spell degrades all tests attempted by Actors that it forcibly moves, until the start of your next turn.
+
+# Justice is Blind
+Type: Class
+Class: Exorcist
+Requirements: Level 11
+Effect: You never count as Blind for the purpose of targeting your Exorcist spells.
+
+# Meticulous
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase the number of spell preparations you can have by 1. You may take this talent multiple times.
+
+# Mithridatist
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You double the number of Poison stacks it takes to kill you.
+
+# Nimble
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Reflex tests you attempt.
+
+# No Mither
+Type: Class
+Class: Exorcist
+Requirements: Level 11
+Effect: Being Wounded does not degrade tests you attempt.
+
+# No One Left Behind
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You may carry an Actor of your Size or smaller on your shoulders. An Actor being carried this way may not act.
+
+# One Last Hurdle
+Type: Class
+Class: Exorcist
+Requirements: Level 17
+Effect: You increase the value of one of your Attributes by 1.
+
+# Physician
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Medicine tests you attempt.
+
+# Precision
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase the Crit value of Aimed attacks you attempt by 1.
+
+# Provenance
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You may take X Friction to cast Sheltering Light as an Exorcist spell on yourself instead of using your [R]. X is equal to 1, if the spell is prepared, or 2 if the spell is free cast.
+
+# Purpose
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You gain Inspiration at the start of each day.
+
+# Resourceful
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase your Stress Threshold by 2.
+
+# Righteous Fury
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you take the Attack action, you may take 1 Stress to cast Hammerhand as an Exorcist spell as part of the action, either immediately before or after you resolve an attack.
+
+# Rubberskin
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You double the number of Spasm stacks it takes to Incapacitate you.
+
+# Scholastic
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Lore tests you attempt.
+
+# Self-improvement
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase your lowest Attribute's value by 1.
+
+# Serene
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Composure tests you attempt.
+
+# Spirited
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase your Corruption threshold by 2.
+
+# Summary Verdict
+Type: Class
+Class: Exorcist
+Requirements: Level 10
+Effect: When you cast Sanction as an Exorcist spell, all non-attack tests you attempt against the spell's target are attempted with Boon for the spell's duration.
+
+# Swift
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Your Speed increases by 2m.
+
+# Taboo
+Type: Class
+Class: Exorcist
+Requirements: Level 10
+Effect: When you cast Sanctity or its morph as an Exorcist spell, all attack tests attempted against the spell's target are attempted with Bane for the duration.
+
+# Tenacity
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Your Speed is reduced by 1 for every 2 Cripple stacks you have, rather than 1 per stack.
+
+# Tireless
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase your Fatigue threshold by 2.
+
+# Troubleshooter
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You upgrade all Tech tests you attempt.
+
+# True Grit
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Your Grit increases by 1.
+
+# Unbreakable
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you would start your turn while you are Incapacitated, you may take 1 Fatigue to end the Incapacitation.
+
+# Undying
+Type: Class
+Class: Exorcist
+Requirements: Level 17
+Effect: When your Wounds exceed your Wound Threshold, you do not die immediately. If, at the end of your next turn, your Wounds still exceed your Wound Threshold, you must take 1 Fatigue or die. If your Wounds exceed twice your Wound Threshold, you die immediately.
+
+# Veilguard
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: When you cast Abjure or one of its morphs as an Exorcist spell, it only takes a [M] to cast, rather than an [A].
+
+# Veteran
+Type: Class
+Class: Exorcist
+Requirements: Level 11
+Effect: You gain an additional fighting style from your Fighting Style ability.
+
+# Vigour
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: You increase your Wound Threshold by 2.
+
+# Vindication
+Type: Class
+Class: Exorcist
+Requirements: Level 9
+Effect: You gain Inspiration when you succeed a magic resistance roll.
+
+# Warden
+Type: Class
+Class: Exorcist
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to cast Ward as an Exorcist spell without using your [A]. You may only do so if the spell's target is yourself. You may take 1 Friction to cast the Rescue morph of the Ward spell instead of using your [R].

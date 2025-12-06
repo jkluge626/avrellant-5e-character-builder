@@ -1,0 +1,263 @@
+# Aetherbleed
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: When you deal damage to a creature with the Aetherbleed Status with a spell or activated ability, you may deal an additional 1d6 Aether damage to that creature.
+
+# Aether Bolt
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You may make a ranged spell attack as an [A] against a creature within 20m. On a hit, the target takes 1d8 Aether damage. This damage increases to 2d8 at level 5, and 3d8 at level 9.
+
+# Aetherhide
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You have Resistance to Aether damage.
+
+# Alert
+Type: Class
+Class: Conjuror
+Requirements: Level 9
+Effect: You may take Reactions and use your activated abilities against enemies which you are otherwise unaware of.
+
+# Arcane Development
+Type: Class
+Class: Conjuror
+Requirements: Level 9
+Effect: You gain an Arcane (A) talent. You must meet its prerequisites.
+
+# Arcane Reservoir
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: Your Aether Reservoir maximum increases by 2.
+
+# Autodidact
+Type: Class
+Class: Conjuror
+Requirements: Level 6
+Effect: You gain a Core Talent. You must meet its prerequisites.
+
+# Banisher
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You upgrade all tests you attempt to Banish or Dismiss summoned creatures or Demons.
+
+# Binding Circle
+Type: Class
+Class: Conjuror
+Requirements: Level 6
+Effect: You may spend 10 minutes and take 2 Corruption to create a binding circle with a 5m radius. Demons within the circle cannot leave it and have Disadvantage on all tests.
+
+# Careful Summoner
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: When you Summon a Demon, you may take 1 Strain to reduce the Corruption cost by 1 (minimum 0).
+
+# Compelling Voice
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You upgrade all Skill tests you attempt to Command Demons you have summoned.
+
+# Conduit
+Type: Class
+Class: Conjuror
+Requirements: 3 WIL
+Effect: Once on your turn, you may take 2 Corruption to gain 2 Aether Reservoir.
+
+# Corruption Resistance
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: Your Corruption threshold increases by 1.
+
+# Demonic Bargain
+Type: Class
+Class: Conjuror
+Requirements: Level 6
+Effect: When you Summon a Demon, you may offer it a bargain. If it accepts, you reduce the Corruption cost by 2, but you must fulfill a task for the Demon within 24 hours or take 3 Corruption.
+
+# Demonic Knowledge
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You upgrade all Knowledge tests you attempt related to Demons, the Aether, or Conjuration.
+
+# Demonic Pact
+Type: Class
+Class: Conjuror
+Requirements: Level 9
+Effect: You form a permanent pact with a Demon. You may Summon this specific Demon without taking Corruption. You may only have one such pact at a time.
+
+# Dismiss
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: As an [A], you may attempt to Dismiss a summoned creature or Demon within 20m. The creature makes a Composure test against your Passive Spellcasting. On a failure, it is Banished.
+
+# Dual Summoner
+Type: Class
+Class: Conjuror
+Requirements: Level 9
+Effect: You may have two Demons summoned at once, rather than just one.
+
+# Empowered Summoning
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: When you Summon a Demon, you may take 1 additional Corruption. If you do, the Demon gains +2 to all attack rolls and +1d6 to damage rolls for the duration of the summoning.
+
+# Extended Summoning
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: When you Summon a Demon, the duration of the summoning is doubled.
+
+# Familiar
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You may spend 1 hour in ritual to Summon a familiar (a weak Demon) without taking Corruption. Your familiar remains until dismissed or killed. You may see through its eyes and communicate with it telepathically.
+
+# Fortified Mind
+Type: Class
+Class: Conjuror
+Requirements: 3 WIL
+Effect: You upgrade all Composure tests you attempt to resist mental effects or Corruption.
+
+# Gateway
+Type: Class
+Class: Conjuror
+Requirements: Level 6
+Effect: You may spend 1 minute and take 2 Corruption to create a portal between two locations you have visited. The portal remains open for 10 minutes and allows travel in both directions.
+
+# Harvester
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: When a Demon you have summoned is killed or dismissed, you regain 1 Aether Reservoir.
+
+# Iron Will
+Type: Class
+Class: Conjuror
+Requirements: 3 WIL
+Effect: At the start of your turn, you may spend 2 Aether Reservoir to remove all Conditions currently affecting you.
+
+# Planar Knowledge
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You upgrade all Knowledge tests you attempt related to other planes of existence, planar geography, or extraplanar creatures.
+
+# Protective Circle
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You may spend 1 minute to create a protective circle with a 5m radius. Demons and summoned creatures cannot enter the circle. The circle lasts for 1 hour.
+
+# Quick Summoning
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You may Summon a Demon as an Action, rather than requiring 1 minute.
+
+# Recall
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: As an Instant, you may teleport a Demon you have summoned to an unoccupied space within 5m of you.
+
+# Reinforced Summoning
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: Demons you Summon have +10 Wounds.
+
+# Resistant Summoning
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: Demons you Summon have Resistance to one damage type of your choice when you summon them.
+
+# Ritual Caster
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You may cast spells you know as rituals. Casting a spell as a ritual takes 10 minutes but does not require Aether Reservoir or cause Instability.
+
+# Sacrifice
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: As an [A], you may Dismiss a Demon you have summoned to regain Aether Reservoir equal to the Corruption cost of summoning it.
+
+# Shared Senses
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You may see through the eyes and hear through the ears of any Demon you have summoned, regardless of distance.
+
+# Soul Harvest
+Type: Class
+Class: Conjuror
+Requirements: Level 6
+Effect: When a creature within 10m of you dies, you may use your Reaction to take 1 Corruption and regain Aether Reservoir equal to the creature's level (minimum 1).
+
+# Spell Resistance
+Type: Class
+Class: Conjuror
+Requirements: Level 6
+Effect: You upgrade all Composure tests you attempt to resist spells.
+
+# Stable Summoning
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: When you Summon a Demon, you may take 1 Strain to ensure it obeys your commands for the duration without requiring Command tests.
+
+# Summoner's Bond
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You may use your Reaction when a Demon you have summoned takes damage to reduce that damage by an amount equal to your Willpower Bonus. If you do, you take Aether damage equal to the amount reduced.
+
+# Summoner's Shield
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: When you are hit by an attack, you may use your Reaction to teleport a Demon you have summoned into the attack's path. The Demon becomes the target of the attack instead.
+
+# Tainted Aether
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: When you deal Aether damage with a spell or ability, you may take 1 Corruption to inflict the Aetherbleed Status on the target for 1 minute.
+
+# Teleportation
+Type: Class
+Class: Conjuror
+Requirements: Level 6
+Effect: As an [A], you may spend 3 Aether Reservoir to teleport yourself to an unoccupied space you can see within 20m.
+
+# Void Step
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: As an [A], you may spend 1 Aether Reservoir to teleport up to 10m to an unoccupied space you can see.
+
+# Warded
+Type: Class
+Class: Conjuror
+Requirements: None
+Effect: You have Resistance to damage dealt by Demons and summoned creatures.
+
+# Warped Summoning
+Type: Class
+Class: Conjuror
+Requirements: Level 9
+Effect: When you Summon a Demon, you may take 2 additional Corruption to grant it one mutation of your choice (extra limbs, wings, enhanced senses, etc.). Work with your DM to determine the mechanical benefits.

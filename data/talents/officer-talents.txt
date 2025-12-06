@@ -1,0 +1,353 @@
+# Anchor
+Type: Class
+Class: Officer
+Requirements: None
+Effect: At the start of each of your turns, you remove 1 stack of Fear from all allies within 2m of you who can see and hear you.
+
+# Autodidact
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You gain 2 Skill Points. You may take this talent multiple times.
+
+# Borrowed Time
+Type: Class
+Class: Officer
+Requirements: None
+Effect: When you remove Wounds, or condition stacks from an ally, that ally resists all damage until the next round of combat, at their start of your turn or theirs—whichever comes first.
+
+# Brinksmanship
+Type: Class
+Class: Officer
+Requirements: None
+Effect: When you use an Order that targets a single ally, that ally resists all damage until the start of your next turn.
+
+# By Example
+Type: Class
+Class: Officer
+Requirements: Level 9
+Effect: You upgrade the attack rolls of all allies that can see and hear you as long as they target an enemy that is as close or closer to you than they are.
+
+# Careful
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Charlatan
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Deception tests you attempt.
+
+# Charming
+Type: Class
+Class: Officer
+Requirements: None
+Effect: People generally have a good first impression of you, unless you are doing something obviously hostile or suspicious.
+
+# Combat Training
+Type: Class
+Class: Officer
+Requirements: Level 9
+Effect: You gain a weapon (W) talent from the Core Talents list. You must meet the prerequisites for the talent.
+
+# Commander's Pride
+Type: Class
+Class: Officer
+Requirements: Level 14
+Effect: You gain Inspiration when an ally Incapacitates or kills an enemy with an attack made as part of your Commander's Strike ability.
+
+# Constitution
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Fitness tests you attempt.
+
+# Courage
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Fear stacks can only ever degrade your tests, or upgrade enemy tests attempted against you, once.
+
+# Craft
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You increase your Friction threshold by 2.
+
+# Deliverance
+Type: Class
+Class: Officer
+Requirements: None
+Effect: When you use a Skill test to remove Wounds, or condition stacks from an ally, you remove additional tallies or stacks from that ally equal to your Willpower.
+
+# Disciplinarian
+Type: Class
+Class: Officer
+Requirements: Level 9
+Effect: When you use your Move! Move! Move! Order, you may have it affect one additional eligible ally.
+
+# Driven
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You may keep two instances of Inspiration, rather than just one.
+
+# Educated
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Clerics, scholars, researchers, and industrialists are positively inclined towards you and don't consider your presence a threat unless you really look out of place.
+
+# Elusive
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Stealth tests you attempt.
+
+# Evasive
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Your Evasion increases by 1.
+
+# Expert
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You choose an additional Skill to benefit from your Expertise ability. At 6th level, you may take this talent twice (in total), increasing to thrice at 10th level. You must pick a different Skill each time you take this talent.
+
+# Get Over Here!
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You may use your [A] to grab a willing ally within 1m of you and move up to your speed, pulling them along with you. This movement does not provoke attacks of opportunity. After the movement, you may place that ally in any space within 1m of you. This ability can only affect an ally of equal or lesser Size as yours.
+
+# Guiding Hand
+Type: Class
+Class: Officer
+Requirements: None
+Effect: When an ally within 1m of you attempts an attack test, you may take 1 Friction to upgrade that test.
+
+# Horseshoe Effect
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Guards, mercenaries, militiamen, police, and soldiers are positively inclined towards you and don't consider your presence a threat unless you really look out of place or are somewhere you're very obviously not supposed to be.
+
+# Infobroker
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Inquisitive
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Investigation tests you attempt.
+
+# Inspirational
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Once on your turn, you may use an [I] to transfer one instance of Inspiration from yourself to an ally who can see or hear you.
+
+# Intense Training
+Type: Class
+Class: Officer
+Requirements: Level 9
+Effect: You increase the value of one of your attributes by 1. You may not improve your highest-value Attribute (or any Attribute tied as your highest).
+
+# Intuitive
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Your Intuition increases by 1.
+
+# Leader
+Type: Class
+Class: Officer
+Requirements: Level 6
+Effect: You increase the Defences of allies within 2m of you who can see and hear you by 1. A given Actor may only benefit from one instance of this ability.
+
+# Managerial
+Type: Class
+Class: Officer
+Requirements: Level 6
+Effect: When you use your Commander's Strike ability, you may forego making attacks yourself. If you do so, affected allies attempt their attack tests with Boon.
+
+# Messiah
+Type: Class
+Class: Officer
+Requirements: Level 14
+Effect: Allies that can see and hear you attempt all Skill tests they make to resist the effects of condition stacks with Boon. When all stacks of a given condition are removed from an ally you can see, you gain Inspiration.
+
+# Micromanagement
+Type: Class
+Class: Officer
+Requirements: None
+Effect: When you use an Order that targets a single ally, you may let that ally take the Stress or Friction required by the Order, rather than take it yourself (the ally must be willing and able to take the tallies).
+
+# Mobilisation
+Type: Class
+Class: Officer
+Requirements: None
+Effect: When you issue the Move! Move! Move! Order to an ally that has not acted yet in combat, you increase the distance they may move by your Guile.
+
+# Nimble
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Reflex tests you attempt.
+
+# No One Left Behind
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You may carry an Actor of your Size or smaller on your shoulders. An Actor being carried this way may not act.
+
+# One Last Hurdle
+Type: Class
+Class: Officer
+Requirements: Level 17
+Effect: You increase the value of one of your Attributes by 1.
+
+# Peer
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Businesspeople, politicians, socialites, and other "high class" people are positively inclined towards you and don't regard you as out of place in their normal venues, unless you really don't look the part.
+
+# Physician
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Medicine tests you attempt.
+
+# Project Director
+Type: Class
+Class: Officer
+Requirements: Level 11
+Effect: When an ally assists you with a Skill test, you attempt that test with Boon.
+
+# Prove Thyself
+Type: Class
+Class: Officer
+Requirements: Level 11
+Effect: Allies within 2m of you who can see and hear you receive a +1 bonus to all Skill tests they attempt during combat. A given Actor may only benefit from one instance of this ability.
+
+# Purpose
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You gain Inspiration at the start of each day.
+
+# Rallying Cry
+Type: Class
+Class: Officer
+Requirements: None
+Effect: When you remove all stacks of Fear from yourself with a Composure test, you remove X Fear from all allies who can see and hear you, where X is half your Guile.
+
+# Resourceful
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You increase your Stress Threshold by 2.
+
+# Scholastic
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Lore tests you attempt.
+
+# Self-improvement
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You increase your lowest Attribute's value by 1.
+
+# Self-motivated
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You may target yourself with your Inspiring Word ability. You take 1 Fatigue to do so, rather than Friction.
+
+# Serene
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Composure tests you attempt.
+
+# Solidarity
+Type: Class
+Class: Officer
+Requirements: Level 6
+Effect: When an ally within 1m and reach of you would take damage, you may mitigate the damage on their behalf. To do so, you take Strain as if you were mitigating damage to yourself, using your abilities which affect mitigation (and not your ally's). You ally may not themselves mitigate this damage (and may refuse your mitigation if they prefer to mitigate it themself).
+
+# Spirited
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You increase your Corruption threshold by 2.
+
+# Stewardship
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Whenever you gain Inspiration, you may instead grant that Inspiration to an ally who can see and hear you.
+
+# Synchronised Strike
+Type: Class
+Class: Officer
+Requirements: Level 14
+Effect: You upgrade all attack tests your allies make as part of your Commander's Strike ability.
+
+# Talent Acquisition
+Type: Class
+Class: Officer
+Requirements: Level 9
+Effect: You gain a talent from the Core Talents list. The talent may not be an arcane (A) or weapon (W) talent. You must meet the prerequisites for the talent.
+
+# Tireless
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You increase your Fatigue threshold by 2.
+
+# Troubleshooter
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You upgrade all Tech tests you attempt.
+
+# True Grit
+Type: Class
+Class: Officer
+Requirements: None
+Effect: Your Grit increases by 1.
+
+# Veteran
+Type: Class
+Class: Officer
+Requirements: Level 11
+Effect: You gain an additional fighting style from your Fighting Style ability.
+
+# Vigour
+Type: Class
+Class: Officer
+Requirements: None
+Effect: You increase your Wound Threshold by 2.
+
+# Vigil
+Type: Class
+Class: Officer
+Requirements: Level 17
+Effect: If an ally within 2m of you takes Wounds in excess of their Wound Threshold, they do not immediately die. Instead, they are Incapacitated (and must remain so while their Wounds are above their threshold). If at any point their Wounds exceed twice their Wound Threshold, they die. You must not be Incapacitated yourself for this ability to activate. If, at the end of your next turn, the allies' Wounds still exceed their Wound Threshold and you are not within 2m of the affected ally or are yourself Incapacitated, the affected ally dies.
+
+# War Cry
+Type: Class
+Class: Officer
+Requirements: Level 9
+Effect: After you use your Inspiring Word ability on an ally, you upgrade the next attack test they attempt, until the end of their turn.

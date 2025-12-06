@@ -1,0 +1,503 @@
+# Alert
+Type: Class
+Class: Ranger
+Requirements: Level 9
+Effect: You may take [R]s and use your activate abilities against enemies which you are otherwise unaware of.
+
+# Armourer
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase the DR of any armour you wear by 1.
+
+# Autodidact
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You gain 2 Skill Points. You may take this talent multiple times.
+
+# Avoidance
+Type: Class
+Class: Ranger
+Requirements: Level 6
+Effect: While you are wearing padded, light, or no armour at all, you increase your Evasion by 2.
+
+# Balanced Landing
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You halve any Wounds and Cripple stacks you take from falling. Wounds you take from falling cannot Incapacitate you.
+
+# Bladestorm
+Type: Class
+Class: Ranger
+Requirements: Level 17
+Effect: When you use your [A] to make a melee attack, you may take 1 Stress to make another melee attack against a different target with the same weapon. Degrade both attack tests.
+
+# Bodyguard
+Type: Class
+Class: Ranger
+Requirements: Level 6
+Effect: When an ally within 1m of you is hit by a ranged attack, you may use your [R] to instead apply the hit against yourself.
+
+# Boil Over
+Type: Class
+Class: Ranger
+Requirements: Level 6
+Effect: Once during a round of combat, you may spend Inspiration to regain your [R].
+
+# Brawler
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Skill tests you attempt to Grapple a target or to Escape from a Grapple.
+
+# Careful
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Catfall
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase the distance you can safely fall by 4m.
+
+# Cautious
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: When you take Strain to mitigate damage, you reduce the damage by an additional 1 per Strain tally taken.
+
+# Charlatan
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Deception tests you attempt.
+
+# Combat Training
+Type: Class
+Class: Ranger
+Requirements: Level 9
+Effect: You gain a weapon (W) talent from the Core Talents list. You must meet the prerequisites for the talent.
+
+# Constitution
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Fitness tests you attempt.
+
+# Craft
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase your Friction threshold by 2.
+
+# Cull
+Type: Class
+Class: Ranger
+Requirements: Level 14
+Effect: You increase the Crit value of your attacks by 1.
+
+# Dead Hard
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: When you push yourself, you may immediately move up to Xm, where X is your Agility. This movement counts as Disengaging.
+
+# Decisive Strike
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: When an enemy Grapples you, you may take 1 Friction to immediately attempt to Escape the Grapple.
+
+# Deft Hands
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: On your turn, you may take 1 Stress to take the Reload action as an [I]. You may only do so any time you could take an [A].
+
+# Devil You Know
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase the DVs of all opposed tests your Familiar Enemies attempt against you by 1.
+
+# Dive for Cover
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: When you would be caught in a harmful area effect, you may take 1 Fatigue to immediately move up to Xm away from the centre of the effect, where X is half your Speed. This movement counts as Disengaging.
+
+# Dodge
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: [R] when you are hit by an attack. You may negate that hit.
+
+# Driven
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You may keep two instances of Inspiration, rather than just one.
+
+# Duck and Cover
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You reduce the area damage you take by your Agility.
+
+# Elusive
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Stealth tests you attempt.
+
+# Escape and Evade
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You degrade all Opportunity Attack tests attempted against you.
+
+# Evasive
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Your Evasion increases by 1.
+
+# Everyman
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Craftsmen, farmers, labourers, and woodsmen are positively inclined towards you and don't consider your presence a threat unless you really look out of place or are somewhere you're very obviously not supposed to be.
+
+# Expert
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You choose an additional Skill to benefit from your Expertise ability. At 6th level, you may take this talent twice (in total), increasing to thrice at 10th level. You must pick a different Skill each time you take this talent.
+
+# Fighter
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You gain an additional style from your Fighting Style ability.
+
+# Get Over Here!
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You may use your [A] to grab a willing ally within 1m of you and move up to your speed, pulling them along with you. This movement does not provoke attacks of opportunity. After the movement, you may place that ally in any space within 1m of you. This ability can only affect an ally of equal or lesser Size as yours.
+
+# Giant Killer
+Type: Class
+Class: Ranger
+Requirements: Level 9
+Effect: When a Size-4 or larger Actor you can see within 1m and reach of you makes an attack test against you, you can take 1 Friction to make a non-area attack against that Actor, after its attack resolves. Upgrade the attack test you attempt.
+
+# Grenadier
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to throw a grenade without using your [A].
+
+# Hell or High Water
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: At the start of your turn, you may spend Inspiration to resist all damage until the start of your next turn.
+
+# Hope
+Type: Class
+Class: Ranger
+Requirements: Level 14
+Effect: You degrade all non-area attack tests attempted against you if you made a successful attack test against an enemy during your previous turn.
+
+# Hordebreaker
+Type: Class
+Class: Ranger
+Requirements: Level 14
+Effect: When you use your [A] to take the Attack action, you may take X Stress to make X additional non-area attacks as part of the action, after resolving all other attacks. Degrade all attack tests attempted this way X times. X can be no greater than your Agility. Each attack made this way must target a different enemy and cannot target any enemy which had been previously targeted during the action.
+
+# Horseshoe Effect
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Guards, mercenaries, militiamen, police, and soldiers are positively inclined towards you and don't consider your presence a threat unless you really look out of place or are somewhere you're very obviously not supposed to be.
+
+# Immunised
+Type: Class
+Class: Ranger
+Requirements: Level 11
+Effect: You resist Toxic damage.
+
+# Infobroker
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Inquisitive
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Investigation tests you attempt.
+
+# Iron Grasp
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You degrade any opposed test attempted to escape your Grapple.
+
+# Iron Maiden
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: When an enemy attempts to Escape your Grapple, you may take 1 Friction to make a melee attack that targets only that enemy.
+
+# Intense Training
+Type: Class
+Class: Ranger
+Requirements: Level 9
+Effect: You increase the value of one of your attributes by 1. You may not improve your highest-value Attribute (or any Attribute tied as your highest).
+
+# Intuitive
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Your Intuition increases by 1.
+
+# Kick
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to kick a Size-4 or smaller Actor within reach. The target takes Force damage equal to your Strength. Regardless of if the target is Wounded or not by the kick, it must attempt Composure tests to maintain concentration on any spells it is concentrating on, as if the kick had Wounded it.
+
+# Land's Stride
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You ignore the effects of non-supernatural difficult terrain. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they are hazardous (e.g., overly thorny, or prone to releasing toxic plumes). You halve the damage that traps (such as land mines) inflict against you.
+
+# Lightfoot
+Type: Class
+Class: Ranger
+Requirements: Level 11
+Effect: While you are wearing padded, light, or no armour, your movement cannot set off traps.
+
+# Mark
+Type: Class
+Class: Ranger
+Requirements: Level 9
+Effect: When an ally within 10m you can see or hear and who can also see or hear you targets your quarry with an attack, you may use your [R] or take 1 Friction to upgrade your ally's attack test.
+
+# Minesweeper
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You cannot set off traps and explosives as a consequence of failing a test to disarm them.
+
+# Misdirection
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: When you are hit by an attack, you may take 1 Friction to instead allocate that hit to a willing ally within 1m of you. If the attack was a ranged attack, you may instead allocate it to a willing ally within 2m of you.
+
+# Mithridatist
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You double the number of Poison stacks it takes to kill you.
+
+# Most Dangerous Game
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You may select one race to add to your Familiar Enemy ability. You may take this talent multiple times. You do not gain any languages from taking this feature.
+
+# Nimble
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Reflex tests you attempt.
+
+# No Mither
+Type: Class
+Class: Ranger
+Requirements: Level 11
+Effect: Being Wounded does not degrade tests you attempt.
+
+# No One Left Behind
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You may carry an Actor of your Size or smaller on your shoulders. An Actor being carried this way may not act.
+
+# One Last Hurdle
+Type: Class
+Class: Ranger
+Requirements: Level 17
+Effect: You increase the value of one of your Attributes by 1.
+
+# Physician
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Medicine tests you attempt.
+
+# Perfect Dodge
+Type: Class
+Class: Ranger
+Requirements: Level 11, Dodge
+Effect: When you use your Dodge talent to negate a hit from an attack, you degrade all other attack tests attempted against you until the start of your next turn.
+
+# Precision
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase the Crit value of Aimed attacks you attempt by 1.
+
+# Purpose
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You gain Inspiration at the start of each day.
+
+# Resourceful
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase your Stress Threshold by 2.
+
+# Scholastic
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Lore tests you attempt.
+
+# Scopesmith
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You can benefit from two different sight-type weapon attachments during a single attack. The attachments must be different types of sights—you cannot benefit from two aperture sights at once, for example.
+
+# Self-improvement
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase your lowest Attribute's value by 1.
+
+# Serene
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Composure tests you attempt.
+
+# Sidestep
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: When you would take damage from an attack or an area effect, you may take 1 Fatigue to reduce the damage by your Agility value.
+
+# Spirited
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase your Corruption threshold by 2.
+
+# Stylist
+Type: Class
+Class: Ranger
+Requirements: Level 14
+Effect: You gain two additional fighting styles from your Fighting Style ability.
+
+# Surplus Hunting
+Type: Class
+Class: Ranger
+Requirements: Level 6
+Effect: You can have two enemies marked as your quarries. When you mark an enemy as your quarry, you may use your [R] or take 1 Stress to mark another enemy as your other quarry.
+
+# Swift
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Your Speed increases by 2m.
+
+# Talent Acquisition
+Type: Class
+Class: Ranger
+Requirements: Level 9
+Effect: You gain a talent from the Core Talents list. The talent may not be an arcane (A) or weapon (W) talent. You must meet the prerequisites for the talent.
+
+# Tenacity
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Your Speed is reduced by 1 for every 2 Cripple stacks you have, rather than 1 per stack.
+
+# Tireless
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase your Fatigue threshold by 2.
+
+# Troubleshooter
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You upgrade all Tech tests you attempt.
+
+# True Grit
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: Your Grit increases by 1.
+
+# Unbreakable
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: When you would start your turn while you are Incapacitated, you may take 1 Fatigue to end the Incapacitation.
+
+# Undying
+Type: Class
+Class: Ranger
+Requirements: Level 17
+Effect: When your Wounds exceed your Wound Threshold, you do not die immediately. If, at the end of your next turn, your Wounds still exceed your Wound Threshold, you must take 1 Fatigue or die. If your Wounds exceed twice your Wound Threshold, you die immediately.
+
+# Vanish
+Type: Class
+Class: Ranger
+Requirements: Level 6
+Effect: You can attempt to Hide during your turn, even if you did not start your turn with concealment or out of enemy sight.
+
+# Versatility
+Type: Class
+Class: Ranger
+Requirements: Level 6
+Effect: You gain an additional fighting style from your Fighting Style ability.
+
+# Veteran
+Type: Class
+Class: Ranger
+Requirements: Level 11
+Effect: You gain an additional fighting style from your Fighting Style ability.
+
+# Vigour
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You increase your Wound Threshold by 2.
+
+# Volley
+Type: Class
+Class: Ranger
+Requirements: Level 17
+Effect: When you use your [A] to make a non-area ranged attack, you may take 1 Stress to make another ranged attack against the same target using the same weapon. Degrade both attack tests.
+
+# Well-travelled
+Type: Class
+Class: Ranger
+Requirements: None
+Effect: You add a new type of familiar terrain to your Explorer feature.
