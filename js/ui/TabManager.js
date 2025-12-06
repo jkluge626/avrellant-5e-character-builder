@@ -2,7 +2,7 @@
 
 class TabManager {
   constructor() {
-    this.tabs = ['basics', 'skills', 'equipment', 'talents', 'spells', 'sheet'];
+    this.tabs = ['basics', 'skills', 'equipment', 'talents', 'spells', 'sheet', 'content'];
     this.currentTab = 'basics';
   }
 

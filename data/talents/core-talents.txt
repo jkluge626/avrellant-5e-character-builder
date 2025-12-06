@@ -1,0 +1,69 @@
+# Toughness
+Type: Core
+Requirements: None
+Effect: You increase your Wound Threshold by 2.
+
+# Die Hard
+Type: Core
+Requirements: Level 3
+Effect: When you would be reduced to 0 hit points, you can choose to drop to 1 hit point instead. You cannot use this ability again until you finish a long rest.
+
+# Autodidact
+Type: Core
+Requirements: None
+Effect: You gain 2 Skill Points. You may take this talent multiple times.
+
+# Constitution
+Type: Core
+Requirements: None
+Effect: You upgrade all Fitness tests you attempt.
+
+# Swift
+Type: Core
+Requirements: None
+Effect: Your Speed increases by 2m.
+
+# Evasive
+Type: Core
+Requirements: None
+Effect: Your Evasion increases by 1.
+
+# True Grit
+Type: Core
+Requirements: None
+Effect: Your Grit increases by 1.
+
+# Intuitive
+Type: Core
+Requirements: None
+Effect: Your Intuition increases by 1.
+
+# Nimble
+Type: Core
+Requirements: None
+Effect: You upgrade all Reflex tests you attempt.
+
+# Serene
+Type: Core
+Requirements: None
+Effect: You upgrade all Composure tests you attempt.
+
+# Vigour
+Type: Core
+Requirements: None
+Effect: You increase your Wound Threshold by 2.
+
+# Careful
+Type: Core
+Requirements: None
+Effect: You increase your Strain threshold by 2.
+
+# Tireless
+Type: Core
+Requirements: None
+Effect: You increase your Fatigue threshold by 2.
+
+# Resourceful
+Type: Core
+Requirements: None
+Effect: You increase your Stress Threshold by 2.

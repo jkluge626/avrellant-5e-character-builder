@@ -19,78 +19,6 @@
     </header>
 
     <main>
-      <!-- Content Upload Section -->
-      <section id="content-upload-section" class="no-print">
-        <h2>Upload Game Content</h2>
-        <p class="help-text">Upload TXT files for races, classes, backgrounds, talents, spells, and equipment.</p>
-
-        <!-- Content Summary Panel -->
-        <div id="content-summary" class="content-summary">
-          <h3>Loaded Content Summary</h3>
-          <div class="summary-grid">
-            <div class="summary-item">
-              <strong>Races:</strong> <span id="summary-races">0</span>
-              <div id="summary-races-list" class="summary-details"></div>
-            </div>
-            <div class="summary-item">
-              <strong>Classes:</strong> <span id="summary-classes">0</span>
-              <div id="summary-classes-list" class="summary-details"></div>
-            </div>
-            <div class="summary-item">
-              <strong>Backgrounds:</strong> <span id="summary-backgrounds">0</span>
-              <div id="summary-backgrounds-list" class="summary-details"></div>
-            </div>
-            <div class="summary-item">
-              <strong>Talents:</strong> <span id="summary-talents">0</span>
-            </div>
-            <div class="summary-item">
-              <strong>Spells:</strong> <span id="summary-spells">0</span>
-            </div>
-            <div class="summary-item">
-              <strong>Equipment:</strong> <span id="summary-equipment">0</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="upload-grid">
-          <div class="upload-category">
-            <h3>Races</h3>
-            <input type="file" id="upload-races" accept=".txt" multiple>
-            <div id="races-list" class="content-list"></div>
-          </div>
-
-          <div class="upload-category">
-            <h3>Classes</h3>
-            <input type="file" id="upload-classes" accept=".txt" multiple>
-            <div id="classes-list" class="content-list"></div>
-          </div>
-
-          <div class="upload-category">
-            <h3>Backgrounds</h3>
-            <input type="file" id="upload-backgrounds" accept=".txt" multiple>
-            <div id="backgrounds-list" class="content-list"></div>
-          </div>
-
-          <div class="upload-category">
-            <h3>Talents</h3>
-            <input type="file" id="upload-talents" accept=".txt" multiple>
-            <div id="talents-list" class="content-list"></div>
-          </div>
-
-          <div class="upload-category">
-            <h3>Spells</h3>
-            <input type="file" id="upload-spells" accept=".txt" multiple>
-            <div id="spells-list" class="content-list"></div>
-          </div>
-
-          <div class="upload-category">
-            <h3>Equipment</h3>
-            <input type="file" id="upload-equipment" accept=".txt" multiple>
-            <div id="equipment-list" class="content-list"></div>
-          </div>
-        </div>
-      </section>
-
       <!-- Tab Navigation -->
       <div id="tab-bar" class="no-print"></div>
 
@@ -275,6 +203,78 @@
             <button id="btn-import-json">Import Character (JSON)</button>
           </div>
           <div id="character-sheet"></div>
+        </div>
+
+        <!-- CONTENT TAB -->
+        <div id="tab-content" class="tab-content">
+          <h2>Upload Game Content</h2>
+          <p class="help-text">Upload TXT files for races, classes, backgrounds, talents, spells, and equipment.</p>
+
+          <!-- Content Summary Panel -->
+          <div id="content-summary" class="content-summary">
+            <h3>Loaded Content Summary</h3>
+            <div class="summary-grid">
+              <div class="summary-item">
+                <strong>Races:</strong> <span id="summary-races">0</span>
+                <div id="summary-races-list" class="summary-details"></div>
+              </div>
+              <div class="summary-item">
+                <strong>Classes:</strong> <span id="summary-classes">0</span>
+                <div id="summary-classes-list" class="summary-details"></div>
+              </div>
+              <div class="summary-item">
+                <strong>Backgrounds:</strong> <span id="summary-backgrounds">0</span>
+                <div id="summary-backgrounds-list" class="summary-details"></div>
+              </div>
+              <div class="summary-item">
+                <strong>Talents:</strong> <span id="summary-talents">0</span>
+              </div>
+              <div class="summary-item">
+                <strong>Spells:</strong> <span id="summary-spells">0</span>
+              </div>
+              <div class="summary-item">
+                <strong>Equipment:</strong> <span id="summary-equipment">0</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="upload-grid">
+            <div class="upload-category">
+              <h3>Races</h3>
+              <input type="file" id="upload-races" accept=".txt" multiple>
+              <div id="races-list" class="content-list"></div>
+            </div>
+
+            <div class="upload-category">
+              <h3>Classes</h3>
+              <input type="file" id="upload-classes" accept=".txt" multiple>
+              <div id="classes-list" class="content-list"></div>
+            </div>
+
+            <div class="upload-category">
+              <h3>Backgrounds</h3>
+              <input type="file" id="upload-backgrounds" accept=".txt" multiple>
+              <div id="backgrounds-list" class="content-list"></div>
+            </div>
+
+            <div class="upload-category">
+              <h3>Talents</h3>
+              <input type="file" id="upload-talents" accept=".txt" multiple>
+              <div id="talents-list" class="content-list"></div>
+            </div>
+
+            <div class="upload-category">
+              <h3>Spells</h3>
+              <input type="file" id="upload-spells" accept=".txt" multiple>
+              <div id="spells-list" class="content-list"></div>
+            </div>
+
+            <div class="upload-category">
+              <h3>Equipment</h3>
+              <input type="file" id="upload-equipment" accept=".txt" multiple>
+              <div id="equipment-list" class="content-list"></div>
+            </div>
+          </div>
         </div>
       </div>
     </main>

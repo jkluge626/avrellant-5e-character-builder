@@ -1,0 +1,59 @@
+# Spell Sniper
+Type: Class
+Class: Sorcerer
+Requirements: None
+Effect: When you cast a spell that requires you to make an attack roll, the spell's range is doubled. Your ranged spell attacks ignore half cover and three-quarters cover.
+
+# War Caster
+Type: Class
+Class: Sorcerer
+Requirements: None
+Effect: You upgrade all Composure saving throws you make to maintain concentration on a spell when you take damage.
+
+# Metamagic Adept
+Type: Class
+Class: Sorcerer
+Requirements: Level 3
+Effect: You gain 2 additional Chaos tokens. You can use Metamagic options one additional time between rests.
+
+# Elemental Affinity
+Type: Class
+Class: Sorcerer
+Requirements: None
+Effect: Choose one damage type. When you cast a spell that deals damage of that type, you add your spellcasting ability modifier to the damage.
+
+# Empowered Evocation
+Type: Class
+Class: Sorcerer
+Requirements: Level 5
+Effect: When you cast a spell from the Evocation school, you can add your spellcasting ability modifier to one damage roll of that spell.
+
+# Arcane Recovery
+Type: Class
+Class: Sorcerer
+Requirements: None
+Effect: Once per rest, you can recover expended spell slots during a short rest. The spell slots can have a combined level that is equal to or less than half your level (rounded up).
+
+# Spell Sculptor
+Type: Class
+Class: Sorcerer
+Requirements: Level 6
+Effect: When you cast a spell that affects other creatures that you can see, you can choose a number of them equal to your spellcasting ability modifier. The chosen creatures automatically succeed on their saving throws against the spell.
+
+# Potent Cantrip
+Type: Class
+Class: Sorcerer
+Requirements: Level 3
+Effect: When a creature succeeds on a saving throw against your cantrip, the creature takes half the cantrip's damage (if any) but suffers no additional effect.
+
+# Split Enchantment
+Type: Class
+Class: Sorcerer
+Requirements: Level 7
+Effect: When you cast an enchantment spell that targets only one creature, you can have it target a second creature.
+
+# Instinctive Charm
+Type: Class
+Class: Sorcerer
+Requirements: Level 6
+Effect: When a creature you can see within 30 feet of you makes an attack roll against you, you can use your reaction to divert the attack, provided that another creature is within the attack's range.

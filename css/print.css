@@ -293,7 +293,7 @@
 
   /* Further reduce spacing for specific weapon boxes */
   .sheet-weapon {
-    margin-bottom: -0.1rem !important;
+    margin-bottom: -0.11rem !important;
   }
 
   /* Hide divider - using padding instead */

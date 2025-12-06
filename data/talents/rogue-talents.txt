@@ -1,0 +1,83 @@
+# Elusive
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You upgrade all Stealth tests you attempt.
+
+# Charlatan
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You upgrade all Deception tests you attempt.
+
+# Escape and Evade
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You degrade all Opportunity Attack tests attempted against you.
+
+# Infobroker
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You upgrade all Streetwise tests you attempt.
+
+# Inquisitive
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You upgrade all Investigation tests you attempt.
+
+# Duck and Cover
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You reduce the area damage you take by your Agility.
+
+# Expert Climber
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You gain a climbing speed equal to your walking speed.
+
+# Light Fingers
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You upgrade all Sleight of Hand tests you attempt.
+
+# Lucky
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: When you roll a 1 on an attack test, ability check, or saving throw, you can reroll the die. You must use the new roll.
+
+# Shadow Step
+Type: Class
+Class: Rogue
+Requirements: Level 6
+Effect: When you are in dim light or darkness, you can use a bonus action to teleport up to 60 feet to an unoccupied space you can see that is also in dim light or darkness.
+
+# Uncanny Dodge
+Type: Class
+Class: Rogue
+Requirements: Level 5
+Effect: When an attacker that you can see hits you with an attack, you can use your reaction to halve the attack's damage against you.
+
+# Master of Disguise
+Type: Class
+Class: Rogue
+Requirements: Level 3
+Effect: You can create convincing disguises with minimal materials. You upgrade all Deception tests made while disguised.
+
+# Cat Burglar
+Type: Class
+Class: Rogue
+Requirements: None
+Effect: You never take damage from falling 30 feet or less, and you land on your feet.
+
+# Slippery
+Type: Class
+Class: Rogue
+Requirements: Level 7
+Effect: No terrain is considered difficult terrain for you. You can move through spaces occupied by hostile creatures.

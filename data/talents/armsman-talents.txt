@@ -1,0 +1,101 @@
+# Adrenaline Rush
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: You gain 1 Adrenaline Token when you push yourself.
+
+# Alert
+Type: Class
+Class: Armsman
+Requirements: Level 9
+Effect: You may take Reactions and use your activated abilities against enemies which you are otherwise unaware of.
+
+# Armourer
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: You increase the DR of any armour you wear by 1.
+
+# Beefy
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: Your Pain Suppression ability decreases damage by a further X, where X is your Size.
+
+# Bloodless
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: You halve the number of Wounds that stacks of Bleed inflict on you.
+
+# Bodyguard
+Type: Class
+Class: Armsman
+Requirements: Level 6
+Effect: When an ally within 1m of you is hit by a ranged attack, you may use your Reaction to instead apply the hit against yourself.
+
+# Brawler
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: You upgrade all Skill tests you attempt to Grapple a target or to Escape a Grapple.
+
+# Cautious
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: When you take Strain to mitigate damage, you reduce the damage by an additional 1 per Strain tally taken.
+
+# Combat Training
+Type: Class
+Class: Armsman
+Requirements: Level 9
+Effect: You gain a weapon (W) talent. You must meet the prerequisites for the talent.
+
+# Deft Hands
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: On your turn, you may take 1 Stress to take the Reload action as an Instant. You may only do so any time you could take an Action.
+
+# Determination
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: You gain Inspiration when you use your Second Wind ability.
+
+# Driven
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: You may keep two instances of Inspiration, rather than just one.
+
+# Fighter
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: You gain an additional style from your Fighting Style ability.
+
+# Grenadier
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: Once on your turn, you may take 1 Stress to throw a grenade without using your Action.
+
+# Meathead
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: When you attempt a Fitness test, you may spend 1 Adrenaline token to upgrade that test. Your Wound threshold increases by 1.
+
+# Victory Rush
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: When you kill or Incapacitate an enemy with an attack, you gain 1 Adrenaline Token. You may not benefit from this ability again until the start of your next turn.
+
+# Warfighter
+Type: Class
+Class: Armsman
+Requirements: None
+Effect: You increase the number of Adrenaline Tokens you generate at the start of combat as well as your token maximum by 1 each.

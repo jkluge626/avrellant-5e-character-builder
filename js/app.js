@@ -117,11 +117,16 @@ function useHardcodedAttributeArrays() {
 // Auto-load files from data folders
 async function autoLoadSampleFiles() {
   const dataCategories = [
-    { folder: 'races', type: 'races', parser: RaceParser },
-    { folder: 'classes', type: 'classes', parser: ClassParser },
-    { folder: 'backgrounds', type: 'backgrounds', parser: BackgroundParser },
-    { folder: 'talents', type: 'talents', parser: TalentParser },
-    { folder: 'armoury', type: 'equipment', parser: null } // TODO: Add EquipmentParser
+    { folder: 'races', type: 'races', parser: RaceParser, files: ['races.txt'] },
+    { folder: 'classes', type: 'classes', parser: ClassParser, files: ['classes.txt'] },
+    { folder: 'backgrounds', type: 'backgrounds', parser: BackgroundParser, files: ['backgrounds.txt'] },
+    {
+      folder: 'talents',
+      type: 'talents',
+      parser: TalentParser,
+      files: ['core-talents.txt', 'armsman-talents.txt', 'rogue-talents.txt', 'sorcerer-talents.txt']
+    },
+    { folder: 'armoury', type: 'equipment', parser: null, files: ['equipment.txt'] } // TODO: Add EquipmentParser
   ];
 
   let fetchFailed = false;
@@ -141,22 +146,35 @@ async function autoLoadSampleFiles() {
         continue;
       }
 
-      // Try to load the data file for this category (e.g., data/races/races.txt)
-      const filePath = `data/${category.folder}/${category.folder}.txt`;
-      const fileResponse = await fetch(filePath);
+      let allParsed = [];
 
-      if (!fileResponse.ok) {
-        console.log(`No data file found at ${filePath}, skipping auto-load for ${category.type}`);
-        fetchFailed = true;
-        continue;
+      // Load all files for this category
+      for (const fileName of category.files) {
+        try {
+          const filePath = `data/${category.folder}/${fileName}`;
+          const fileResponse = await fetch(filePath);
+
+          if (!fileResponse.ok) {
+            console.log(`No data file found at ${filePath}, skipping`);
+            continue;
+          }
+
+          const text = await fileResponse.text();
+          const parsed = category.parser.parse(text);
+
+          if (parsed && parsed.length > 0) {
+            allParsed.push(...parsed);
+            console.log(`Auto-loaded ${parsed.length} ${category.type} from ${fileName}`);
+          }
+        } catch (fileError) {
+          console.log(`Could not load ${fileName}:`, fileError.message);
+        }
       }
 
-      const text = await fileResponse.text();
-      const parsed = category.parser.parse(text);
-
-      if (parsed && parsed.length > 0) {
-        LocalStorageManager.saveContent(category.type, parsed);
-        console.log(`Auto-loaded ${parsed.length} ${category.type} from ${category.folder}.txt`);
+      // Save all parsed content for this category
+      if (allParsed.length > 0) {
+        LocalStorageManager.saveContent(category.type, allParsed);
+        console.log(`Total auto-loaded for ${category.type}: ${allParsed.length} items`);
       }
 
     } catch (error) {
@@ -192,6 +210,7 @@ function initializeUI() {
   AppState.ui.tabManager.init();
 
   renderSkillsList();
+  renderTalents();
 }
 
 // Setup all event listeners
@@ -251,6 +270,11 @@ async function handleFileUpload(event, contentType, ParserClass) {
 
   updateContentLists();
   populateSelects();
+
+  // Re-render talents if talents were uploaded
+  if (contentType === 'talents') {
+    renderTalents();
+  }
 }
 
 // Read file as text
@@ -526,6 +550,9 @@ function handleClassSelection(e) {
 
   // Update spells tab visibility
   AppState.ui.tabManager?.updateSpellsTabVisibility();
+
+  // Update talents list to show class-specific talents
+  renderTalents();
 }
 
 // Recalculate all derived stats
@@ -597,7 +624,15 @@ function renderSkillsList() {
 
 // Handle skill point allocation
 window.handleSkillChange = function(skillName, value) {
-  AppState.character.skills[skillName] = parseInt(value) || 0;
+  // Enforce max 5 ranks per skill
+  const skillValue = Math.min(5, Math.max(0, parseInt(value) || 0));
+  AppState.character.skills[skillName] = skillValue;
+
+  // Update input to reflect clamped value
+  const input = document.getElementById(`skill-${skillName}`);
+  if (input && input.value !== skillValue.toString()) {
+    input.value = skillValue;
+  }
 
   // Validate skill points
   const validation = SkillPointValidator.validate(AppState.character);
@@ -621,6 +656,160 @@ function updateSkillModifiers() {
     }
   });
 }
+
+// Render talents list
+function renderTalents() {
+  const talentsBrowser = document.getElementById('talents-browser');
+  if (!talentsBrowser) return;
+
+  const allTalents = AppState.contentLibrary.talents || [];
+  const character = AppState.character;
+  const characterClass = character.class;
+
+  // Separate Core and Class talents
+  const coreTalents = allTalents.filter(t =>
+    t.type && t.type.some(type => type.toLowerCase() === 'core')
+  );
+
+  const classTalents = allTalents.filter(t => {
+    // Check if talent is for the current class
+    if (!characterClass) return false;
+    return t.classRestriction &&
+           t.classRestriction.toLowerCase() === characterClass.name.toLowerCase();
+  });
+
+  // Build HTML
+  let html = '';
+
+  // Core Talents Section
+  html += `
+    <div class="talent-category">
+      <h3>Core Talents</h3>
+      <div class="talents-grid">
+  `;
+
+  if (coreTalents.length === 0) {
+    html += '<p class="no-content">No core talents loaded. Upload talent files in the Content tab.</p>';
+  } else {
+    coreTalents.forEach(talent => {
+      const isSelected = character.talents.some(t => t.name === talent.name);
+      const meetsReqs = TalentParser.meetsPrerequisites(talent, character);
+      const disabled = !meetsReqs && !isSelected;
+
+      html += `
+        <div class="talent-card ${isSelected ? 'selected' : ''} ${disabled ? 'disabled' : ''}">
+          <div class="talent-header">
+            <h4>${talent.name}</h4>
+            <input type="checkbox"
+              ${isSelected ? 'checked' : ''}
+              ${disabled ? 'disabled' : ''}
+              onchange="handleTalentSelection('${talent.name}', this.checked, 'core')">
+          </div>
+          ${talent.requires && (talent.requires.level > 0 || Object.keys(talent.requires.attributes).length > 0) ? `
+            <div class="talent-requirements">
+              <strong>Requires:</strong> ${formatTalentRequirements(talent.requires)}
+            </div>
+          ` : ''}
+          <div class="talent-effect">${talent.effect || 'No description available'}</div>
+        </div>
+      `;
+    });
+  }
+
+  html += `
+      </div>
+    </div>
+  `;
+
+  // Class Talents Section
+  html += `
+    <div class="talent-category">
+      <h3>${characterClass ? characterClass.name + ' ' : ''}Class Talents</h3>
+      <div class="talents-grid">
+  `;
+
+  if (!characterClass) {
+    html += '<p class="no-content">Select a class to see class-specific talents.</p>';
+  } else if (classTalents.length === 0) {
+    html += `<p class="no-content">No ${characterClass.name} class talents loaded. Upload talent files in the Content tab.</p>`;
+  } else {
+    classTalents.forEach(talent => {
+      const isSelected = character.talents.some(t => t.name === talent.name);
+      const meetsReqs = TalentParser.meetsPrerequisites(talent, character);
+      const disabled = !meetsReqs && !isSelected;
+
+      html += `
+        <div class="talent-card ${isSelected ? 'selected' : ''} ${disabled ? 'disabled' : ''}">
+          <div class="talent-header">
+            <h4>${talent.name}</h4>
+            <input type="checkbox"
+              ${isSelected ? 'checked' : ''}
+              ${disabled ? 'disabled' : ''}
+              onchange="handleTalentSelection('${talent.name}', this.checked, 'class')">
+          </div>
+          ${talent.requires && (talent.requires.level > 0 || Object.keys(talent.requires.attributes).length > 0) ? `
+            <div class="talent-requirements">
+              <strong>Requires:</strong> ${formatTalentRequirements(talent.requires)}
+            </div>
+          ` : ''}
+          <div class="talent-effect">${talent.effect || 'No description available'}</div>
+        </div>
+      `;
+    });
+  }
+
+  html += `
+      </div>
+    </div>
+  `;
+
+  talentsBrowser.innerHTML = html;
+}
+
+// Format talent requirements for display
+function formatTalentRequirements(requires) {
+  const parts = [];
+
+  if (requires.level > 0) {
+    parts.push(`Level ${requires.level}`);
+  }
+
+  if (requires.attributes && Object.keys(requires.attributes).length > 0) {
+    const attrReqs = Object.entries(requires.attributes)
+      .map(([attr, val]) => `${attr.toUpperCase()} ${val}`)
+      .join(', ');
+    parts.push(attrReqs);
+  }
+
+  if (requires.talents && requires.talents.length > 0) {
+    parts.push(requires.talents.join(', '));
+  }
+
+  return parts.join(', ');
+}
+
+// Handle talent selection
+window.handleTalentSelection = function(talentName, isChecked, category) {
+  const allTalents = AppState.contentLibrary.talents || [];
+  const talent = allTalents.find(t => t.name === talentName);
+
+  if (!talent) return;
+
+  if (isChecked) {
+    // Add talent if not already selected
+    if (!AppState.character.talents.some(t => t.name === talentName)) {
+      AppState.character.talents.push(talent);
+    }
+  } else {
+    // Remove talent
+    AppState.character.talents = AppState.character.talents.filter(t => t.name !== talentName);
+  }
+
+  // Re-render talents to update UI
+  renderTalents();
+  updateCharacterSheet();
+  autoSave();
+};
 
 // Update character sheet
 function updateCharacterSheet() {

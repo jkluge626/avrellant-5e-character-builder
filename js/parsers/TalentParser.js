@@ -43,6 +43,11 @@ class TalentParser extends TxtParser {
             currentTalent.type = kv.value.split(',').map(t => t.trim());
             break;
 
+          case 'class':
+            // Parse class restriction (e.g., "Armsman", "Rogue")
+            currentTalent.classRestriction = kv.value.trim();
+            break;
+
           case 'effect':
             currentTalent.effect = kv.value;
             break;
